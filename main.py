@@ -119,9 +119,6 @@ def collect_adv_criteria() -> set[tuple[str, str]]:
             if adv.mc_path in should_be_ignored["advancements"]:
                 continue
 
-            if adv.type.name not in ["task", "goal"]:
-                print(f"{adv.title}: {adv.description}", end="\n=================\n")
-
             for criteria in adv.criteria_list:
                 # I think it is unnecessary right now
                 # if conditions_check_advancement(criteria.conditions):
