@@ -42,7 +42,7 @@ There are advancements that criteria synchronization leads to significant change
 
 [Full list of such advancements](should_be_ignored.json)
 
-If you know of more advancements that should not synchronize criteria, please report them in an Issue on GitHub or on the Discord server [KomaruCats](https://discord.com/invite/j9VKsyXPhz).
+If you know of more advancements that should not synchronize criteria, please report them in an [Issue on GitHub](https://github.com/Komaru-cats/BACAP-CriteriaSync/issues) or on the Discord server [KomaruCats](https://discord.com/invite/j9VKsyXPhz).
 
 ## Installation instructions are as follows:
 
@@ -54,6 +54,6 @@ Once the datapack is installed, go into the world. A message should pop up that 
 
 ## Bugs or Improvements
 
-If you have any questions, bugs, suggestions, you can [create an issue on GitHub](https://github.com/Komaru-cats/BACAP-CriteriaSync) or [join our discord server](https://discord.gg/j9VKsyXPhz)
+If you have any questions, bugs, suggestions, you can [create an issue on GitHub](https://github.com/Komaru-cats/BACAP-CriteriaSync/issues) or [join our discord server](https://discord.gg/j9VKsyXPhz)
 
 Made with [BACAP Parser](https://github.com/ItzSkyReed/BACAP_Parser)
