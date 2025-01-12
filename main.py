@@ -156,13 +156,13 @@ def generate_coop_files(adv_crt: list[list[tuple[str, str]]]):
                 coop_file.write(template.format(adv, crt) + "\n")
 
 
-def generate_team_coop_files(adv_criteria: list[list[tuple[str, str]]]):
+def generate_team_coop_files(adv_crt: list[list[tuple[str, str]]]):
     bacap_teams = ("aqua", "black", "blue", "dark_aqua", "dark_blue", "dark_gray", "dark_green", "dark_purple", "dark_red", "gold", "gray", "green", "light_purple", "red", "white", "yellow")
     template = "execute if entity @a[team=bac_team_{2}, advancements={{{0}={{{1}=true}}}}] run advancement grant @a only {0} {1}"
 
-    for list_num in range(len(adv_criteria)):
+    for list_num in range(len(adv_crt)):
         with open(bacap_criteria_sync_path / "team_coop" / f"f{list_num + 1}.mcfunction", "w+") as coop_file:
-            for adv, crt in adv_criteria[list_num]:
+            for adv, crt in adv_crt[list_num]:
                 for team in bacap_teams:
                     coop_file.write(template.format(adv, crt, team) + "\n")
                 coop_file.write("\n")
