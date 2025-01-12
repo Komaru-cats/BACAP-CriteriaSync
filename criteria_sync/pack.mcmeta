@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "supported_formats": {
+      "min_inclusive": 48,
+      "max_inclusive": 100
+    },
+    "description": "\"CriteriaSync\" is an add-on for BACAP and its addons to sync advancement criteria"
+  }
+}

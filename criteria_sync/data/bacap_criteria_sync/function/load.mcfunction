@@ -1,0 +1,7 @@
+scoreboard objectives add criteria_timer dummy
+scoreboard objectives add bacap_criteria_sync_first_time dummy
+
+scoreboard players set bacap_criteria_sync criteria_timer 1
+
+schedule function bacap_criteria_sync:first_time 3s
+schedule function bacap_criteria_sync:main 3s
