@@ -19,7 +19,7 @@ After:
 
 #### With the datapack, players have the same criteria for advancement
 
-## Supported addons
+## Supported datapacks
 
 Currently, the latest CriteriaSync supports these datapacks:
 - [BACAP itself](https://modrinth.com/datapack/blazeandcaves-advancements-pack) (version 1.18.1)
