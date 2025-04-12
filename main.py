@@ -6,7 +6,7 @@ from pathlib import Path
 from BACAP_Parser.utils import cut_namespace
 from BACAP_Parser import AdvType, AdvTypeManager, Datapack, Parser, Color, constants, TabNameMapper
 
-__version__ = "1.0.2"
+__version__ = "1.0.3"
 
 def split_set_to_sublists(data_set, divisor):
     data_list = list(data_set)
@@ -124,7 +124,7 @@ def collect_adv_criteria() -> set[tuple[str, str]]:
                 # if conditions_check_advancement(criteria.conditions):
                 #     continue
 
-                ADV_WITH_CRT.add((adv.mc_path, cut_namespace(criteria.name)))
+                ADV_WITH_CRT.add((adv.mc_path, criteria.name))
 
     print(f"Criteria count: {len(ADV_WITH_CRT)}, per tick: {len(ADV_WITH_CRT)/ 200}, per tick coop: {len(ADV_WITH_CRT) / 200*16}")
     return ADV_WITH_CRT
