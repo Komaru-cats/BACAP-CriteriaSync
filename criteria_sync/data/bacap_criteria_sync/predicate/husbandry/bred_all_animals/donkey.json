@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+                "minecraft:husbandry/bred_all_animals": {
+                    "minecraft:donkey": true
+                }
+            }
+        }
+    }
+}

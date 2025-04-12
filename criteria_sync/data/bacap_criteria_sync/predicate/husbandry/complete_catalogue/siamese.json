@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+                "minecraft:husbandry/complete_catalogue": {
+                    "minecraft:siamese": true
+                }
+            }
+        }
+    }
+}

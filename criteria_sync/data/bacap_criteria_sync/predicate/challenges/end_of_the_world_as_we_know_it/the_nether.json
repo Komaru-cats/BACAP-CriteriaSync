@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+                "bacaped:challenges/end_of_the_world_as_we_know_it": {
+                    "minecraft:the_nether": true
+                }
+            }
+        }
+    }
+}
