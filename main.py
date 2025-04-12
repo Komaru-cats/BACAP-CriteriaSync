@@ -6,7 +6,7 @@ from pathlib import Path
 from BACAP_Parser.utils import cut_namespace
 from BACAP_Parser import AdvType, AdvTypeManager, Datapack, Parser, Color, constants, TabNameMapper
 
-__version__ = "1.0.3"
+__version__ = "1.1"
 
 def split_set_to_sublists(data_set, divisor):
     data_list = list(data_set)
@@ -59,51 +59,6 @@ def load_parser():
     return Parser(bacap, bacaped, bacaped_hardcore, bacap_hardcore, incendium, bacap_terralith,
                   bacap_nullscapes, bacap_amplified_nether, cereal_dedication_hardcore, cereal_dedication, complete_collection)
 
-def find_advancements_with_true(data: dict) -> list[str]:
-    """
-    Recursively searches for "type_specific" entries containing
-    advancements with `True` values and extracts their keys.
-
-    :param data: The input dictionary to search in.
-    :return: A list of strings representing advancements with `True` values.
-    """
-    advancements = []
-
-    if isinstance(data, dict):
-        if (
-            "type_specific" in data
-            and data["type_specific"].get("type") == "player"
-            and "advancements" in data["type_specific"]
-        ):
-            advancements.extend(
-                key for key, value in data["type_specific"]["advancements"].items() if value is True
-            )
-
-    return advancements
-
-
-def conditions_check_advancement(conditions: dict) -> bool:
-    """
-    Checks the "conditions" dictionary and extracts advancements with `True` values
-    only if the top-level condition is named "player".
-
-    :param conditions: The input dictionary under the "conditions" key.
-    :return: A list of advancements with `True` values.
-    """
-
-    if conditions is None:
-        return False
-
-    if not "player" in conditions:
-        return False
-
-    advancement_mcpaths = find_advancements_with_true(conditions["player"])
-    if not advancement_mcpaths:
-        return False
-
-    return True
-
-
 def collect_adv_criteria() -> set[tuple[str, str]]:
     ADV_WITH_CRT = set()
 
@@ -133,12 +88,11 @@ def collect_adv_criteria() -> set[tuple[str, str]]:
 def generate_main_file():
     coop_template = "execute if score bacap_criteria_sync criteria_timer matches {0} if score coop bac_settings matches 1 run function bacap_criteria_sync:coop/f{0}"
     coop_team_template = "execute if score bacap_criteria_sync criteria_timer matches {0} if score coop bac_settings matches 2 run function bacap_criteria_sync:team_coop/f{0}"
-
     file_end = """execute if score bacap_criteria_sync criteria_timer matches 200 run scoreboard players set bacap_criteria_sync criteria_timer 0
 scoreboard players add bacap_criteria_sync criteria_timer 1
 schedule function bacap_criteria_sync:main 1t"""
 
-    with open(bacap_criteria_sync_path / "main.mcfunction", "w+") as main_file:
+    with open(bacap_criteria_sync_path  / "function" / "main.mcfunction", "w+") as main_file:
         for list_num in range(1, 201):
             main_file.write(coop_template.format(list_num) + "\n")
             main_file.write(coop_team_template.format(list_num) + "\n\n")
@@ -146,26 +100,60 @@ schedule function bacap_criteria_sync:main 1t"""
         # At the end of the file
         main_file.write("\n" + file_end)
 
+def create_predicate_for_criterion(adv: str, crt: str):
+    predicate_template = {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+
+                }
+            }
+        }
+    }
+
+    predicate_path = Path(bacap_criteria_sync_path /"predicate"/ cut_namespace(adv) / f"{cut_namespace(crt)}.json")
+    predicate_path.parent.mkdir(parents=True, exist_ok=True)
+
+    if not predicate_path.exists():
+        predicate_path.touch()
+    predicate_template["predicate"]["type_specific"]["advancements"] = {
+        adv: { crt: True }
+    }
+    json.dump(predicate_template, predicate_path.open("w+", encoding="utf-8"), indent=4)
 
 def generate_coop_files(adv_crt: list[list[tuple[str, str]]]):
     template = "execute if entity @a[advancements={{{0}={{{1}=true}}}}] run advancement grant @a only {0} {1}"
+    #/execute at @a[predicate=criteria_sync:adventure/kill_all_mobs/cave_spider] run advancement grant @a only minecraft:adventure/kill_all_mobs minecraft:cave_spider
+    minecraft_namespace_template = "execute at @a[predicate=bacap_criteria_sync:{0}/{1}] run advancement grant @a only {2} {3}"
 
     for list_num in range(len(adv_crt)):
-        with open(bacap_criteria_sync_path / "coop" / f"f{list_num + 1}.mcfunction", "w+") as coop_file:
+        with open(bacap_criteria_sync_path / "function" / "coop" / f"f{list_num + 1}.mcfunction", "w+") as coop_file:
             for adv, crt in adv_crt[list_num]:
-                coop_file.write(template.format(adv, crt) + "\n")
+                # here we do
+                if ":" in crt:
+                    create_predicate_for_criterion(adv, crt)
+                    coop_file.write(minecraft_namespace_template.format(cut_namespace(adv), cut_namespace(crt), adv, crt) + "\n")
+                else:
+                    coop_file.write(template.format(adv, cut_namespace(crt)) + "\n")
 
 
 def generate_team_coop_files(adv_crt: list[list[tuple[str, str]]]):
     bacap_teams = ("aqua", "black", "blue", "dark_aqua", "dark_blue", "dark_gray", "dark_green", "dark_purple", "dark_red", "gold", "gray", "green", "light_purple", "red", "white", "yellow")
     template = "execute if entity @a[team=bac_team_{2}, advancements={{{0}={{{1}=true}}}}] run advancement grant @a only {0} {1}"
+    minecraft_namespace_template = "execute at @a[team=bac_team_{4}, predicate=bacap_criteria_sync:{0}/{1}] run advancement grant @a only {2} {3}"
 
     for list_num in range(len(adv_crt)):
-        with open(bacap_criteria_sync_path / "team_coop" / f"f{list_num + 1}.mcfunction", "w+") as coop_file:
-            for adv, crt in adv_crt[list_num]:
-                for team in bacap_teams:
-                    coop_file.write(template.format(adv, crt, team) + "\n")
-                coop_file.write("\n")
+            with open(bacap_criteria_sync_path  / "function" / "team_coop" / f"f{list_num + 1}.mcfunction", "w+") as coop_file:
+                for adv, crt in adv_crt[list_num]:
+                    for team in bacap_teams:
+                        if ":" in crt:
+                            coop_file.write(minecraft_namespace_template.format(cut_namespace(adv), cut_namespace(crt), adv, crt, team) + "\n")
+                        else:
+                            coop_file.write(template.format(adv, cut_namespace(crt), team) + "\n")
+                    coop_file.write("\n")
 
 def create_release_zip(version):
     base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -189,7 +177,7 @@ if __name__ == "__main__":
 
     parser = load_parser()
 
-    bacap_criteria_sync_path = Path("criteria_sync/data/bacap_criteria_sync/function")
+    bacap_criteria_sync_path = Path("criteria_sync/data/bacap_criteria_sync")
 
     adv_criteria = split_set_to_sublists(collect_adv_criteria(), 200)
 
