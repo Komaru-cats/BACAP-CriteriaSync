@@ -22,17 +22,17 @@ After:
 ## Supported datapacks
 
 Currently, the latest CriteriaSync supports these datapacks:
-- [BACAP itself](https://modrinth.com/datapack/blazeandcaves-advancements-pack) (version 1.18.1)
-- [BACAP Hardcore Addon](https://modrinth.com/datapack/blazeandcaves-advancements-pack-hardcore-version) (for BACAP 1.18.1)
-- [BACAP Terralith Addon](https://www.planetminecraft.com/data-pack/blazeandcave-s-advancements-pack-terralith-version/?ysclid=m5ty0m7gh5674162971) (for BACAP 1.18.1)
-- [BACAP Amplified Nether Addon](https://www.planetminecraft.com/data-pack/blazeandcave-s-advancements-pack-terralith-version/?ysclid=m5ty0m7gh5674162971) (for BACAP 1.18.1)
-- [BACAP Nullscapes Addon](https://www.planetminecraft.com/data-pack/blazeandcave-s-advancements-pack-terralith-version/?ysclid=m5ty0m7gh5674162971) (for BACAP 1.18.1)
-- [Enhanced Discoveries](https://modrinth.com/datapack/bacap-enhanced-discoveries) (version 2.4.10)
-- [Enhanced Discoveries Hardcore Addon](https://modrinth.com/datapack/bacap-enhanced-discoveries-hardcore-addon) (version 2.4.10)
-- [Cereal Dedication](https://www.planetminecraft.com/data-pack/blazeandcave-s-advancements-pack-cereal-dedication/) (version 1.6)
-- [Cereal Dedication Hardcore](https://www.planetminecraft.com/data-pack/blazeandcave-s-advancements-pack-cereal-dedication/) (version 1.6)
-- [Complete Collection](https://www.planetminecraft.com/data-pack/bacap-complete-collection-edition/) (version 2.1.0)
-- [BACAP Incendium Addon](https://modrinth.com/datapack/blazeandcaves-advancements-pack-incendium-version) (version 1.18)
+- [BACAP itself](https://modrinth.com/datapack/blazeandcaves-advancements-pack) (version 1.18.3)
+- [BACAP Hardcore Addon](https://modrinth.com/datapack/blazeandcaves-advancements-pack-hardcore-version) (for BACAP 1.18)
+- [BACAP Terralith Addon](https://www.planetminecraft.com/data-pack/blazeandcave-s-advancements-pack-terralith-version/?ysclid=m5ty0m7gh5674162971) (for BACAP 1.18.3)
+- [BACAP Amplified Nether Addon](https://www.planetminecraft.com/data-pack/blazeandcave-s-advancements-pack-terralith-version/?ysclid=m5ty0m7gh5674162971) (for BACAP 1.18.3)
+- [BACAP Nullscapes Addon](https://www.planetminecraft.com/data-pack/blazeandcave-s-advancements-pack-terralith-version/?ysclid=m5ty0m7gh5674162971) (for BACAP 1.18.3)
+- [Enhanced Discoveries](https://modrinth.com/datapack/bacap-enhanced-discoveries) (version 2.6.4)
+- [Enhanced Discoveries Hardcore Addon](https://modrinth.com/datapack/bacap-enhanced-discoveries-hardcore-addon) (version 2.6.4)
+- [Cereal Dedication](https://www.planetminecraft.com/data-pack/blazeandcave-s-advancements-pack-cereal-dedication/) (version 1.11)
+- [Cereal Dedication Hardcore](https://www.planetminecraft.com/data-pack/blazeandcave-s-advancements-pack-cereal-dedication/) (version 1.11)
+- [Complete Collection](https://www.planetminecraft.com/data-pack/bacap-complete-collection-edition/) (version 2.2.0)
+- [BACAP Incendium Addon](https://modrinth.com/datapack/blazeandcaves-advancements-pack-incendium-version) (version 1.18.0.1)
 
 #### To install the correct version of this addon for BACAP/its addons, see the table in the description of the datapack releases.
 
