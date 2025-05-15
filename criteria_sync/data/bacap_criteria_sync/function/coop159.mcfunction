@@ -1,0 +1,39 @@
+execute if entity @a[advancements={blazeandcave:end/somewhere_over_the_rainbow={gray_shulker_box=true}}] run advancement grant @a only blazeandcave:end/somewhere_over_the_rainbow gray_shulker_box
+execute if entity @a[advancements={blazeandcave:challenges/all_the_blocks={deepslate_tile_stairs=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks deepslate_tile_stairs
+execute if entity @a[advancements={blazeandcave:challenges/potion_master={llama=true}}] run advancement grant @a only blazeandcave:challenges/potion_master llama
+execute at @a[predicate=bacap_criteria_sync:husbandry/bred_all_animals/camel] run advancement grant @a only minecraft:husbandry/bred_all_animals minecraft:camel
+execute if entity @a[advancements={blazeandcave:challenges/all_the_blocks={warped_stem=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks warped_stem
+execute if entity @a[advancements={blazeandcave:challenges/death_from_all={shulker=true}}] run advancement grant @a only blazeandcave:challenges/death_from_all shulker
+execute if entity @a[advancements={blazeandcave:building/ah_my_old_enemy={oxidized_cut_copper_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy oxidized_cut_copper_stairs
+execute if entity @a[advancements={blazeandcave:challenges/all_the_blocks={light_gray_shulker_box=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks light_gray_shulker_box
+execute if entity @a[advancements={blazeandcave:adventure/retro_future_knight={chainmail_helmet=true}}] run advancement grant @a only blazeandcave:adventure/retro_future_knight chainmail_helmet
+execute if entity @a[advancements={blazeandcave:redstone/master_engineer={tnt=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer tnt
+execute if entity @a[advancements={blazeandcave:redstone/master_engineer={copper_bulb=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer copper_bulb
+execute if entity @a[advancements={blazeandcave:challenges/stack_all_the_blocks={stripped_birch_log=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks stripped_birch_log
+execute if entity @a[advancements={blazeandcave:challenges/all_the_blocks={exposed_cut_copper=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks exposed_cut_copper
+execute if entity @a[advancements={blazeandcave:mining/sly_copper_the_copper_heist={copper_trapdoor=true}}] run advancement grant @a only blazeandcave:mining/sly_copper_the_copper_heist copper_trapdoor
+execute if entity @a[advancements={blazeandcave:building/master_logger={warped_stem=true}}] run advancement grant @a only blazeandcave:building/master_logger warped_stem
+execute at @a[predicate=bacap_criteria_sync:redstone/monstrous_sacrifices/piglin_brute] run advancement grant @a only blazeandcave:redstone/monstrous_sacrifices minecraft:piglin_brute
+execute if entity @a[advancements={blazeandcave:challenges/all_the_blocks={coal_ore=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks coal_ore
+execute if entity @a[advancements={minecraft:husbandry/balanced_diet={cooked_salmon=true}}] run advancement grant @a only minecraft:husbandry/balanced_diet cooked_salmon
+execute if entity @a[advancements={blazeandcave:mining/bottom_to_top={sculk=true}}] run advancement grant @a only blazeandcave:mining/bottom_to_top sculk
+execute if entity @a[advancements={blazeandcave:animal/totally_not_an_afk_fisher={string=true}}] run advancement grant @a only blazeandcave:animal/totally_not_an_afk_fisher string
+execute if entity @a[advancements={blazeandcave:nether/spreading_corruption={netherrack=true}}] run advancement grant @a only blazeandcave:nether/spreading_corruption netherrack
+execute if entity @a[advancements={blazeandcave:challenges/potion_master={bat=true}}] run advancement grant @a only blazeandcave:challenges/potion_master bat
+execute if entity @a[advancements={blazeandcave:animal/rainbow_collection={light_gray_wool=true}}] run advancement grant @a only blazeandcave:animal/rainbow_collection light_gray_wool
+execute if entity @a[advancements={blazeandcave:challenges/stack_all_the_blocks={acacia_pressure_plate=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks acacia_pressure_plate
+execute if entity @a[advancements={blazeandcave:mining/bonfire_night={target=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night target
+execute if entity @a[advancements={blazeandcave:nether/moar_upgraded_tools={netherite_pickaxe=true}}] run advancement grant @a only blazeandcave:nether/moar_upgraded_tools netherite_pickaxe
+execute if entity @a[advancements={blazeandcave:farming/whats_new_with_composting={pale_oak_sapling=true}}] run advancement grant @a only blazeandcave:farming/whats_new_with_composting pale_oak_sapling
+execute if entity @a[advancements={blazeandcave:enchanting/complete_enchanter={smite_book=true}}] run advancement grant @a only blazeandcave:enchanting/complete_enchanter smite_book
+execute if entity @a[advancements={bacaped:challenges/shopaholic={chainmail_leggings=true}}] run advancement grant @a only bacaped:challenges/shopaholic chainmail_leggings
+execute if entity @a[advancements={blazeandcave:challenges/potion_master={creeper=true}}] run advancement grant @a only blazeandcave:challenges/potion_master creeper
+execute if entity @a[advancements={blazeandcave:animal/shoe_shed={purple=true}}] run advancement grant @a only blazeandcave:animal/shoe_shed purple
+execute if entity @a[advancements={blazeandcave:mining/sly_copper_the_copper_heist={waxed_exposed_copper_door=true}}] run advancement grant @a only blazeandcave:mining/sly_copper_the_copper_heist waxed_exposed_copper_door
+execute if entity @a[advancements={blazeandcave:animal/totally_not_an_afk_fisher={bone=true}}] run advancement grant @a only blazeandcave:animal/totally_not_an_afk_fisher bone
+execute if entity @a[advancements={blazeandcave:building/delicious_hot_schmoes={kelp=true}}] run advancement grant @a only blazeandcave:building/delicious_hot_schmoes kelp
+execute if entity @a[advancements={blazeandcave:challenges/all_the_blocks={cactus_flower=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks cactus_flower
+execute at @a[predicate=bacap_criteria_sync:adventure/kill_all_mobs/evoker] run advancement grant @a only minecraft:adventure/kill_all_mobs minecraft:evoker
+execute if entity @a[advancements={blazeandcave:challenges/i_am_loot={fortified_village_mason=true}}] run advancement grant @a only blazeandcave:challenges/i_am_loot fortified_village_mason
+execute if entity @a[advancements={blazeandcave:challenges/stack_all_the_blocks={black_concrete=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks black_concrete
+execute if entity @a[advancements={blazeandcave:challenges/all_the_blocks={dirt=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks dirt

@@ -1,0 +1,40 @@
+execute if entity @a[advancements={blazeandcave:challenges/stack_all_the_items={stick=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items stick
+execute if entity @a[advancements={blazeandcave:farming/combine_harvester={large_fern=true}}] run advancement grant @a only blazeandcave:farming/combine_harvester large_fern
+execute if entity @a[advancements={bacaped:enchanting/all_the_netherite_tools={smite_netherite_sword=true}}] run advancement grant @a only bacaped:enchanting/all_the_netherite_tools smite_netherite_sword
+execute if entity @a[advancements={blazeandcave:challenges/biological_warfare={guardian=true}}] run advancement grant @a only blazeandcave:challenges/biological_warfare guardian
+execute if entity @a[advancements={blazeandcave:building/no_banner_only_color={pink_banner=true}}] run advancement grant @a only blazeandcave:building/no_banner_only_color pink_banner
+execute if entity @a[advancements={blazeandcave:challenges/all_the_blocks={waxed_exposed_cut_copper=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks waxed_exposed_cut_copper
+execute if entity @a[advancements={blazeandcave:challenges/all_the_items={blaze_rod=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items blaze_rod
+execute if entity @a[advancements={blazeandcave:challenges/all_the_blocks={purpur_block=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks purpur_block
+execute if entity @a[advancements={blazeandcave:building/translucence={lime_stained_glass=true}}] run advancement grant @a only blazeandcave:building/translucence lime_stained_glass
+execute if entity @a[advancements={blazeandcave:challenges/death_from_all={ravager=true}}] run advancement grant @a only blazeandcave:challenges/death_from_all ravager
+execute if entity @a[advancements={blazeandcave:mining/bonfire_night={light_gray_carpet=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night light_gray_carpet
+execute if entity @a[advancements={blazeandcave:monsters/hell_hunter={blaze=true}}] run advancement grant @a only blazeandcave:monsters/hell_hunter blaze
+execute if entity @a[advancements={blazeandcave:challenges/all_the_blocks={blue_carpet=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks blue_carpet
+execute if entity @a[advancements={bacaped:challenges/professional_assassin={salmon=true}}] run advancement grant @a only bacaped:challenges/professional_assassin salmon
+execute if entity @a[advancements={blazeandcave:animal/tropical_collection={fish5=true}}] run advancement grant @a only blazeandcave:animal/tropical_collection fish5
+execute if entity @a[advancements={blazeandcave:challenges/stack_all_the_blocks={pale_oak_log=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks pale_oak_log
+execute if entity @a[advancements={blazeandcave:challenges/all_the_blocks={spruce_fence_gate=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks spruce_fence_gate
+execute if entity @a[advancements={blazeandcave:challenges/all_the_blocks={pale_oak_pressure_plate=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks pale_oak_pressure_plate
+execute if entity @a[advancements={blazeandcave:building/slabs_for_days={granite_slab=true}}] run advancement grant @a only blazeandcave:building/slabs_for_days granite_slab
+execute if entity @a[advancements={blazeandcave:challenges/all_the_items={rabbit_hide=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items rabbit_hide
+execute if entity @a[advancements={blazeandcave:challenges/stack_all_the_items={glow_ink_sac=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items glow_ink_sac
+execute if entity @a[advancements={blazeandcave:potion/a_much_more_doable_challenge={jump_boost=true}}] run advancement grant @a only blazeandcave:potion/a_much_more_doable_challenge jump_boost
+execute if entity @a[advancements={bacaped:nether/herbarium_to_my_friend={sunflower=true}}] run advancement grant @a only bacaped:nether/herbarium_to_my_friend sunflower
+execute at @a[predicate=bacap_criteria_sync:husbandry/leash_all_frog_variants/temperate] run advancement grant @a only minecraft:husbandry/leash_all_frog_variants minecraft:temperate
+execute at @a[predicate=bacap_criteria_sync:husbandry/whole_pack/black] run advancement grant @a only minecraft:husbandry/whole_pack minecraft:black
+execute if entity @a[advancements={blazeandcave:challenges/all_the_items={pufferfish=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items pufferfish
+execute if entity @a[advancements={blazeandcave:challenges/all_the_blocks={mangrove_door=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks mangrove_door
+execute if entity @a[advancements={blazeandcave:challenges/ultimate_enchanter={sweeping3_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter sweeping3_book
+execute if entity @a[advancements={blazeandcave:adventure/undying_fandom={magenta_wool=true}}] run advancement grant @a only blazeandcave:adventure/undying_fandom magenta_wool
+execute if entity @a[advancements={blazeandcave:nether/spreading_corruption={crimson_nylium=true}}] run advancement grant @a only blazeandcave:nether/spreading_corruption crimson_nylium
+execute if entity @a[advancements={blazeandcave:mining/sly_copper_the_copper_heist={waxed_exposed_copper_bulb=true}}] run advancement grant @a only blazeandcave:mining/sly_copper_the_copper_heist waxed_exposed_copper_bulb
+execute if entity @a[advancements={blazeandcave:challenges/endergeddon={bee=true}}] run advancement grant @a only blazeandcave:challenges/endergeddon bee
+execute if entity @a[advancements={blazeandcave:building/harry_potter={azure_bluet=true}}] run advancement grant @a only blazeandcave:building/harry_potter azure_bluet
+execute if entity @a[advancements={blazeandcave:potion/gas_bomb={slowness=true}}] run advancement grant @a only blazeandcave:potion/gas_bomb slowness
+execute if entity @a[advancements={bacaped:challenges/professional_assassin={pig=true}}] run advancement grant @a only bacaped:challenges/professional_assassin pig
+execute if entity @a[advancements={blazeandcave:mining/lush_hour={hanging_roots=true}}] run advancement grant @a only blazeandcave:mining/lush_hour hanging_roots
+execute at @a[predicate=bacap_criteria_sync:husbandry/bred_all_animals/llama] run advancement grant @a only minecraft:husbandry/bred_all_animals minecraft:llama
+execute if entity @a[advancements={blazeandcave:challenges/all_the_blocks={waxed_copper_block=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks waxed_copper_block
+execute if entity @a[advancements={blazeandcave:challenges/all_the_items={iron_hoe=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items iron_hoe
+execute if entity @a[advancements={blazeandcave:challenges/all_the_blocks={waxed_weathered_copper_door=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks waxed_weathered_copper_door
