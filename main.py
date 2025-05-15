@@ -75,9 +75,6 @@ def collect_adv_criteria() -> set[tuple[str, str]]:
                 continue
 
             for criteria in adv.criteria_list:
-                # I think it is unnecessary right now
-                # if conditions_check_advancement(criteria.conditions):
-                #     continue
 
                 ADV_WITH_CRT.add((adv.mc_path, criteria.name))
 
@@ -116,9 +113,8 @@ def create_predicate_for_criterion(adv: str, crt: str):
 
     predicate_path = Path(bacap_criteria_sync_path /"predicate"/ cut_namespace(adv) / f"{cut_namespace(crt)}.json")
     predicate_path.parent.mkdir(parents=True, exist_ok=True)
+    predicate_path.touch()
 
-    if not predicate_path.exists():
-        predicate_path.touch()
     predicate_template["predicate"]["type_specific"]["advancements"] = {
         adv: { crt: True }
     }
@@ -126,11 +122,10 @@ def create_predicate_for_criterion(adv: str, crt: str):
 
 def generate_coop_files(adv_crt: list[list[tuple[str, str]]]):
     template = "execute if entity @a[advancements={{{0}={{{1}=true}}}}] run advancement grant @a only {0} {1}"
-    #/execute at @a[predicate=criteria_sync:adventure/kill_all_mobs/cave_spider] run advancement grant @a only minecraft:adventure/kill_all_mobs minecraft:cave_spider
     minecraft_namespace_template = "execute at @a[predicate=bacap_criteria_sync:{0}/{1}] run advancement grant @a only {2} {3}"
 
     for list_num in range(len(adv_crt)):
-        with open(bacap_criteria_sync_path / "function" / "coop" / f"f{list_num + 1}.mcfunction", "w+") as coop_file:
+        with open(bacap_criteria_sync_path / f"function/coop{list_num + 1}.mcfunction", "w+") as coop_file:
             for adv, crt in adv_crt[list_num]:
                 # here we do
                 if ":" in crt:
@@ -146,7 +141,7 @@ def generate_team_coop_files(adv_crt: list[list[tuple[str, str]]]):
     minecraft_namespace_template = "execute at @a[team=bac_team_{4}, predicate=bacap_criteria_sync:{0}/{1}] run advancement grant @a only {2} {3}"
 
     for list_num in range(len(adv_crt)):
-            with open(bacap_criteria_sync_path  / "function" / "team_coop" / f"f{list_num + 1}.mcfunction", "w+") as coop_file:
+            with open(bacap_criteria_sync_path  / f"function/team_coop/{list_num + 1}.mcfunction", "w+") as coop_file:
                 for adv, crt in adv_crt[list_num]:
                     for team in bacap_teams:
                         if ":" in crt:
