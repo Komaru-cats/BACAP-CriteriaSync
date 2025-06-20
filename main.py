@@ -7,7 +7,7 @@ from pathlib import Path
 from BACAP_Parser.utils import cut_namespace
 from BACAP_Parser import AdvType, AdvTypeManager, Datapack, Parser, Color, constants, TabNameMapper
 
-__version__ = "1.2"
+__version__ = "1.2.1"
 
 
 def split_set_to_sublists(data_set, divisor):
