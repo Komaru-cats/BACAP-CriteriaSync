@@ -1,0 +1,54 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:stripped_warped_stem"
+      },
+      "title": {
+        "translate":"Pseudo Zone"
+      },
+      "description": {
+        "translate":" Discover a Warped Forest that has mysteriously mutated onto the ceiling of the Nether",
+        "color": "green"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "blazeandcave:nether/what_a_fungi",
+    "criteria": {
+      "inverted_forest": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"biomes": "incendium:inverted_forest"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": ["spectator"]
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+  "rewards": {
+      "function": "bacap_rewards:incendium/pseudo_zone"
+  }
+}
+  

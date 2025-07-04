@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fire_charge"
+    },
+    "title": {
+      "translate":"Feed the Beast"
+    },
+    "description": {
+      "translate": "Rescue a Ghastling and feed it Fire Charges to make it follow you","color":"#75E1FF"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:quartz_flats/rescue_mission",
+  "rewards": {
+		"function": "bc_rewards:incendium/feed_the_beast"
+	},
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

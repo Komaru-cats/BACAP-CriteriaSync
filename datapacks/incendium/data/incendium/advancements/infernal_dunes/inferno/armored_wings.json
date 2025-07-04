@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:elytra"
+    },
+    "title": {
+      "translate":"Forged In Flames"
+    },
+    "description": {
+      "translate":"Use two Infernal Feathers to upgrade your elytra in a Smithing Table","color":"#75E1FF"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:infernal_dunes/inferno/kill",
+  "rewards": {
+		"function": "bc_rewards:incendium/forged_in_flames"
+	},		
+  "criteria": {
+    "elytra": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{incendium:{item:'infernal_wings'}}",
+            "items": [
+              "minecraft:elytra"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

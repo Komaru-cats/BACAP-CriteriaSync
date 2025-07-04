@@ -1,0 +1,75 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield",
+      "components": {
+        "base_color":"white",
+        "banner_patterns":[
+          {
+            "pattern":"minecraft:half_horizontal_bottom",
+            "color":"red"
+          },
+          {
+            "pattern":"minecraft:rhombus",
+            "color":"red"
+          },
+          {
+            "pattern":"minecraft:small_stripes",
+            "color":"yellow"
+          },
+          {
+            "pattern":"minecraft:small_stripes",
+            "color":"yellow"
+          },
+          {
+            "pattern":"minecraft:half_horizontal",
+            "color":"red"
+          },
+          {
+            "pattern":"minecraft:cross",
+            "color":"red"
+          },
+          {
+            "pattern":"minecraft:skull",
+            "color":"black"
+          },
+          {
+            "pattern":"minecraft:skull",
+            "color":"yellow"
+          },
+          {
+            "pattern":"minecraft:gradient",
+            "color":"red"
+          },
+          {
+            "pattern":"minecraft:skull","color":"yellow"
+          },
+          {
+            "pattern":"minecraft:gradient_up",
+            "color":"red"
+          }
+        ]
+      }
+    },
+    "title": {
+      "translate":"Lunatic Mode"
+    },
+    "description": {
+      "translate": "Survive the Hovering Inferno's final phase without wearing armor","color":"dark_purple"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:infernal_dunes/inferno/kill",
+  "rewards": {
+		"function": "bacap_rewards:incendium/lunatic_mode"
+	},		
+  "criteria": {
+    "lunatic_mode": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

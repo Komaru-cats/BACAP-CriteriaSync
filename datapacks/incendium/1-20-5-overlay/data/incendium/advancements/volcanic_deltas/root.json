@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "polished_basalt"
+    },
+    "title": {
+      "translate":"Hellfire Mantle"
+    },
+    "description": {
+      "translate":"Enter the chaotic Volcanic Deltas","color":"green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    
+  },
+  "parent": "blazeandcave:nether/stepping_on_legos",
+  "rewards": {
+		"function": "bc_rewards:incendium/hellfire_mantle"
+	},
+  "criteria": {
+    "volcanic_deltas": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"biomes": "incendium:volcanic_deltas"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": "spectator"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+  }
+}

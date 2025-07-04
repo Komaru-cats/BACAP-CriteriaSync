@@ -1,0 +1,76 @@
+{
+  "display": {
+    "icon": {
+      "item": "golden_pickaxe"
+    },
+    "title": {
+      "translate":"Piglin Pillage"
+    },
+    "description": {
+      "translate":"Steal some loot from a Piglin Village","color":"green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "blazeandcave:nether/cultural_misunderstandings",
+  "rewards": {
+		"function": "bc_rewards:incendium/piglin_pillage"
+	},
+  "criteria": {
+    "blacksmith": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "incendium:cvill/blacksmith"
+      }
+    },
+    "butcher": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "incendium:cvill/butcher"
+      }
+    },
+    "farmer": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "incendium:cvill/farmer"
+      }
+    },
+    "low": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "incendium:cvill/low"
+      }
+    },
+    "lumberjack": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "incendium:cvill/lumberjack"
+      }
+    },
+    "wood": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "incendium:cvill/wood"
+      }
+    },
+    "medium": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "incendium:cvill/medium"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "blacksmith",
+      "butcher",
+      "farmer",
+      "low",
+      "lumberjack",
+      "wood",
+      "medium"
+    ]
+  ]
+}

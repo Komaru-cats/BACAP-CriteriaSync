@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"count": 1,
+			"id": "minecraft:netherite_hoe"
+
+		  },
+		"title": {"translate":"Cereal Dedication"},
+		"description": {"color":"dark_purple","translate":"We need a Netherite Hoe to locate Manbearpig"},
+		"announce_to_chat": true,
+		"frame": "challenge",
+        "hidden": false
+	},
+	"parent": "minecraft:husbandry/break_diamond_hoe",
+	"rewards": {
+		"function": "bacap_rewards:farming/cereal_dedication"
+	},
+	"criteria": {
+		"netherite_hoe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:netherite_hoe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"netherite_hoe"
+		]
+	],
+	"sends_telemetry_event": false
+}

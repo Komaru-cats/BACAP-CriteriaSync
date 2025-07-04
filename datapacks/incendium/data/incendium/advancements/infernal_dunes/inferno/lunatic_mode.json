@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:shield",
+      "nbt":"{BlockEntityTag:{id:\"minecraft:banner\",Patterns:[{Pattern:\"hhb\",Color:14},{Pattern:\"mr\",Color:14},{Pattern:\"ss\",Color:4},{Pattern:\"ss\",Color:4},{Pattern:\"hh\",Color:14},{Pattern:\"cr\",Color:14},{Pattern:\"sku\",Color:15},{Pattern:\"sku\",Color:4},{Pattern:\"gra\",Color:14},{Pattern:\"sku\",Color:4},{Pattern:\"gru\",Color:14}],Base:0}}"
+    },
+    "title": {
+      "translate":"Lunatic Mode"
+    },
+    "description": {
+      "translate": "Survive the Hovering Inferno's final phase without wearing armor","color":"dark_purple"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:infernal_dunes/inferno/kill",
+  "rewards": {
+		"function": "bc_rewards:incendium/lunatic_mode"
+	},		
+  "criteria": {
+    "lunatic_mode": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

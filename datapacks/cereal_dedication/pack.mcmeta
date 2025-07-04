@@ -1,0 +1,10 @@
+{
+	"pack": {
+		"pack_format": 71,
+		"supported_formats": {
+		"min_inclusive": 70,
+		"max_inclusive": 80
+		},
+		"description": [{"text":"BACAP Cereal Dedication","color":"red"},{"text":"\nFixingGlobe","color":"light_purple"}]
+	}
+}

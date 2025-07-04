@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "nether_star"
+    },
+    "title": {
+      "translate":"Risen from Fire"
+    },
+    "description": {
+      "translate":"Summon the Hovering Inferno","color":"#75E1FF"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:infernal_dunes/inferno/root",
+  "rewards": {
+		"function": "bc_rewards:incendium/risen_from_fire"
+	},
+  "criteria": {
+    "hovering_inferno": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

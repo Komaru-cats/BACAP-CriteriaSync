@@ -1,0 +1,44 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:chain_command_block"
+		},
+		"title": {"translate":"Imperfect Mirror"},
+		"description": {"color":"light_purple","translate":"Complete Complete Collection, twice. (This version and Torture Edition's)"},
+		"announce_to_chat": true,
+		"frame": "challenge",
+		"hidden": true
+	},
+	"parent": "cc:challenges/complete_collection",
+	"rewards": {
+		"function": "bacap_rewards:challenges/imperfect_mirror"
+	},		
+	"criteria": {
+		"complete_collection": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"cc:challenges/complete_collection": true
+						}
+					}
+				}
+			}
+		},
+		"complete_collection_torture": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"cc:technical/keep_im_on_te_wipe": true
+						}
+					}
+				}
+			}
+		}
+	}
+}

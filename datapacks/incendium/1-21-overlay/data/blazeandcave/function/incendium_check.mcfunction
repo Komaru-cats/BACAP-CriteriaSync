@@ -1,0 +1,3 @@
+# This scoreboard setting makes it so that the advancements scoreboard counts Incendium advancements. It can be set to 0 (or any other value) to make Incendium advancements not count towards the scoreboard
+# (Note: They will still count towards the First Advancements scoreboard)
+execute unless score incendium_score bac_settings matches ..1000 run scoreboard players set incendium_score bac_settings 1

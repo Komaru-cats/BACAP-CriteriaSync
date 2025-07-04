@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "chainmail_chestplate"
+    },
+    "title": {
+      "translate":"Chained Spirits"
+    },
+    "description": {
+      "translate":"Put on some chain armor and use it to dispel a Restless Spirit","color":"#75E1FF"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:withered_forest/kill_spirit",
+  "rewards": {
+		"function": "bc_rewards:incendium/chained_spirits"
+	},
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow",
+      "components": {
+        "minecraft:custom_model_data": 1450103
+      }
+    },
+    "title": {
+      "translate":"Duel of the Fates"
+    },
+    "description": {
+      "translate":"Give a Sentry a taste of its own medicine",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:ash_barrens/enter_castle",
+  "criteria": {
+    "sentry": {
+      "trigger": "minecraft:bee_nest_destroyed",
+      "conditions": {
+        "block": "ancient_debris"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:incendium/duel_of_the_fates"
+  }
+}

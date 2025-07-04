@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "item": "red_sand"
+    },
+    "title": {
+      "translate":"Darude - Firestorm"
+    },
+    "description": {
+      "translate":"Experience the blazing heat of the Infernal Dunes","color":"green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    
+  },
+  "parent": "blazeandcave:nether/burnt_right_into_your_soul",
+  "rewards": {
+		"function": "bc_rewards:incendium/darude_firestorm"
+	},
+  "criteria": {
+    "infernal_dunes": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"biome": "incendium:infernal_dunes"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": "spectator"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+  }
+}

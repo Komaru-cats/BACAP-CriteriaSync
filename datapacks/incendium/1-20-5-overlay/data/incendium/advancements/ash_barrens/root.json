@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "smooth_basalt"
+    },
+    "title": {
+      "translate":"The Dust Settles"
+    },
+    "description": {
+      "translate":"Enter the Ash Barrens","color":"green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    
+  },
+  "parent": "blazeandcave:nether/nugget_in_a_biscuit",
+  "rewards": {
+		"function": "bc_rewards:incendium/the_dust_settles"
+	},
+  "criteria": {
+    "ash_barrens": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"biome": "incendium:ash_barrens"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": "spectator"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+  }
+}

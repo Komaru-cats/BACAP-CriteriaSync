@@ -1,0 +1,21 @@
+{
+	"rewards": {
+		"function": "bacap_rewards:end/desolation"
+	},
+	"parent": "nullscape:root",
+	"criteria": {
+		"root": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"nullscape:root": true
+						}
+					}
+				}
+			}
+		}
+	}
+}

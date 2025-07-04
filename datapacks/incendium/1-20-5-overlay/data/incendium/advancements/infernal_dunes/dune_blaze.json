@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "redstone"
+    },
+    "title": {
+      "translate": "Light-Sensitive"
+    },
+    "description": {
+      "translate":"Defeat a Desert Blaze native to the Infernal Dunes","color":"green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:infernal_dunes/root",
+  "rewards": {
+		"function": "bc_rewards:incendium/light_sensitive"
+	},		
+  "criteria": {
+    "blaze": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:blaze",
+          "nbt": "{Tags:[\"in.dune_blaze\"]}",
+          "location": {
+            "biomes": "incendium:infernal_dunes"
+          }
+        }
+      }
+    }
+  }
+}

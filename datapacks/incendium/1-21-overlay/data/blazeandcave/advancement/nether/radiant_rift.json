@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:grass_block"
+      },
+      "title": {
+        "translate":"Subterranean Animism"
+      },
+      "description": {
+        "translate":"Return to the Overworld using a Scroll of Returning",
+        "color": "#75E1FF"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "incendium:quartz_flats/sanctum/root",
+    "criteria": {
+      "glowstone_dust": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    },
+    "rewards": {
+      "function": "bc_rewards:incendium/radiant_rift"
+    }
+  }
+  

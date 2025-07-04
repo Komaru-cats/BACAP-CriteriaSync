@@ -1,0 +1,153 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:filled_map",
+			"components": {
+				"minecraft:map_color": 1134688
+			}
+		},
+		"title": {"translate":"Expedition of Discovery"},
+		"description": {"color":"light_purple","translate":"Find a Traveller’s Map that leads to a rare biome, then enter that biome with the map in your hand"},
+		"announce_to_chat": true,
+		"frame": "challenge",
+		"hidden": true
+	},
+	"parent": "blazeandcave:adventure/a_journey_begins",
+	"rewards": {
+		"function": "bacap_rewards:adventure/expedition_of_discovery"
+	},		
+	"criteria": {
+		"alpha_islands_mainhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"alpha_islands_winter_mainhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"mirage_isles_mainhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"painted_mountains_mainhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"skylands_autumn_mainhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"skylands_spring_mainhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"skylands_summer_mainhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"skylands_winter_mainhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"warped_mesa_mainhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"emerald_peaks_mainhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"cloud_forest_mainhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"desert_spires_mainhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"scarlet_mountains_mainhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"haze_mountain_mainhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"volcanic_crater_mainhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"volcanic_peaks_mainhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"alpha_islands_offhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"alpha_islands_winter_offhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"mirage_isles_offhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"painted_mountains_offhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"skylands_autumn_offhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"skylands_spring_offhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"skylands_summer_offhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"skylands_winter_offhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"warped_mesa_offhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"emerald_peaks_offhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"cloud_forest_offhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"desert_spires_offhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"scarlet_mountains_offhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"haze_mountain_offhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"volcanic_crater_offhand": {
+			"trigger": "minecraft:impossible"
+		},
+		"volcanic_peaks_offhand": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"alpha_islands_mainhand",
+			"alpha_islands_winter_mainhand",
+			"mirage_isles_mainhand",
+			"painted_mountains_mainhand",
+			"skylands_autumn_mainhand",
+			"skylands_spring_mainhand",
+			"skylands_summer_mainhand",
+			"skylands_winter_mainhand",
+			"warped_mesa_mainhand",
+			"emerald_peaks_mainhand",
+			"cloud_forest_mainhand",
+			"desert_spires_mainhand",
+			"scarlet_mountains_mainhand",
+			"haze_mountain_mainhand",
+			"volcanic_crater_mainhand",
+			"volcanic_peaks_mainhand",
+			"alpha_islands_offhand",
+			"alpha_islands_winter_offhand",
+			"mirage_isles_offhand",
+			"painted_mountains_offhand",
+			"skylands_autumn_offhand",
+			"skylands_spring_offhand",
+			"skylands_summer_offhand",
+			"skylands_winter_offhand",
+			"warped_mesa_offhand",
+			"emerald_peaks_offhand",
+			"cloud_forest_offhand",
+			"desert_spires_offhand",
+			"scarlet_mountains_offhand",
+			"haze_mountain_offhand",
+			"volcanic_crater_offhand",
+			"volcanic_peaks_offhand"
+		]
+	]
+}

@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:glowstone_dust",
+        "components": {
+          "minecraft:custom_model_data": 1450401
+        }
+      },
+      "title": {
+        "translate":"Phosphorescence"
+      },
+      "description": {
+        "translate":"Immuninate 50 mobs at once using a single drop of Unstable Powder",
+        "color": "#75E1FF"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "incendium:ash_barrens/enter_castle",
+    "criteria": {
+      "glowstone_dust": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    },
+    "rewards": {
+      "function": "bc_rewards:incendium/phosphorescence"
+    }
+  }
+  

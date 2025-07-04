@@ -1,0 +1,95 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "profile": {
+          "id": [-26315731, -478127284, -2113604524, -1899771808],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDU2YzI2NTFkYzZmNDJjOGM4NmJjM2ZiYzRhZWVjNzM5YzdkM2RjODZkODc5MTdhMGNhY2FmMWNmNGJlNWNjMiJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": { "translate": "Terralith Advancement Legend" },
+    "description": {
+      "color": "gold",
+      "translate": "Complete every single advancement in BlazeandCave's Advancements Pack Terralith Edition"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "blazeandcave:bacap/advancement_legend",
+  "rewards": {
+    "function": "bacap_rewards:bacap/terralith_advancement_legend"
+  },
+  "criteria": {
+    "terralith": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:biomes/one_small_steppe_for_man": true,
+              "blazeandcave:biomes/o_land_o_bloom": true,
+              "blazeandcave:biomes/over_the_moon": true,
+              "blazeandcave:biomes/smarter_than_the_average_bear": true,
+              "blazeandcave:biomes/land_of_icicles": true,
+              "blazeandcave:biomes/choco_mountain": true,
+              "blazeandcave:biomes/the_world_is_your_canvas": true,
+              "blazeandcave:biomes/eruption_in_the_air": true,
+              "blazeandcave:biomes/skylanders": true,
+              "blazeandcave:biomes/aesthetic": true,
+              "blazeandcave:biomes/alpha_days": true,
+              "blazeandcave:biomes/the_boreal_deal": true,
+              "blazeandcave:biomes/a_grassy_nature": true,
+              "blazeandcave:biomes/highlander": true,
+              "blazeandcave:biomes/bushranger": true,
+              "blazeandcave:biomes/a_cliffhanger": true,
+              "blazeandcave:biomes/pretty_in_purple": true,
+              "blazeandcave:biomes/master_spelunker": true,
+              "blazeandcave:biomes/terralithic": true,
+              "blazeandcave:adventure/castle_of_hrrms": true,
+              "blazeandcave:adventure/totally_not_terraria": true,
+              "blazeandcave:adventure/remote_shelter": true,
+              "blazeandcave:adventure/spire_of_ice": true,
+              "blazeandcave:adventure/under_the_ice": true
+            }
+          }
+        }
+      }
+    },
+    "advancement_legend": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:bacap/advancement_legend": true
+            }
+          }
+        }
+      }
+    },
+    "obtain_netherite_hoe": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/obtain_netherite_hoe": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

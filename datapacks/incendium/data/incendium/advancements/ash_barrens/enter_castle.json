@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gilded_blackstone",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate":"In the Hall of the Piglin King"
+    },
+    "description": {
+      "translate":"In the Golden Age, a great King ruled this castle. But he was betrayed, cursed, and exiled from his Kingdom. This is what remains.",
+      "color":"#75E1FF"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "blazeandcave:nether/dark_ages",
+  "criteria": {
+    "forbidden_castle": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"structure": "incendium:forbidden_castle"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": "spectator"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+  },
+  "rewards": {
+    "function": "bc_rewards:incendium/in_the_hall_of_the_piglin_king"
+  }
+}

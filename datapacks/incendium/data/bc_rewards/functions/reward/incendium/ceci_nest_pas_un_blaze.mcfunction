@@ -1,0 +1,2 @@
+give @s minecraft:enchanted_book{StoredEnchantments:[{id:"minecraft:fire_protection",lvl:3s}]}
+tellraw @s {"color":"green","text":" +1 ","extra":[{"translate":"enchantment.minecraft.fire_protection"},{"text":" "},{"translate":"enchantment.level.3"},{"text":" "},{"translate":"item.minecraft.enchanted_book"}]}

@@ -22,13 +22,13 @@ After:
 ## Supported datapacks
 
 Currently, the latest CriteriaSync supports these datapacks:
-- [BACAP itself](https://modrinth.com/datapack/blazeandcaves-advancements-pack) (version 1.19)
+- [BACAP itself](https://modrinth.com/datapack/blazeandcaves-advancements-pack) (version 1.19.1)
 - [BACAP Hardcore Addon](https://modrinth.com/datapack/blazeandcaves-advancements-pack-hardcore-version) (for BACAP 1.18)
 - [BACAP Terralith Addon](https://www.planetminecraft.com/data-pack/blazeandcave-s-advancements-pack-terralith-version/?ysclid=m5ty0m7gh5674162971) (for BACAP 1.18.3)
 - [BACAP Amplified Nether Addon](https://www.planetminecraft.com/data-pack/blazeandcave-s-advancements-pack-terralith-version/?ysclid=m5ty0m7gh5674162971) (for BACAP 1.18.3)
 - [BACAP Nullscapes Addon](https://www.planetminecraft.com/data-pack/blazeandcave-s-advancements-pack-terralith-version/?ysclid=m5ty0m7gh5674162971) (for BACAP 1.18.3)
-- [Enhanced Discoveries](https://modrinth.com/datapack/bacap-enhanced-discoveries) (version 2.6.8)
-- [Enhanced Discoveries Hardcore Addon](https://modrinth.com/datapack/bacap-enhanced-discoveries-hardcore-addon) (version 2.6.8)
+- [Enhanced Discoveries](https://modrinth.com/datapack/bacap-enhanced-discoveries) (version 2.6.9)
+- [Enhanced Discoveries Hardcore Addon](https://modrinth.com/datapack/bacap-enhanced-discoveries-hardcore-addon) (version 2.6.9)
 - [Cereal Dedication](https://www.planetminecraft.com/data-pack/blazeandcave-s-advancements-pack-cereal-dedication/) (version 1.11.1)
 - [Cereal Dedication Hardcore](https://www.planetminecraft.com/data-pack/blazeandcave-s-advancements-pack-cereal-dedication/) (version 1.11.1)
 - [Complete Collection](https://www.planetminecraft.com/data-pack/bacap-complete-collection-edition/) (version 2.2.0)

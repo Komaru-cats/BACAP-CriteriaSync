@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "blackstone"
+    },
+    "title": {
+      "translate":"Ancient Battlefield"
+    },
+    "description": {
+      "translate": "Enter the Withered Forest, ancestral battleground of the Piglins and Wither Skeletons","color":"green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "blazeandcave:nether/dark_ages",
+  "rewards": {
+		"function": "bc_rewards:incendium/ancient_battlefield"
+	},
+  "criteria": {
+    "withered_forest": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"biomes": "incendium:withered_forest"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": ["spectator"]
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+  }
+}

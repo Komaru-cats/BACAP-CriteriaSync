@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "lingering_potion",
+      "nbt": "{Potion:\"minecraft:long_poison\"}"
+    },
+    "title": {
+      "translate":"Toxic Personality"
+    },
+    "description": {
+      "translate":"Get poisoned by a toxic slime","color":"green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:toxic_heap/root",
+  "rewards": {
+		"function": "bc_rewards:incendium/toxic_personality"
+	},
+  "criteria": {
+    "poison": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "incendium:toxic_heap"
+          }
+        },
+        "effects": {
+          "poison": {}
+        }
+      }
+    }
+  }
+}

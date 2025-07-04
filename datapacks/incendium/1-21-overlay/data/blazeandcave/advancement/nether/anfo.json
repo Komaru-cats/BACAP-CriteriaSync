@@ -1,0 +1,37 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:snowball",
+        "components": {
+          "minecraft:enchantments":{
+            "levels": {
+              "minecraft:unbreaking": 1
+            }
+          },
+          "custom_model_data": 1450404
+        }
+      },
+      "title": {
+        "translate": "A.N.F.O."
+      },
+      "description": {
+        "translate": "Throw some Restless Nature onto the soils of the Nether and watch it bloom",
+        "color": "green"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "incendium:withered_forest/kill_spirit",
+    "criteria": {
+      "snowball": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    },
+    "rewards": {
+      "function": "bc_rewards:incendium/anfo"
+    }
+  }
+  

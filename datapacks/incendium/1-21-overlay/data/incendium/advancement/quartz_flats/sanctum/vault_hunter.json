@@ -1,0 +1,43 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:crossbow",
+        "components": {
+          "minecraft:custom_model_data": 1450100
+        }
+      },
+      "title": {
+        "translate": "Subterranean Animism"
+      },
+      "description": {
+        "translate": "Defeat a Sanctum Guardian in the Sanctum's Vault to clear the mining curse",
+        "color": "#75E1FF"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "incendium:quartz_flats/sanctum/root",
+    "criteria": {
+      "pillager": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:pillager",
+                "nbt": "{Tags:[\"in.sanctum_guardian\"]}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "bc_rewards:incendium/vault_hunter"
+    }
+  }
+  

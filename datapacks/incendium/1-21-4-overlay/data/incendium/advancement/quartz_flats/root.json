@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "smooth_quartz"
+    },
+    "title": {
+      "translate":"Hellish Paradise"
+    },
+    "description": {
+      "translate":"Beware the beautfiful and deadly Quartz Flats","color":"green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    
+  },
+  "parent": "blazeandcave:nether/giant_floating_jellyfish",
+  "rewards": {
+		"function": "bacap_rewards:incendium/hellish_paradise"
+	},
+  "criteria": {
+    "infernal_dunes": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"biomes": "incendium:quartz_flats"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": ["spectator"]
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+  }
+}

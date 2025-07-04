@@ -1,0 +1,65 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:fire_charge"
+      },
+      "title": {
+        "translate": "Back From Whence You Came"
+      },
+      "description": {
+        "translate": "Defeat the Hovering Inferno 10 times",
+        "color": "dark_purple"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "incendium:infernal_dunes/inferno/armored_wings",
+    "criteria": {
+      "1": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      },
+      "2": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      },
+      "3": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      },
+      "4": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      },
+      "5": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      },
+      "6": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      },
+      "7": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      },
+      "8": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      },
+      "9": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      },
+      "10": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    },
+    "rewards": {
+      "function": "bacap_rewards:incendium/back_from_whence_you_came"
+    }
+  }
+  

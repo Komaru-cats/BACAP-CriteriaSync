@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smooth_quartz"
+    },
+    "title": {
+      "translate":"Ghast Buster"
+    },
+    "description": {
+      "translate":"Kill a Ghast on its home turf above the frozen lava seas","color":"#75E1FF"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "blazeandcave:nether/bring_down_the_beast",
+  "rewards": {
+		"function": "bacap_rewards:incendium/ghast_buster"
+	},
+  "criteria": {
+    "ghast": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": 32
+            },
+            "biomes": "incendium:quartz_flats"
+          }
+        },
+        "entity": {
+          "type": "minecraft:ghast"
+        }
+      }
+    }
+  }
+}

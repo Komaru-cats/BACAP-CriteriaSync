@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:petrified_oak_slab"
+		},
+		"title": {"translate":"Alpha Slab"},
+		"description": {"color":"light_purple","translate":"Obtain a Petrified Oak Slab"},
+		"announce_to_chat": true,
+		"frame": "challenge",
+		"hidden": true
+	},
+	"parent": "minecraft:husbandry/obtain_netherite_hoe",
+	"rewards": {
+		"function": "bacap_rewards:farming/alpha_slab"
+	},
+	"criteria": {
+		"petrified_oak_slab": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:petrified_oak_slab"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"petrified_oak_slab"
+		]
+	]
+}

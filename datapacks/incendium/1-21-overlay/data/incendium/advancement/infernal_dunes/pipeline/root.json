@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "hopper"
+    },
+    "title": {
+      "translate":"Pipe Dream"
+    },
+    "description": {
+      "translate": "Enter an abandoned Pipeline","color":"green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "blazeandcave:nether/high_temperature_fluid_monster",
+  "rewards": {
+		"function": "bc_rewards:incendium/pipe_dream"
+	},		
+  "criteria": {
+    "pipeline": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"structures": "incendium:pipeline"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": ["spectator"]
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+  }
+}

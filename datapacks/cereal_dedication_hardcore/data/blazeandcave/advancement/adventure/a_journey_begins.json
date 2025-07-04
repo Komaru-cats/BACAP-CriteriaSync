@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": { "translate": "A Journey Begins" },
+    "description": {
+      "color": "light_purple",
+      "translate": "Find a Traveller’s Map"
+    },
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "blazeandcave:adventure/map_room",
+  "rewards": {
+    "function": "bacap_rewards:adventure/a_journey_begins"
+  },
+  "criteria": {
+    "map": {
+      "trigger": "minecraft:impossible"
+    },
+    "but_i_do_not_wanna_downgrade_suffer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:adventure/awards_ceremony": true,
+              "blazeandcave:adventure/core_keeper": true,
+              "blazeandcave:adventure/stacked_smither": true,
+              "blazeandcave:adventure/a_suspicious_advancement": true,
+              "blazeandcave:challenges/farlander": true,
+              "blazeandcave:end/good_luck_getting_this_one": true,
+              "blazeandcave:monsters/handsome_jack": true,
+              "blazeandcave:nether/netherite_mad_lad": true,
+              "blazeandcave:statistics/65_hours_of_walking": true,
+              "blazeandcave:statistics/giga_xp_grinder": true,
+
+              "minecraft:husbandry/obtain_netherite_hoe": true,
+              "blazeandcave:farming/alpha_slab": true,
+              "blazeandcave:bacap/terralith_advancement_legend": true,
+              "blazeandcave:bacap/hardcore_advancement_legend": true,
+              "blazeandcave:statistics/happy_10_years_minecraft": true,
+
+              "nullscape:root": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [["map", "but_i_do_not_wanna_downgrade_suffer"]]
+}

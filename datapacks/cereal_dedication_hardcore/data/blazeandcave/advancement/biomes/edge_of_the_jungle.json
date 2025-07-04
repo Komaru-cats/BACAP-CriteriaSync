@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jungle_sapling"
+    },
+    "title": { "translate": "Edge of the Jungle" },
+    "description": {
+      "color": "light_purple",
+      "translate": "Enter a Modified Jungle Edge - the rarest biome in Minecraft"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "blazeandcave:biomes/kung_fu_panda",
+  "rewards": {
+    "function": "bacap_rewards:biomes/edge_of_the_jungle"
+  },
+  "criteria": {
+    "modified_jungle_edge": {
+      "trigger": "minecraft:impossible"
+    },
+    "but_i_do_not_wanna_downgrade_suffer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:adventure/awards_ceremony": true,
+              "blazeandcave:adventure/core_keeper": true,
+              "blazeandcave:adventure/stacked_smither": true,
+              "blazeandcave:adventure/a_suspicious_advancement": true,
+              "blazeandcave:challenges/farlander": true,
+              "blazeandcave:end/good_luck_getting_this_one": true,
+              "blazeandcave:monsters/handsome_jack": true,
+              "blazeandcave:nether/netherite_mad_lad": true,
+              "blazeandcave:statistics/65_hours_of_walking": true,
+              "blazeandcave:statistics/giga_xp_grinder": true,
+
+              "minecraft:husbandry/obtain_netherite_hoe": true,
+              "blazeandcave:farming/alpha_slab": true,
+              "blazeandcave:bacap/terralith_advancement_legend": true,
+              "blazeandcave:bacap/hardcore_advancement_legend": true,
+              "blazeandcave:statistics/happy_10_years_minecraft": true,
+
+              "nullscape:root": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["modified_jungle_edge", "but_i_do_not_wanna_downgrade_suffer"]
+  ]
+}

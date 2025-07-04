@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cake",
+            "components": {
+                "minecraft:enchantments": {
+                    "minecraft:unbreaking": 10
+                }
+            }
+        },
+        "title": {
+            "translate": "Happy 10 years, Minecraft"
+        },
+        "description": {
+            "color": "light_purple",
+            "translate": "Play for 10 years"
+        },
+        "announce_to_chat": true,
+        "frame": "challenge",
+        "hidden": true
+    },
+    "parent": "blazeandcave:statistics/happy_new_year",
+    "rewards": {
+        "function": "bacap_rewards:statistics/happy_10_years_minecraft"
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

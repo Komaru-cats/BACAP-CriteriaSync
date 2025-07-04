@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "blackbirds_torture_chamber:stuff/a_complete_collection": true
+            }
+		  }
+		}
+	  }
+	}
+  }
+}

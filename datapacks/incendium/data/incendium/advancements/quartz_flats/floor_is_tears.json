@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "item": "quartz_block"
+    },
+    "title": {
+      "translate":"The Floor is Tears"
+    },
+    "description": {
+      "translate":"Brave the Quartz Flats' frozen lava seas","color":"green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    
+  },
+  "parent": "incendium:quartz_flats/root",
+  "rewards": {
+		"function": "bc_rewards:incendium/the_floor_is_tears"
+	},
+  "criteria": {
+    "infernal_dunes": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+                "position": {
+                  "y": 32
+                },
+								"biome": "incendium:quartz_flats"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": "spectator"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+  }
+}
