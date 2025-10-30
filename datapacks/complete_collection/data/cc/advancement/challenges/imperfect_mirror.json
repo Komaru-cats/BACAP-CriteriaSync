@@ -9,7 +9,7 @@
 		"frame": "challenge",
 		"hidden": true
 	},
-	"parent": "cc:challenges/complete_collection",
+	"parent": "blackbirds_torture_chamber:stuff/a_complete_collection",
 	"rewards": {
 		"function": "bacap_rewards:challenges/imperfect_mirror"
 	},		
@@ -34,7 +34,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"cc:technical/keep_im_on_te_wipe": true
+							"blackbirds_torture_chamber:stuff/a_complete_collection": true
 						}
 					}
 				}

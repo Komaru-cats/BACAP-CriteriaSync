@@ -1,0 +1,2 @@
+give @p light_gray_stained_glass_pane[custom_name={"bold":true,"color":"#FFFFFF","italic":false,"translate":"64"},lore=[{"color":"#FFFFFF","translate":"You broke a large part of your world for this."},{"color":"#FFFFFF","translate":"The number went up, but at what cost?"},{"color":"#FFFFFF","translate":"Do you ever question what the point of it is?"}," ",{"color":"gray","translate":"Awarded for achieving"},{"color":"#FFAEFF","italic":false,"translate":"Alpha Collection"}],custom_model_data={floats:[135]},custom_data={Trophy:1b}] 64
+tellraw @s {"color":"gold","text":" +64"}

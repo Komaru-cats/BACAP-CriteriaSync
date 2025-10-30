@@ -1,6 +1,6 @@
-Complete Collection v2.2.0
-for BlazeandCave's Advancement Pack Featuring a very hard to get advancement with appropriate xp gain, and a small secret advancement for doing it twice, a reward that will confuse those not in on the joke (which I myself forgot), and a special trophy(?)
-
+Complete Collection v2.3.2
+for BlazeandCave's Advancement Pack featuring a very hard to get advancement with appropriate xp gain, and a small secret advancement for doing it twice, or thrice, a reward that will confuse those not in on the joke, and a special trophy(?)
+And it keeps growing with more advancements!
 
 
 Turns out install function is unneeded, so...
@@ -24,4 +24,4 @@ Wolfguy for a cornplete collection, which is this but different
 
 Vee for suggesting the trophy for A Complete Collection!, I expanded a bit on it however
 
-Ktano2o6o8 for helping a bit with the trophy code updating to 1.20.5
+Ktano2o6o8 for helping a bit with the trophy code updating to 1.20.5 and other general bug reporting

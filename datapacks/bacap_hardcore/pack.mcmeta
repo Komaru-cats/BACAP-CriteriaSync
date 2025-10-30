@@ -1,10 +1,7 @@
 {
   "pack": {
-    "pack_format": 60,
-	"supported_formats": {
-		"min_inclusive": 60,
-		"max_inclusive": 60
-	},
+	"min_format": [88, 0],
+	"max_format": [88, 0],
     "description": "Hardcore-Friendly Edition of the Advancements Pack"
   }
 }

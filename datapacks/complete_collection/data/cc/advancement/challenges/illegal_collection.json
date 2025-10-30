@@ -4,10 +4,10 @@
 			"id": "minecraft:command_block_minecart"
 		},
 		"title": {"translate":"Illegal Collection"},
-		"description": {"color":"light_purple","translate":"Obtain a stack of blocks that should not be stacked."},
+		"description": {"color":"light_purple","translate":"Obtain a stack of the block that should not be stacked."},
 		"announce_to_chat": true,
 		"frame": "challenge",
-		"hidden": false
+		"hidden": true
 	},
 	"parent": "cc:challenges/complete_collection",
 	"rewards": {
@@ -21,32 +21,6 @@
 					{
 						"items": [
 							"minecraft:dragon_egg"
-						],
-						"count": 64
-					}
-				]
-			}
-		},
-		"suspicious_gravel": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": [
-							"minecraft:suspicious_gravel"
-						],
-						"count": 64
-					}
-				]
-			}
-		},
-		"suspicious_sand": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": [
-							"minecraft:suspicious_sand"
 						],
 						"count": 64
 					}

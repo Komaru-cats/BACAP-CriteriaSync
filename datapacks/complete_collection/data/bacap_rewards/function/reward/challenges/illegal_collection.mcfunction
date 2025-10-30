@@ -1,2 +1,2 @@
-give @s cracked_polished_blackstone_bricks[item_name={"translate":"block.minecraft.bedrock"}] 1
-tellraw @s [{"color":"green","text":" +1 "},{"translate":"block.minecraft.bedrock"}]
+give @s dragon_breath 8
+tellraw @s [{"color":"green","text":" +8 "},{"translate":"item.minecraft.dragon_breath"}]

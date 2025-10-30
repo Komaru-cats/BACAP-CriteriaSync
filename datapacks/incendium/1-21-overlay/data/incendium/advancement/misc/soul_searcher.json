@@ -22,7 +22,7 @@
 	  }
     },
     "title": {
-      "translate":"incendium.advancement.misc.soul_searcher.title","fallback":"Soul Searcher"
+      "translate": "Soul Searcher"
     },
     "description": {
       "translate":"Discover every single Incendium biome","color":"#75E1FF"

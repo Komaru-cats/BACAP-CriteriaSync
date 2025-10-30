@@ -5,7 +5,7 @@
       "nbt": "{SkullOwner: {Id: [I; 1961157551, 9587933, -1851376500, -135561125], Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTY4NjY0Mzk4MDk4NSwKICAicHJvZmlsZUlkIiA6ICI3NGU0ZTNhZjAwOTI0Y2RkOTFhNjNjOGNmN2ViODA1YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdGFybXV0ZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82ZTQ4M2RmMDkxODg2NWY4YTI5NGVjY2Y4OGJhMDFmMTEyNDcwZmEzNDg3OGVlMzgxOTMyOTE5MjQyMGRhNGU0IgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==\", Signature: \"ZM8ZBKvUSX4JllnBuKNpTrjLHK57zOiqJfFfPtGFjETyK7N7HXR48rw9fyE\/I2F+nml8vWMC33\/8ujnIft6AcaT\/tScyCoh2f74d9WfbcpXJw3wS2rcnYB2Sv30NN4PyHPw2OOrX2W3xpj+zpEMDywxLvwZtO\/uX58p1ZihA2qCLKKHJ5VKblfwwc3L0rOPXQNNTB8cEYUi1C1Nlktkpl7yE1zTFzESLmbnojFWl1UJPINhDYYYUsJ06Tfz6cXwFH4o7J9ghUAL2Bbqw38cNqPSwpxCLix2cI+HIbOsnHCNCn30Graj4eosUkrFYV6YfF7+yfe9TgOiGPbK+AIrDZQ3OqMyJAuVkPX3XW0v\/U2zRYKudkZxLvGw2UiS\/a80gS\/7UYGbWtCq8305vgeXpS3LN2ijLCc+cKKobpQUQbXaRok1VrL9e5NGVSGVkmzadhsbm9wyA0AYMhpabwZq26WyZeS2XwhDEjU\/+68W8LavTnsdsniorhk30joI8NB3nNAk6PIPFVxkhwSZXe\/Ai54nWPnq\/3lY3g5R9pXwlJKqSHkhyOjjybsv\/jCOxOHoWLdH89\/SEzK\/X5uO4x3hs+1wyYQyjH7a+I4Jkx0AWXJkaoPV7IGaYJXnTwv5ukULHFhNcLrltBfE49jCx7U8vZObI8yaPjQSGXoYQONn9bk8=\"}]}, Name: \"Starmute\"}}"
     },
     "title": {
-      "translate":"incendium.advancement.misc.soul_searcher.title","fallback":"Soul Searcher"
+      "translate": "Soul Searcher"
     },
     "description": {
       "translate":"Discover every single Incendium biome","color":"#75E1FF"
