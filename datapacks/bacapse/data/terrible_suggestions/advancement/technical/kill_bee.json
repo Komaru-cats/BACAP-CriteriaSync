@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "kill_bee": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ]
+        }
+      }
+    }
+  }
+}

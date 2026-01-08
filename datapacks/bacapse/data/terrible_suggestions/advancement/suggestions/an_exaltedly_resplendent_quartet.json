@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:azure_bluet"
+    },
+    "title": "An Exaltedly Resplendent Quartet",
+    "description": {
+      "translate": "Obtain four azure bluetsnnSuggested by yakishbek"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "terrible_suggestions:suggestions/an_ineffably_sublime_trio",
+  "criteria": {
+    "an_exaltedly_resplendent_quartet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:azure_bluet"
+            ],
+            "count": 4
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/an_exaltedly_resplendent_quartet"
+  }
+}

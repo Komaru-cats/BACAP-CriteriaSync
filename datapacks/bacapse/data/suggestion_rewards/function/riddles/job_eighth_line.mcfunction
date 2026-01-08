@@ -1,0 +1,2 @@
+tellraw @s {"color":"gray","italic":true,"translate":"Eighth Job Riddle line complete…"}
+tellraw @s {"color":"gray","italic":true,"translate":"You feel that you can only use a certain trigger one last time..."}

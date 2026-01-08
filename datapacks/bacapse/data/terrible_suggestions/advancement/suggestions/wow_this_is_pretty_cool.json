@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_boots"
+    },
+    "title": "Wow this is pretty cool",
+    "description": {
+      "translate": "Name a piece of chainmail boots with Protection 3, Thorns 1, Mending, Curse of Binding, Curse of Vanishing, Unbreaking 2, Soul Speed 1, Depth Strider 2, Feather Falling 3, 111 durability and a sentry trim with resin material “cool”nnSuggested by Hi_Calvin"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:enchanting/god_of_thunder",
+  "criteria": {
+    "wow_this_is_pretty_cool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chainmail_boots"
+            ],
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:protection": 3,
+                "minecraft:thorns": 1,
+                "minecraft:mending": 1,
+                "minecraft:binding_curse": 1,
+                "minecraft:vanishing_curse": 1,
+                "minecraft:unbreaking": 2,
+                "minecraft:soul_speed": 1,
+                "minecraft:depth_strider": 2,
+                "minecraft:feather_falling": 3
+              },
+              "minecraft:damage": 84,
+              "minecraft:trim": {
+                "material": "minecraft:resin",
+                "pattern": "minecraft:sentry"
+              },
+              "minecraft:custom_name": "cool"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/wow_this_is_pretty_cool"
+  }
+}

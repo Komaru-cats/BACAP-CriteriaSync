@@ -1,8 +1,8 @@
 {
   "pack": {
-    "pack_format": 88,
-	"min_format": [88, 0],
-	"max_format": [88, 0],
-    "description": "\"Enhanced discoveries\" is an add-on for BACAP with new advancements"
+    "pack_format": 94,
+        "min_format": [94.1],
+        "max_format": [94.1],
+        "description": [{"text":"\"Enhanced discoveries\" ","color":"#74B021"},{"text":"is an add-on for BACAP with new advancements","color":"white"}]
   }
 }

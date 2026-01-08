@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:open_eyeblossom"
+    },
+    "title": "Get to the Tardis",
+    "description": {
+      "translate": "Be within 50 blocks of 50 creakingsnnSuggested by Dec1ded"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:biomes/le_creak_cest_chic",
+  "criteria": {
+    "get_to_the_tardis": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/get_to_the_tardis"
+  }
+}

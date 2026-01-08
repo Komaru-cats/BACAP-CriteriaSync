@@ -1,0 +1,282 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potato"
+    },
+    "title": {
+      "translate": "Potato",
+      "extra": [
+        "                    "
+      ]
+    },
+    "description": {
+      "translate": "Fill Each Slot of a Chest With a Potato Named, Consecutively: Big Brain, Block of Amber, Floatato, Floatater, Frying Table, Pedestal, Peelgrass Block, Poisonous Potato Cutter, Potato Portal, Potato Battery, Potato Refinery, Powerful Potato, Potato Flower, Potato Bud, Potato Stem, Potato Planks, Potato Slab, Potato Stairs, Potato Fences, Potato Fence Gate, Potato Pressure Plate, Potato Button, Potato Door, Potato Trapdoor, Potato Hanging Sign, Potato Leaves, Potato FruitnnSuggested by CoolgirlOmega"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:farming/certified_spud_chomper",
+  "criteria": {
+    "potato": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": "minecraft:chest",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Big Brain"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Block of Amber"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Floatato"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Floatater"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Frying Table"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Pedestal"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Peelgrass Block"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Poisonous Potato Cutter"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Potato Portal"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Potato Battery"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Potato Refinery"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Powerful Potato"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Potato Flower"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Potato Bud"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Potato Stem"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Potato Planks"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Potato Slab"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Potato Stairs"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Potato Fence"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Potato Fence Gate"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Potato Pressure Plate"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Potato Button"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Potato Door"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Potato Trapdoor"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Potato Hanging Sign"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Potato Leaves"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:potato",
+                      "components": {
+                        "minecraft:custom_name": "Potato Fruit"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/potato"
+  }
+}

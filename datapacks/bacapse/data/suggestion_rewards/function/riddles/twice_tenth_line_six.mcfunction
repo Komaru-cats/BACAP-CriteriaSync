@@ -1,0 +1,1 @@
+tellraw @s {"color":"gray","italic":true,"translate":"Tenth Riddle Me Twice line 6/10 complete…"}

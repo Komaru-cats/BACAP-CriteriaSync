@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "second_line": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:riddles/twice_second_line"
+  }
+}

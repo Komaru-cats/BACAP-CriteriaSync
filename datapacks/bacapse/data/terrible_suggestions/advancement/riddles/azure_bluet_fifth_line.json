@@ -1,0 +1,30 @@
+{
+  "rewards": {
+    "function": "suggestion_rewards:riddles/azure_bluet_fifth_line"
+  },
+  "criteria": {
+    "fifth_line": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_fourth_line": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:azure_bluet"
+            ],
+            "components": {
+              "minecraft:custom_name": "Azure Bluet"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

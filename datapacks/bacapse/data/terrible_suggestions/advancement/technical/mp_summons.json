@@ -1,0 +1,57 @@
+{
+  "criteria": {
+    "dragon": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:ender_dragon"
+          ]
+        }
+      }
+    },
+    "wither": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:wither"
+          ]
+        }
+      }
+    },
+    "raid": {
+      "trigger": "minecraft:voluntary_exile"
+    },
+    "iron_golem": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:iron_golem"
+          ]
+        }
+      }
+    },
+    "snow_golem": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:snow_golem"
+          ]
+        }
+      }
+    },
+    "copper_golem": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:copper_golem"
+          ]
+        }
+      }
+    }
+  }
+}

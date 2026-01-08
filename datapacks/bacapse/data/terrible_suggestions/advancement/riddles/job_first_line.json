@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "first_line": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:riddles/job_first_line"
+  }
+}

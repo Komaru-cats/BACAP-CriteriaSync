@@ -1,0 +1,8 @@
+{
+	"parent": "terrible_suggestions:suggestions/complete_collection",	
+	"criteria": {
+		"hidden": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

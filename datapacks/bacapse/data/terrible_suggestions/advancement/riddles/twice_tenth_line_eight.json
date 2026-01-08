@@ -1,0 +1,10 @@
+{
+  "rewards": {
+    "function": "suggestion_rewards:riddles/twice_tenth_line_eight"
+  },
+  "criteria": {
+    "tenth_line_eight": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

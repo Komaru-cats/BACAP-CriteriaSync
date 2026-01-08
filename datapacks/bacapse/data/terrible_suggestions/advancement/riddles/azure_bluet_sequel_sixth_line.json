@@ -1,0 +1,33 @@
+{
+  "rewards": {
+    "function": "suggestion_rewards:riddles/azure_bluet_sequel_sixth_line"
+  },
+  "criteria": {
+    "sixth_line": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_fifth_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:azure_bluet"
+          ]
+        },
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    }
+  }
+}

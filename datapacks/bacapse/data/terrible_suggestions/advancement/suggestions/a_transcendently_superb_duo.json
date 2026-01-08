@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:azure_bluet"
+    },
+    "title": "A Transcendently Superb Duo",
+    "description": {
+      "translate": "Obtain two azure bluetsnnSuggested by yakishbek"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/for_you_my_sweet",
+  "criteria": {
+    "a_transcendently_superb_duo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:azure_bluet"
+            ],
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/a_transcendently_superb_duo"
+  }
+}

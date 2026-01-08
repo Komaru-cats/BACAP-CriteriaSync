@@ -2,9 +2,11 @@
 	"pack": {
 		"pack_format": 71,
 		"supported_formats": {
-		"min_inclusive": 70,
-		"max_inclusive": 81
+			"min_inclusive": 70,
+			"max_inclusive": 94
 		},
+		"min_format": 70,
+		"max_format": 94,
 		"description": [{"text":"BACAP Cereal Dedication Hardcore","color":"red"},{"text":"\nFixingGlobe","color":"light_purple"}]
 	}
 }

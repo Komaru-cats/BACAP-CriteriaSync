@@ -1,0 +1,35 @@
+{
+	"rewards": {
+		"function": "suggestion_rewards:riddles/twice_tenth_line_ten"
+	},
+	"criteria": {
+		"first_line": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:compass"
+						],					
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:vanishing_curse"
+								}
+							]
+						}
+					}
+				],
+				"type_specific": {
+					"type": "player",
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"terrible_suggestions:riddles/twice_tenth_line_nine": true
+						}
+					}
+				}
+			}
+		}
+	}
+}

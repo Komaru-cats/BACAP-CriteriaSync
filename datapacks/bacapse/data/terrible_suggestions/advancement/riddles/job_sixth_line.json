@@ -1,0 +1,94 @@
+{
+  "criteria": {
+    "villager": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_fifth_line": true
+            }
+          }
+        },
+        "villager": {
+          "nbt": "{VillagerData:{profession:\"minecraft:cleric\"}}",
+          "location": {
+            "structures": [
+              "minecraft:bastion_remnant"
+            ]
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:emerald"
+          ]
+        }
+      }
+    },
+    "piglin_thrown": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_fifth_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:gold_ingot"
+          ]
+        },
+        "entity": {
+          "type": [
+            "minecraft:piglin"
+          ],
+          "location": {
+            "structures": "#minecraft:village"
+          }
+        }
+      }
+    },
+    "piglin_direct": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_fifth_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:gold_ingot"
+          ]
+        },
+        "entity": {
+          "type": [
+            "minecraft:piglin"
+          ],
+          "location": {
+            "structures": "#minecraft:village"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "piglin_direct",
+      "piglin_thrown"
+    ],
+    [
+      "villager"
+    ]
+  ],
+  "rewards": {
+    "function": "suggestion_rewards:riddles/job_sixth_line"
+  }
+}

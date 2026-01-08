@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:vex_spawn_egg"
+    },
+    "title": "Ghost in the Graveyard",
+    "description": {
+      "translate": "Get murdered by a Vex in the Pale Garden biomennSuggested by Jamsamamsa",
+      "color": "#75E1FF"
+    },
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:adventure/ghostbuster",
+  "criteria": {
+    "ghost_in_the_graveyard": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": [
+              "minecraft:pale_garden"
+            ]
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:vex"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/ghost_in_the_graveyard"
+  }
+}

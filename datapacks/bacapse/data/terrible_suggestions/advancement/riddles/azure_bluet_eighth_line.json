@@ -1,0 +1,143 @@
+{
+  "requirements": [
+    [
+      "eighth_line_neg_x",
+      "eighth_line_neg_z",
+      "eighth_line_pos_x",
+      "eighth_line_pos_z"
+    ]
+  ],
+  "rewards": {
+    "function": "suggestion_rewards:riddles/azure_bluet_eighth_line"
+  },
+  "criteria": {
+    "eighth_line_pos_x": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_seventh_line": true
+            }
+          }
+        },
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "x": {
+                  "min": 512,
+                  "max": 30000000
+                }
+              },
+              "dimension": "minecraft:the_end",
+              "block": {
+                "blocks": [
+                  "minecraft:azure_bluet"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "eighth_line_neg_x": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_seventh_line": true
+            }
+          }
+        },
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "x": {
+                  "min": -30000000,
+                  "max": -512
+                }
+              },
+              "dimension": "minecraft:the_end",
+              "block": {
+                "blocks": [
+                  "minecraft:azure_bluet"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "eighth_line_pos_z": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_seventh_line": true
+            }
+          }
+        },
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "z": {
+                  "min": 512,
+                  "max": 30000000
+                }
+              },
+              "dimension": "minecraft:the_end",
+              "block": {
+                "blocks": [
+                  "minecraft:azure_bluet"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "eighth_line_neg_z": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_seventh_line": true
+            }
+          }
+        },
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "z": {
+                  "min": -30000000,
+                  "max": -512
+                }
+              },
+              "dimension": "minecraft:the_end",
+              "block": {
+                "blocks": [
+                  "minecraft:azure_bluet"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

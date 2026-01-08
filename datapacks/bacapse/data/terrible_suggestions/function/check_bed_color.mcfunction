@@ -1,0 +1,1 @@
+execute at @s if block ~ ~-0.3 ~ minecraft:light_gray_bed if entity @s[advancements={terrible_suggestions:riddles/azure_bluet_sequel_nineteenth_line=true}] run advancement grant @s only terrible_suggestions:riddles/azure_bluet_sequel_twentieth_line

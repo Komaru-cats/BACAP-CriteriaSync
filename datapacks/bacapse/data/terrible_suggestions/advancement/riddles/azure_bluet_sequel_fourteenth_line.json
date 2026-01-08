@@ -1,0 +1,44 @@
+{
+  "rewards": {
+    "function": "suggestion_rewards:riddles/azure_bluet_sequel_fourteenth_line"
+  },
+  "criteria": {
+    "fourteenth_line": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_thirteenth_line": true
+            }
+          }
+        },
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "position": {
+                "y": {
+                  "min": 127,
+                  "max": 400
+                }
+              },
+              "dimension": "minecraft:the_nether",
+              "block": {
+                "blocks": [
+                  "minecraft:muddy_mangrove_roots"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:azure_bluet"
+          }
+        ]
+      }
+    }
+  }
+}

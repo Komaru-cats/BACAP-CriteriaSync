@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "bacap_fanpacks:coolgirl/cc/update_score"
+        "cc:update_score"
     ]
 }

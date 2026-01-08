@@ -1,0 +1,30 @@
+{
+  "rewards": {
+    "function": "suggestion_rewards:riddles/azure_bluet_sixth_line"
+  },
+  "criteria": {
+    "sixth_line": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_fifth_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:light_gray_dye"
+          ]
+        },
+        "entity": {
+          "type": [
+            "minecraft:wolf"
+          ]
+        }
+      }
+    }
+  }
+}

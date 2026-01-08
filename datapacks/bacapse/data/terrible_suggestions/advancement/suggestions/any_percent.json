@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_pearl"
+    },
+    "title": {
+      "translate": "Any%",
+      "extra": [
+        "               "
+      ]
+    },
+    "description": {
+      "translate": "Visit a village, a fortress, a bastion, a stronghold and the end in order under 5 minutesnnSuggested by Ashley"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:adventure/secret_of_the_igloo",
+  "criteria": {
+    "any_percent": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/any_percent"
+  }
+}

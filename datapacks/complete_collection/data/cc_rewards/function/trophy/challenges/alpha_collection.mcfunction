@@ -1,0 +1,3 @@
+give @p light_gray_stained_glass_pane[custom_name={"bold":true,"color":"white","italic":false,"translate":"64"},lore=[{"color":"white","translate":"You broke a large part of your world for this."},{"color":"white","translate":"The number went up, but at what cost?"},{"color":"white","translate":"Don’t you ever question what the point of it is?"}," ",{"color":"gray","translate":"Awarded for achieving"},{"color":"#FFAEFF","italic":false,"translate":"Alpha Collection"}],custom_model_data={floats:[4020]},custom_data={Trophy:1b}] 64
+tellraw @s {"color":"gold","text":" +64"}
+execute unless score cc_particles cc_settings matches 0 run particle block{block_state:"minecraft:petrified_oak_slab"} ~ ~1 ~ 1 1 1 1 640 normal

@@ -1,0 +1,27 @@
+{
+  "rewards": {
+    "function": "suggestion_rewards:riddles/azure_bluet_seventh_line"
+  },
+  "criteria": {
+    "seventh_line": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sixth_line": true
+            }
+          },
+          "slots": {
+            "weapon.offhand": {
+              "items": [
+                "minecraft:azure_bluet"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

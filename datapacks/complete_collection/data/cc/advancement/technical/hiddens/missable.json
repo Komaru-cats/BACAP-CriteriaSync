@@ -1,0 +1,7 @@
+{
+	"criteria": {
+		"missable": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

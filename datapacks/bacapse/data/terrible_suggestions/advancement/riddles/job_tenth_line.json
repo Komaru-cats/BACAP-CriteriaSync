@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "tenth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_tenth_line_one": true,
+              "terrible_suggestions:riddles/job_tenth_line_two": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:riddles/job_tenth_line"
+  }
+}

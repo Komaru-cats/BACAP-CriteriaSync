@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:creeper_head"
+    },
+    "title": "Charge Off!",
+    "description": {
+      "translate": "Kill a charged creeper with a wind chargennSuggested by Dec1ded"
+    },
+    "frame": "challenge"
+  },
+  "parent": "minecraft:adventure/blowback",
+  "criteria": {
+    "charge_off": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:creeper"
+          ],
+          "nbt": "{powered:1b}"
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "type": [
+              "minecraft:wind_charge"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/charge_off"
+  }
+}

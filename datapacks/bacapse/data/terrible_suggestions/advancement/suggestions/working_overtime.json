@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock"
+    },
+    "title": "Working Overtime",
+    "description": {
+      "translate": "Interact with every type of villager workstation (that is possible to interact with) at least 100 timesnnSuggested by Mad_Cap",
+      "color": "#75E1FF"
+    },
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:adventure/town_planner",
+  "criteria": {
+    "working_overtime": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/working_overtime"
+  }
+}

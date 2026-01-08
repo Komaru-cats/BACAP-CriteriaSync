@@ -4,30 +4,30 @@
 			"id": "minecraft:repeating_command_block"
 		},
 		"title": {"translate":"Triple Trouble"},
-		"description": {"color":"light_purple","translate":"Complete Complete Collection, twice. (This version and Suggestion Edition's)"},
+		"description": {"color":"light_purple","translate":"Complete A Complete Collection! and Suggestion Edition’s A Complete Collection!"},
 		"announce_to_chat": true,
 		"frame": "challenge",
-		"hidden": true
+		"hidden": false
 	},
 	"parent": "terrible_suggestions:suggestions/complete_collection",
 	"rewards": {
-		"function": "bacap_rewards:challenges/triple_trouble"
+		"function": "cc_rewards:challenges/triple_trouble"
 	},		
 	"criteria": {
-		"complete_collection": {
+		"a_complete_collection": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"cc:challenges/complete_collection": true
+							"cc:challenges/a_complete_collection": true
 						}
 					}
 				}
 			}
 		},
-		"complete_collection_suggestion": {
+		"a_complete_collection_suggestion": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {

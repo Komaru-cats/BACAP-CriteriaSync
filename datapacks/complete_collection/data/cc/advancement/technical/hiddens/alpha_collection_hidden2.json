@@ -1,0 +1,18 @@
+{
+	"parent": "cc:challenges/alpha_collection",	
+	"criteria": {
+		"hidden": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"cc:technical/hiddens/alpha_collection_hidden1": true
+						}
+					}
+				}
+			}
+		}
+	}
+}

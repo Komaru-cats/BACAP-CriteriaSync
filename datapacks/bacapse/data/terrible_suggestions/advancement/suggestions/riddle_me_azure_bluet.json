@@ -1,0 +1,223 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:azure_bluet"
+    },
+    "title": {
+      "translate": "Riddle Me Azure Bluet",
+      "extra": [
+        {
+          "text": "",
+          "italic": true
+        }
+      ]
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "The first is to collect an Azure Bluet",
+      "extra": [
+        {
+          "text": "n"
+        },
+        {
+          "color": "dark_purple",
+          "translate": "The second is to put it in a Glowing Frame, please do that"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "dark_purple",
+          "translate": "The third is to put an Azure Bluet in a Sack that is colored Light Gray"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "dark_purple",
+          "translate": "The fourth is to be in an Azure Bluet for an entire Minecraft day"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "dark_purple",
+          "translate": "The fifth is to rename an Azure Bluet to Azure Bluet"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "dark_purple",
+          "translate": "The sixth is to use an Azure Bluet to change the collar of your pet"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "dark_purple",
+          "translate": "The seventh is to put an Azure Bluet into your other hand"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "dark_purple",
+          "translate": "The eighth is to plant an Azure Bluet far in the End"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "dark_purple",
+          "translate": "The ninth is to trim your armor with Quartz to mimic the color of a great flower"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "dark_purple",
+          "translate": "The tenth is to color a Pale Sign that says "Azure Bluet" with Light Gray, then you'll receive the source of Azure Bluet's great powernnSuggested by yakishbek"
+        }
+      ]
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "terrible_suggestions:suggestions/an_exaltedly_resplendent_quartet",
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/riddle_me_azure_bluet"
+  },
+  "criteria": {
+    "first_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_first_line": true
+            }
+          }
+        }
+      }
+    },
+    "second_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_second_line": true
+            }
+          }
+        }
+      }
+    },
+    "third_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_third_line": true
+            }
+          }
+        }
+      }
+    },
+    "fourth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_fourth_line": true
+            }
+          }
+        }
+      }
+    },
+    "fifth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_fifth_line": true
+            }
+          }
+        }
+      }
+    },
+    "sixth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sixth_line": true
+            }
+          }
+        }
+      }
+    },
+    "seventh_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_seventh_line": true
+            }
+          }
+        }
+      }
+    },
+    "eighth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_eighth_line": true
+            }
+          }
+        }
+      }
+    },
+    "ninth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_ninth_line": true
+            }
+          }
+        }
+      }
+    },
+    "tenth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_tenth_line": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

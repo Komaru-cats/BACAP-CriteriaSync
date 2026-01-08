@@ -1,0 +1,119 @@
+{
+  "criteria": {
+    "pos_x": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/twice_sixth_line": true
+            }
+          },
+          "location": {
+            "position": {
+              "x": {
+                "min": -525,
+                "max": -475
+              },
+              "z": {
+                "min": -900,
+                "max": 900
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "neg_x": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/twice_sixth_line": true
+            }
+          },
+          "location": {
+            "position": {
+              "x": {
+                "min": -525,
+                "max": -475
+              },
+              "z": {
+                "min": -900,
+                "max": 900
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "pos_z": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/twice_sixth_line": true
+            }
+          },
+          "location": {
+            "position": {
+              "x": {
+                "min": -900,
+                "max": 900
+              },
+              "z": {
+                "min": 475,
+                "max": 525
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "neg_z": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/twice_sixth_line": true
+            }
+          },
+          "location": {
+            "position": {
+              "x": {
+                "min": -900,
+                "max": 900
+              },
+              "z": {
+                "min": -525,
+                "max": -475
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "neg_x",
+      "neg_z",
+      "pos_x",
+      "pos_z"
+    ]
+  ],
+  "rewards": {
+    "function": "terrible_suggestions:between_end_islands"
+  }
+}

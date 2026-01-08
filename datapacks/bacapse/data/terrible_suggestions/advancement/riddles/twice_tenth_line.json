@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "tenth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/twice_tenth_line_one": true,
+              "terrible_suggestions:riddles/twice_tenth_line_two": true,
+              "terrible_suggestions:riddles/twice_tenth_line_three": true,
+              "terrible_suggestions:riddles/twice_tenth_line_four": true,
+              "terrible_suggestions:riddles/twice_tenth_line_five": true,
+              "terrible_suggestions:riddles/twice_tenth_line_six": true,
+              "terrible_suggestions:riddles/twice_tenth_line_seven": true,
+              "terrible_suggestions:riddles/twice_tenth_line_eight": true,
+              "terrible_suggestions:riddles/twice_tenth_line_nine": true,
+              "terrible_suggestions:riddles/twice_tenth_line_ten": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:riddles/twice_tenth_line"
+  }
+}

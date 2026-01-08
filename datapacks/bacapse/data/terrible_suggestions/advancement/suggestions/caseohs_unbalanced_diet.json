@@ -1,0 +1,700 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_beef"
+    },
+    "title": "CaseOh's Unbalanced Diet",
+    "description": {
+      "translate": "The task at hand is to partake of 400 portions of each victual within the game, Thereafter, thou must needs repair to the gymnasium, for thy weight shall have swollen to nigh upon 1000 pounds. Thou seekest 4000 spider eyes, for no other reason than Yes, and the number is doubled should the item be compostable, consumable with a full belly, granteth the hunger effect, or be dried kelp. Furthermore, if it be a plantable item, the number is multiplied by four. As for cake, seven slices, being a whole cake, shall count as one of its 800 required consumptions.nnSuggested by Zintux",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "terrible_suggestions:technical/hiddens/caseohs_unbalanced_diet_hidden_2",
+  "criteria": {
+    "apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:apple",
+                "value": 800
+              }
+            ]
+          }
+        }
+      }
+    },
+    "baked_potato": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:baked_potato",
+                "value": 800
+              }
+            ]
+          }
+        }
+      }
+    },
+    "beetroot": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:beetroot",
+                "value": 800
+              }
+            ]
+          }
+        }
+      }
+    },
+    "beetroot_soup": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:beetroot_soup",
+                "value": 400
+              }
+            ]
+          }
+        }
+      }
+    },
+    "bread": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:bread",
+                "value": 800
+              }
+            ]
+          }
+        }
+      }
+    },
+    "cake": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": 5600
+              }
+            ]
+          }
+        }
+      }
+    },
+    "carrot": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:carrot",
+                "value": 3200
+              }
+            ]
+          }
+        }
+      }
+    },
+    "chorus_fruit": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:chorus_fruit",
+                "value": 3200
+              }
+            ]
+          }
+        }
+      }
+    },
+    "cooked_chicken": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cooked_chicken",
+                "value": 400
+              }
+            ]
+          }
+        }
+      }
+    },
+    "cooked_cod": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cooked_cod",
+                "value": 400
+              }
+            ]
+          }
+        }
+      }
+    },
+    "cooked_porkchop": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cooked_porkchop",
+                "value": 400
+              }
+            ]
+          }
+        }
+      }
+    },
+    "cooked_rabbit": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cooked_rabbit",
+                "value": 400
+              }
+            ]
+          }
+        }
+      }
+    },
+    "cooked_salmon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cooked_salmon",
+                "value": 400
+              }
+            ]
+          }
+        }
+      }
+    },
+    "cookie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cookie",
+                "value": 800
+              }
+            ]
+          }
+        }
+      }
+    },
+    "dried_kelp": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:dried_kelp",
+                "value": 800
+              }
+            ]
+          }
+        }
+      }
+    },
+    "enchanted_golden_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:enchanted_golden_apple",
+                "value": 1600
+              }
+            ]
+          }
+        }
+      }
+    },
+    "golden_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:golden_apple",
+                "value": 1600
+              }
+            ]
+          }
+        }
+      }
+    },
+    "glow_berries": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:glow_berries",
+                "value": 3200
+              }
+            ]
+          }
+        }
+      }
+    },
+    "golden_carrot": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:golden_carrot",
+                "value": 800
+              }
+            ]
+          }
+        }
+      }
+    },
+    "honey_bottle": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:honey_bottle",
+                "value": 1600
+              }
+            ]
+          }
+        }
+      }
+    },
+    "melon_slice": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:melon_slice",
+                "value": 800
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mushroom_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:mushroom_stew",
+                "value": 400
+              }
+            ]
+          }
+        }
+      }
+    },
+    "poisonous_potato": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:poisonous_potato",
+                "value": 400
+              }
+            ]
+          }
+        }
+      }
+    },
+    "potato": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:potato",
+                "value": 3200
+              }
+            ]
+          }
+        }
+      }
+    },
+    "pufferfish": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:pufferfish",
+                "value": 800
+              }
+            ]
+          }
+        }
+      }
+    },
+    "pumpkin_pie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:pumpkin_pie",
+                "value": 800
+              }
+            ]
+          }
+        }
+      }
+    },
+    "rabbit_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:rabbit_stew",
+                "value": 400
+              }
+            ]
+          }
+        }
+      }
+    },
+    "beef": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:beef",
+                "value": 400
+              }
+            ]
+          }
+        }
+      }
+    },
+    "chicken": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:chicken",
+                "value": 800
+              }
+            ]
+          }
+        }
+      }
+    },
+    "cod": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cod",
+                "value": 400
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mutton": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:mutton",
+                "value": 400
+              }
+            ]
+          }
+        }
+      }
+    },
+    "porkchop": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:porkchop",
+                "value": 400
+              }
+            ]
+          }
+        }
+      }
+    },
+    "rabbit": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:rabbit",
+                "value": 400
+              }
+            ]
+          }
+        }
+      }
+    },
+    "salmon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:salmon",
+                "value": 400
+              }
+            ]
+          }
+        }
+      }
+    },
+    "rotten_flesh": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:rotten_flesh",
+                "value": 800
+              }
+            ]
+          }
+        }
+      }
+    },
+    "spider_eye": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:spider_eye",
+                "value": 4000
+              }
+            ]
+          }
+        }
+      }
+    },
+    "steak": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cooked_beef",
+                "value": 400
+              }
+            ]
+          }
+        }
+      }
+    },
+    "suspicious_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:suspicious_stew",
+                "value": 800
+              }
+            ]
+          }
+        }
+      }
+    },
+    "sweet_berries": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:sweet_berries",
+                "value": 3200
+              }
+            ]
+          }
+        }
+      }
+    },
+    "tropical_fish": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:tropical_fish",
+                "value": 400
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/caseohs_unbalanced_diet"
+  }
+}

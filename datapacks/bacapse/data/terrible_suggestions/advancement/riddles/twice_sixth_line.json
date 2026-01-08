@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "sixth_line": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/twice_fifth_line": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "predicates": {
+              "minecraft:written_book_content": {
+                "generation": 2
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:riddles/twice_sixth_line"
+  }
+}

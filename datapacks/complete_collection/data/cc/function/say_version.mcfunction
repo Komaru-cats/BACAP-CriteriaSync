@@ -1,0 +1,1 @@
+tellraw @s {"translate":"BACAP Complete Collection Edition Version 2.4.0 for Minecraft 1.21.11","color":"#FF00B3"}

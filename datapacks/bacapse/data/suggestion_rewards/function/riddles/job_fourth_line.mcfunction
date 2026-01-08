@@ -1,0 +1,1 @@
+tellraw @s {"color":"gray","italic":true,"translate":"Fourth Job Riddle line complete…"}

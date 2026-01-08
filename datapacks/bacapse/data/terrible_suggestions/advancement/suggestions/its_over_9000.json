@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tnt"
+    },
+    "title": "It's Over 9000",
+    "description": {
+      "translate": "Deal over 9000 damage in a single hitnnSuggested by _Stxr1335"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:weaponry/warden_extinction",
+  "criteria": {
+    "its_over_9000": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 9000
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/its_over_9000"
+  }
+}

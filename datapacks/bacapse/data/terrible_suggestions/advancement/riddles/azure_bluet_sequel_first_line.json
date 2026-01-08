@@ -1,0 +1,26 @@
+{
+  "rewards": {
+    "function": "suggestion_rewards:riddles/azure_bluet_sequel_first_line"
+  },
+  "criteria": {
+    "first_line": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "slots": {
+            "weapon.mainhand": {
+              "items": [
+                "minecraft:azure_bluet"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:elder_guardian"
+          ]
+        }
+      }
+    }
+  }
+}

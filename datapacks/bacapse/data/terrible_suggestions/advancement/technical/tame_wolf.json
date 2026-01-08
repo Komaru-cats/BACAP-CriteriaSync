@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "tame_wolf": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:wolf"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "terrible_suggestions:tame_wolf"
+  }
+}

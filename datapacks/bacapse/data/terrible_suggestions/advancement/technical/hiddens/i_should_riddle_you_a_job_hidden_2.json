@@ -1,0 +1,8 @@
+{
+	"parent": "terrible_suggestions:technical/hiddens/i_should_riddle_you_a_job_hidden_1",	
+	"criteria": {
+		"hidden": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

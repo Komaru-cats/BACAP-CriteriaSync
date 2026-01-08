@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_log",
+      "components": {
+        "minecraft:enchantments": {
+          "minecraft:efficiency": 5
+        }
+      }
+    },
+    "title": "Lumber Legend",
+    "description": {
+      "translate": "Chop 50,000 logsnnSuggested by Dec1ded"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:building/master_logger",
+  "criteria": {
+    "lumber_legend": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/lumber_legend"
+  }
+}

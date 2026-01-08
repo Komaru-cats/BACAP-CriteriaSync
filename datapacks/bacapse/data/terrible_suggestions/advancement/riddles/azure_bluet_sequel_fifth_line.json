@@ -1,0 +1,30 @@
+{
+  "rewards": {
+    "function": "suggestion_rewards:riddles/azure_bluet_sequel_fifth_line"
+  },
+  "criteria": {
+    "fifth_line": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_fourth_line": true
+            }
+          }
+        },
+        "villager": {
+          "type": [
+            "minecraft:wandering_trader"
+          ]
+        },
+        "item": {
+          "items": [
+            "minecraft:azure_bluet"
+          ]
+        }
+      }
+    }
+  }
+}

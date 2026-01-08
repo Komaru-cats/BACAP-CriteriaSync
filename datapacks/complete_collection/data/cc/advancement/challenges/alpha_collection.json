@@ -4,14 +4,14 @@
 			"id": "minecraft:piston"
 		},
 		"title": {"translate":"Alpha Collection"},
-		"description": {"color":"light_purple","translate":"Obtain a stack of a rare and obscure block in Minecraft's history."},
+		"description": {"color":"light_purple","translate":"Obtain 64 Petrified Oak Slabs"},
 		"announce_to_chat": true,
 		"frame": "challenge",
-		"hidden": true
+		"hidden": false
 	},
-	"parent": "cc:challenges/illegal_collection",
+	"parent": "cc:technical/hiddens/alpha_collection_hidden1",
 	"rewards": {
-		"function": "bacap_rewards:challenges/alpha_collection"
+		"function": "cc_rewards:challenges/alpha_collection"
 	},		
 	"criteria": {
 		"petrified_oak_slab": {

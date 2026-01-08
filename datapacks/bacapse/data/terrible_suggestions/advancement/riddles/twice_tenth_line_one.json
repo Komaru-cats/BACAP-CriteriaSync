@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "tenth_line_one": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:riddles/twice_tenth_line_one"
+  }
+}

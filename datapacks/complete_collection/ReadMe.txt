@@ -1,4 +1,4 @@
-Complete Collection v2.3.2
+Complete Collection v2.4.0
 for BlazeandCave's Advancement Pack featuring a very hard to get advancement with appropriate xp gain, and a small secret advancement for doing it twice, or thrice, a reward that will confuse those not in on the joke, and a special trophy(?)
 And it keeps growing with more advancements!
 

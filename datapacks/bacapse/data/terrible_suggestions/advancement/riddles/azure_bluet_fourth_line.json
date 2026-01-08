@@ -1,0 +1,10 @@
+{
+  "rewards": {
+    "function": "suggestion_rewards:riddles/azure_bluet_fourth_line"
+  },
+  "criteria": {
+    "fourth_line": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "rewards": {
+    "function": "suggestion_rewards:riddles/azure_bluet_sequel_tenth_line"
+  },
+  "criteria": {
+    "tenth_line": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_ninth_line": true
+            }
+          },
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:light_gray_concrete"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

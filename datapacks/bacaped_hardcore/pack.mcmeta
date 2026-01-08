@@ -1,20 +1,9 @@
 {
   "pack": {
-    "pack_format": 88,
-	"min_format": [88, 0],
-	"max_format": [88, 0],
-    "description": "\"Enhanced Discoveries Hardcore Addon\""
-  },
-  "filter": {
-    "block": [
-      {
-        "namespace": "bacaped",
-        "path": "adventure/the_hardest_and_unfairest_one_yet"
-      },
-      {
-        "namespace": "bacaped_rewards",
-        "path": "adventure/the_hardest_and_unfairest_one_yet"
-      }
-    ]
+    "pack_format": 94,
+        "min_format": [94.1],
+        "max_format": [94.1],
+        "description": [{"text":"\"Enhanced discoveries ","color":"#74B021"},{"text":"Hardcore Addon\"","color":"dark_red"}]
   }
 }
+

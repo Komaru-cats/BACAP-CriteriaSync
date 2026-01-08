@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wandering_trader_spawn_egg"
+    },
+    "title": "Wandering Caravan",
+    "description": {
+      "translate": "Kill 5 Wandering Traders with one piercing arrownnSuggested by rounduction",
+      "color": "light_purple"
+    },
+    "frame": "challenge"
+  },
+  "parent": "terrible_suggestions:technical/hiddens/wandering_caravan_hidden_2",
+  "criteria": {
+    "wandering_caravan": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "fired_from_weapon": {
+          "items": [
+            "minecraft:crossbow"
+          ]
+        },
+        "victims": [
+          {
+            "type": [
+              "minecraft:wandering_trader"
+            ]
+          },
+          {
+            "type": [
+              "minecraft:wandering_trader"
+            ]
+          },
+          {
+            "type": [
+              "minecraft:wandering_trader"
+            ]
+          },
+          {
+            "type": [
+              "minecraft:wandering_trader"
+            ]
+          },
+          {
+            "type": [
+              "minecraft:wandering_trader"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/wandering_caravan"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:piglin_spawn_egg"
+    },
+    "title": "Behold, the Malgosha's Army",
+    "description": {
+      "translate": "Have 20 ghasts, 150 piglins and 50 hoglins within 100 blocks of you, the entire area being in the Nether WastesnnSuggested by CoolgirlOmega",
+      "color": "#FF2A2A"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:challenges/root",
+  "criteria": {
+    "behold_the_malgoshas_army": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/behold_the_malgoshas_army_a"
+  }
+}

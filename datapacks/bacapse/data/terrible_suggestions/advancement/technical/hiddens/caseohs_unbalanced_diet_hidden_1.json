@@ -1,0 +1,8 @@
+{
+	"parent": "blazeandcave:farming/a_gluttonous_diet",	
+	"criteria": {
+		"hidden": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

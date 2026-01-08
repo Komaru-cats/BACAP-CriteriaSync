@@ -1,0 +1,151 @@
+{
+  "requirements": [
+    [
+      "tenth_line_wall_back",
+      "tenth_line_wall_front",
+      "tenth_line_ground_back",
+      "tenth_line_ground_front"
+    ]
+  ],
+  "rewards": {
+    "function": "suggestion_rewards:riddles/azure_bluet_tenth_line"
+  },
+  "criteria": {
+    "tenth_line_ground_front": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_ninth_line": true
+            }
+          }
+        },
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:light_gray_dye"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pale_oak_sign"
+                ],
+                "nbt": "{front_text:{messages:[\"Azure Bluet\"]}}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tenth_line_ground_back": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_ninth_line": true
+            }
+          }
+        },
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:light_gray_dye"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pale_oak_sign"
+                ],
+                "nbt": "{back_text:{messages:[\"Azure Bluet\"]}}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tenth_line_wall_front": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_ninth_line": true
+            }
+          }
+        },
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:light_gray_dye"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pale_oak_wall_sign"
+                ],
+                "nbt": "{front_text:{messages:[\"Azure Bluet\"]}}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tenth_line_wall_back": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_ninth_line": true
+            }
+          }
+        },
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:light_gray_dye"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pale_oak_wall_sign"
+                ],
+                "nbt": "{back_text:{messages:[\"Azure Bluet\"]}}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

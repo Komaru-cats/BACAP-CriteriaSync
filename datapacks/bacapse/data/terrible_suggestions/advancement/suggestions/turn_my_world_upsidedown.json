@@ -1,0 +1,3420 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:name_tag"
+    },
+    "title": "Turn My World Upside-Down",
+    "description": {
+      "translate": "Name every mob 'Dinnerbone' or 'Grumm'nnSuggested by StarLatte"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:adventure/whats_up_doc",
+  "criteria": {
+    "allay_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:allay"
+          ]
+        }
+      }
+    },
+    "allay_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:allay"
+          ]
+        }
+      }
+    },
+    "armadillo_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:armadillo"
+          ]
+        }
+      }
+    },
+    "armadillo_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:armadillo"
+          ]
+        }
+      }
+    },
+    "axolotl_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:axolotl"
+          ]
+        }
+      }
+    },
+    "axolotl_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:axolotl"
+          ]
+        }
+      }
+    },
+    "bat_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:bat"
+          ]
+        }
+      }
+    },
+    "bat_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:bat"
+          ]
+        }
+      }
+    },
+    "camel_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:camel"
+          ]
+        }
+      }
+    },
+    "camel_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:camel"
+          ]
+        }
+      }
+    },
+    "cat_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:cat"
+          ]
+        }
+      }
+    },
+    "cat_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:cat"
+          ]
+        }
+      }
+    },
+    "chicken_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:chicken"
+          ]
+        }
+      }
+    },
+    "chicken_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:chicken"
+          ]
+        }
+      }
+    },
+    "cod_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:cod"
+          ]
+        }
+      }
+    },
+    "cod_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:cod"
+          ]
+        }
+      }
+    },
+    "cow_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:cow"
+          ]
+        }
+      }
+    },
+    "cow_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:cow"
+          ]
+        }
+      }
+    },
+    "donkey_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:donkey"
+          ]
+        }
+      }
+    },
+    "donkey_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:donkey"
+          ]
+        }
+      }
+    },
+    "frog_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:frog"
+          ]
+        }
+      }
+    },
+    "frog_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:frog"
+          ]
+        }
+      }
+    },
+    "glow_squid_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:glow_squid"
+          ]
+        }
+      }
+    },
+    "glow_squid_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:glow_squid"
+          ]
+        }
+      }
+    },
+    "horse_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:horse"
+          ]
+        }
+      }
+    },
+    "horse_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:horse"
+          ]
+        }
+      }
+    },
+    "mooshroom_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:mooshroom"
+          ]
+        }
+      }
+    },
+    "mooshroom_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:mooshroom"
+          ]
+        }
+      }
+    },
+    "mule_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:mule"
+          ]
+        }
+      }
+    },
+    "mule_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:mule"
+          ]
+        }
+      }
+    },
+    "ocelot_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:ocelot"
+          ]
+        }
+      }
+    },
+    "ocelot_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:ocelot"
+          ]
+        }
+      }
+    },
+    "parrot_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:parrot"
+          ]
+        }
+      }
+    },
+    "parrot_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:parrot"
+          ]
+        }
+      }
+    },
+    "pig_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:pig"
+          ]
+        }
+      }
+    },
+    "pig_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:pig"
+          ]
+        }
+      }
+    },
+    "pufferfish_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:pufferfish"
+          ]
+        }
+      }
+    },
+    "pufferfish_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:pufferfish"
+          ]
+        }
+      }
+    },
+    "rabbit_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:rabbit"
+          ]
+        }
+      }
+    },
+    "rabbit_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:rabbit"
+          ]
+        }
+      }
+    },
+    "salmon_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:salmon"
+          ]
+        }
+      }
+    },
+    "salmon_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:salmon"
+          ]
+        }
+      }
+    },
+    "sheep_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:sheep"
+          ]
+        }
+      }
+    },
+    "sheep_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:sheep"
+          ]
+        }
+      }
+    },
+    "skeleton_horse_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:skeleton_horse"
+          ]
+        }
+      }
+    },
+    "skeleton_horse_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:skeleton_horse"
+          ]
+        }
+      }
+    },
+    "sniffer_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:sniffer"
+          ]
+        }
+      }
+    },
+    "sniffer_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:sniffer"
+          ]
+        }
+      }
+    },
+    "snow_golem_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:snow_golem"
+          ]
+        }
+      }
+    },
+    "snow_golem_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:snow_golem"
+          ]
+        }
+      }
+    },
+    "squid_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:squid"
+          ]
+        }
+      }
+    },
+    "squid_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:squid"
+          ]
+        }
+      }
+    },
+    "strider_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:strider"
+          ]
+        }
+      }
+    },
+    "strider_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:strider"
+          ]
+        }
+      }
+    },
+    "tadpole_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:tadpole"
+          ]
+        }
+      }
+    },
+    "tadpole_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:tadpole"
+          ]
+        }
+      }
+    },
+    "tropical_fish_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:tropical_fish"
+          ]
+        }
+      }
+    },
+    "tropical_fish_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:tropical_fish"
+          ]
+        }
+      }
+    },
+    "turtle_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:turtle"
+          ]
+        }
+      }
+    },
+    "turtle_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:turtle"
+          ]
+        }
+      }
+    },
+    "villager_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:villager"
+          ]
+        }
+      }
+    },
+    "villager_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:villager"
+          ]
+        }
+      }
+    },
+    "wandering_trader_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:wandering_trader"
+          ]
+        }
+      }
+    },
+    "wandering_trader_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:wandering_trader"
+          ]
+        }
+      }
+    },
+    "bee_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ]
+        }
+      }
+    },
+    "bee_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ]
+        }
+      }
+    },
+    "cave_spider_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:cave_spider"
+          ]
+        }
+      }
+    },
+    "cave_spider_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:cave_spider"
+          ]
+        }
+      }
+    },
+    "dolphin_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:dolphin"
+          ]
+        }
+      }
+    },
+    "dolphin_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:dolphin"
+          ]
+        }
+      }
+    },
+    "drowned_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:drowned"
+          ]
+        }
+      }
+    },
+    "drowned_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:drowned"
+          ]
+        }
+      }
+    },
+    "enderman_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:enderman"
+          ]
+        }
+      }
+    },
+    "enderman_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:enderman"
+          ]
+        }
+      }
+    },
+    "fox_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:fox"
+          ]
+        }
+      }
+    },
+    "fox_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:fox"
+          ]
+        }
+      }
+    },
+    "goat_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:goat"
+          ]
+        }
+      }
+    },
+    "goat_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:goat"
+          ]
+        }
+      }
+    },
+    "iron_golem_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:iron_golem"
+          ]
+        }
+      }
+    },
+    "iron_golem_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:iron_golem"
+          ]
+        }
+      }
+    },
+    "llama_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:llama"
+          ]
+        }
+      }
+    },
+    "llama_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:llama"
+          ]
+        }
+      }
+    },
+    "panda_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:panda"
+          ]
+        }
+      }
+    },
+    "panda_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:panda"
+          ]
+        }
+      }
+    },
+    "piglin_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:piglin"
+          ]
+        }
+      }
+    },
+    "piglin_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:piglin"
+          ]
+        }
+      }
+    },
+    "polar_bear_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:polar_bear"
+          ]
+        }
+      }
+    },
+    "polar_bear_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:polar_bear"
+          ]
+        }
+      }
+    },
+    "spider_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:spider"
+          ]
+        }
+      }
+    },
+    "spider_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:spider"
+          ]
+        }
+      }
+    },
+    "trader_llama_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:trader_llama"
+          ]
+        }
+      }
+    },
+    "trader_llama_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:trader_llama"
+          ]
+        }
+      }
+    },
+    "wolf_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:wolf"
+          ]
+        }
+      }
+    },
+    "wolf_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:wolf"
+          ]
+        }
+      }
+    },
+    "zombified_piglin_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:zombified_piglin"
+          ]
+        }
+      }
+    },
+    "zombified_piglin_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:zombified_piglin"
+          ]
+        }
+      }
+    },
+    "blaze_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:blaze"
+          ]
+        }
+      }
+    },
+    "blaze_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:blaze"
+          ]
+        }
+      }
+    },
+    "bogged_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:bogged"
+          ]
+        }
+      }
+    },
+    "bogged_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:bogged"
+          ]
+        }
+      }
+    },
+    "breeze_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:breeze"
+          ]
+        }
+      }
+    },
+    "breeze_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:breeze"
+          ]
+        }
+      }
+    },
+    "creaking_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:creaking"
+          ]
+        }
+      }
+    },
+    "creaking_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:creaking"
+          ]
+        }
+      }
+    },
+    "creeper_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:creeper"
+          ]
+        }
+      }
+    },
+    "creeper_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:creeper"
+          ]
+        }
+      }
+    },
+    "elder_guardian_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:elder_guardian"
+          ]
+        }
+      }
+    },
+    "elder_guardian_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:elder_guardian"
+          ]
+        }
+      }
+    },
+    "endermite_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:endermite"
+          ]
+        }
+      }
+    },
+    "endermite_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:endermite"
+          ]
+        }
+      }
+    },
+    "evoker_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:evoker"
+          ]
+        }
+      }
+    },
+    "evoker_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:evoker"
+          ]
+        }
+      }
+    },
+    "ghast_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:ghast"
+          ]
+        }
+      }
+    },
+    "ghast_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:ghast"
+          ]
+        }
+      }
+    },
+    "guardian_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:guardian"
+          ]
+        }
+      }
+    },
+    "guardian_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:guardian"
+          ]
+        }
+      }
+    },
+    "hoglin_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:hoglin"
+          ]
+        }
+      }
+    },
+    "hoglin_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:hoglin"
+          ]
+        }
+      }
+    },
+    "husk_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:husk"
+          ]
+        }
+      }
+    },
+    "husk_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:husk"
+          ]
+        }
+      }
+    },
+    "magma_cube_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:magma_cube"
+          ]
+        }
+      }
+    },
+    "magma_cube_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:magma_cube"
+          ]
+        }
+      }
+    },
+    "phantom_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:phantom"
+          ]
+        }
+      }
+    },
+    "phantom_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:phantom"
+          ]
+        }
+      }
+    },
+    "piglin_brute_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:piglin_brute"
+          ]
+        }
+      }
+    },
+    "piglin_brute_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:piglin_brute"
+          ]
+        }
+      }
+    },
+    "pillager_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:pillager"
+          ]
+        }
+      }
+    },
+    "pillager_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:pillager"
+          ]
+        }
+      }
+    },
+    "ravager_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:ravager"
+          ]
+        }
+      }
+    },
+    "ravager_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:ravager"
+          ]
+        }
+      }
+    },
+    "shulker_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:shulker"
+          ]
+        }
+      }
+    },
+    "shulker_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:shulker"
+          ]
+        }
+      }
+    },
+    "silverfish_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:silverfish"
+          ]
+        }
+      }
+    },
+    "silverfish_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:silverfish"
+          ]
+        }
+      }
+    },
+    "skeleton_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:skeleton"
+          ]
+        }
+      }
+    },
+    "skeleton_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:skeleton"
+          ]
+        }
+      }
+    },
+    "slime_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:slime"
+          ]
+        }
+      }
+    },
+    "slime_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:slime"
+          ]
+        }
+      }
+    },
+    "stray_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:stray"
+          ]
+        }
+      }
+    },
+    "stray_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:stray"
+          ]
+        }
+      }
+    },
+    "vex_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:vex"
+          ]
+        }
+      }
+    },
+    "vex_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:vex"
+          ]
+        }
+      }
+    },
+    "vindicator_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:vindicator"
+          ]
+        }
+      }
+    },
+    "vindicator_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:vindicator"
+          ]
+        }
+      }
+    },
+    "warden_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:warden"
+          ]
+        }
+      }
+    },
+    "warden_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:warden"
+          ]
+        }
+      }
+    },
+    "witch_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:witch"
+          ]
+        }
+      }
+    },
+    "witch_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:witch"
+          ]
+        }
+      }
+    },
+    "wither_skeleton_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:wither_skeleton"
+          ]
+        }
+      }
+    },
+    "wither_skeleton_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:wither_skeleton"
+          ]
+        }
+      }
+    },
+    "zoglin_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:zoglin"
+          ]
+        }
+      }
+    },
+    "zoglin_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:zoglin"
+          ]
+        }
+      }
+    },
+    "zombie_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:zombie"
+          ]
+        }
+      }
+    },
+    "zombie_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:zombie"
+          ]
+        }
+      }
+    },
+    "zombie_villager_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:zombie_villager"
+          ]
+        }
+      }
+    },
+    "zombie_villager_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:zombie_villager"
+          ]
+        }
+      }
+    },
+    "wither_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:wither"
+          ]
+        }
+      }
+    },
+    "wither_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:wither"
+          ]
+        }
+      }
+    },
+    "nautilus_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:nautilus"
+          ]
+        }
+      }
+    },
+    "nautilus_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:nautilus"
+          ]
+        }
+      }
+    },
+    "zombie_nautilus_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:zombie_nautilus"
+          ]
+        }
+      }
+    },
+    "zombie_nautilus_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:zombie_nautilus"
+          ]
+        }
+      }
+    },
+    "zombie_horse_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:zombie_horse"
+          ]
+        }
+      }
+    },
+    "zombie_horse_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:zombie_horse"
+          ]
+        }
+      }
+    },
+    "camel_husk_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:camel_husk"
+          ]
+        }
+      }
+    },
+    "camel_husk_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:camel_husk"
+          ]
+        }
+      }
+    },
+    "parched_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:parched"
+          ]
+        }
+      }
+    },
+    "parched_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:parched"
+          ]
+        }
+      }
+    },
+    "copper_golem_dinnerbone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Dinnerbone"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:copper_golem"
+          ]
+        }
+      }
+    },
+    "copper_golem_grumm": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "Grumm"
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:copper_golem"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "allay_dinnerbone",
+      "allay_grumm"
+    ],
+    [
+      "armadillo_dinnerbone",
+      "armadillo_grumm"
+    ],
+    [
+      "axolotl_dinnerbone",
+      "axolotl_grumm"
+    ],
+    [
+      "bat_dinnerbone",
+      "bat_grumm"
+    ],
+    [
+      "camel_dinnerbone",
+      "camel_grumm"
+    ],
+    [
+      "cat_dinnerbone",
+      "cat_grumm"
+    ],
+    [
+      "chicken_dinnerbone",
+      "chicken_grumm"
+    ],
+    [
+      "cod_dinnerbone",
+      "cod_grumm"
+    ],
+    [
+      "cow_dinnerbone",
+      "cow_grumm"
+    ],
+    [
+      "donkey_dinnerbone",
+      "donkey_grumm"
+    ],
+    [
+      "frog_dinnerbone",
+      "frog_grumm"
+    ],
+    [
+      "glow_squid_dinnerbone",
+      "glow_squid_grumm"
+    ],
+    [
+      "horse_dinnerbone",
+      "horse_grumm"
+    ],
+    [
+      "mooshroom_dinnerbone",
+      "mooshroom_grumm"
+    ],
+    [
+      "mule_dinnerbone",
+      "mule_grumm"
+    ],
+    [
+      "ocelot_dinnerbone",
+      "ocelot_grumm"
+    ],
+    [
+      "parrot_dinnerbone",
+      "parrot_grumm"
+    ],
+    [
+      "pig_dinnerbone",
+      "pig_grumm"
+    ],
+    [
+      "pufferfish_dinnerbone",
+      "pufferfish_grumm"
+    ],
+    [
+      "rabbit_dinnerbone",
+      "rabbit_grumm"
+    ],
+    [
+      "salmon_dinnerbone",
+      "salmon_grumm"
+    ],
+    [
+      "sheep_dinnerbone",
+      "sheep_grumm"
+    ],
+    [
+      "skeleton_horse_dinnerbone",
+      "skeleton_horse_grumm"
+    ],
+    [
+      "sniffer_dinnerbone",
+      "sniffer_grumm"
+    ],
+    [
+      "snow_golem_dinnerbone",
+      "snow_golem_grumm"
+    ],
+    [
+      "squid_dinnerbone",
+      "squid_grumm"
+    ],
+    [
+      "strider_dinnerbone",
+      "strider_grumm"
+    ],
+    [
+      "tadpole_dinnerbone",
+      "tadpole_grumm"
+    ],
+    [
+      "tropical_fish_dinnerbone",
+      "tropical_fish_grumm"
+    ],
+    [
+      "turtle_dinnerbone",
+      "turtle_grumm"
+    ],
+    [
+      "villager_dinnerbone",
+      "villager_grumm"
+    ],
+    [
+      "wandering_trader_dinnerbone",
+      "wandering_trader_grumm"
+    ],
+    [
+      "bee_dinnerbone",
+      "bee_grumm"
+    ],
+    [
+      "cave_spider_dinnerbone",
+      "cave_spider_grumm"
+    ],
+    [
+      "dolphin_dinnerbone",
+      "dolphin_grumm"
+    ],
+    [
+      "drowned_dinnerbone",
+      "drowned_grumm"
+    ],
+    [
+      "enderman_dinnerbone",
+      "enderman_grumm"
+    ],
+    [
+      "fox_dinnerbone",
+      "fox_grumm"
+    ],
+    [
+      "goat_dinnerbone",
+      "goat_grumm"
+    ],
+    [
+      "iron_golem_dinnerbone",
+      "iron_golem_grumm"
+    ],
+    [
+      "llama_dinnerbone",
+      "llama_grumm"
+    ],
+    [
+      "panda_dinnerbone",
+      "panda_grumm"
+    ],
+    [
+      "piglin_dinnerbone",
+      "piglin_grumm"
+    ],
+    [
+      "polar_bear_dinnerbone",
+      "polar_bear_grumm"
+    ],
+    [
+      "spider_dinnerbone",
+      "spider_grumm"
+    ],
+    [
+      "trader_llama_dinnerbone",
+      "trader_llama_grumm"
+    ],
+    [
+      "wolf_dinnerbone",
+      "wolf_grumm"
+    ],
+    [
+      "zombified_piglin_dinnerbone",
+      "zombified_piglin_grumm"
+    ],
+    [
+      "blaze_dinnerbone",
+      "blaze_grumm"
+    ],
+    [
+      "bogged_dinnerbone",
+      "bogged_grumm"
+    ],
+    [
+      "breeze_dinnerbone",
+      "breeze_grumm"
+    ],
+    [
+      "creaking_dinnerbone",
+      "creaking_grumm"
+    ],
+    [
+      "creeper_dinnerbone",
+      "creeper_grumm"
+    ],
+    [
+      "elder_guardian_dinnerbone",
+      "elder_guardian_grumm"
+    ],
+    [
+      "endermite_dinnerbone",
+      "endermite_grumm"
+    ],
+    [
+      "evoker_dinnerbone",
+      "evoker_grumm"
+    ],
+    [
+      "ghast_dinnerbone",
+      "ghast_grumm"
+    ],
+    [
+      "guardian_dinnerbone",
+      "guardian_grumm"
+    ],
+    [
+      "hoglin_dinnerbone",
+      "hoglin_grumm"
+    ],
+    [
+      "husk_dinnerbone",
+      "husk_grumm"
+    ],
+    [
+      "magma_cube_dinnerbone",
+      "magma_cube_grumm"
+    ],
+    [
+      "phantom_dinnerbone",
+      "phantom_grumm"
+    ],
+    [
+      "piglin_brute_dinnerbone",
+      "piglin_brute_grumm"
+    ],
+    [
+      "pillager_dinnerbone",
+      "pillager_grumm"
+    ],
+    [
+      "ravager_dinnerbone",
+      "ravager_grumm"
+    ],
+    [
+      "shulker_dinnerbone",
+      "shulker_grumm"
+    ],
+    [
+      "silverfish_dinnerbone",
+      "silverfish_grumm"
+    ],
+    [
+      "skeleton_dinnerbone",
+      "skeleton_grumm"
+    ],
+    [
+      "slime_dinnerbone",
+      "slime_grumm"
+    ],
+    [
+      "stray_dinnerbone",
+      "stray_grumm"
+    ],
+    [
+      "vex_dinnerbone",
+      "vex_grumm"
+    ],
+    [
+      "vindicator_dinnerbone",
+      "vindicator_grumm"
+    ],
+    [
+      "warden_dinnerbone",
+      "warden_grumm"
+    ],
+    [
+      "witch_dinnerbone",
+      "witch_grumm"
+    ],
+    [
+      "wither_skeleton_dinnerbone",
+      "wither_skeleton_grumm"
+    ],
+    [
+      "zoglin_dinnerbone",
+      "zoglin_grumm"
+    ],
+    [
+      "zombie_dinnerbone",
+      "zombie_grumm"
+    ],
+    [
+      "zombie_villager_dinnerbone",
+      "zombie_villager_grumm"
+    ],
+    [
+      "wither_dinnerbone",
+      "wither_grumm"
+    ],
+    [
+      "nautilus_dinnerbone",
+      "nautilus_grumm"
+    ],
+    [
+      "zombie_nautilus_dinnerbone",
+      "zombie_nautilus_grumm"
+    ],
+    [
+      "zombie_horse_dinnerbone",
+      "zombie_horse_grumm"
+    ],
+    [
+      "camel_husk_dinnerbone",
+      "camel_husk_grumm"
+    ],
+    [
+      "parched_dinnerbone",
+      "parched_grumm"
+    ],
+    [
+      "copper_golem_dinnerbone",
+      "copper_golem_grumm"
+    ]
+  ],
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/turn_my_world_upsidedown"
+  }
+}

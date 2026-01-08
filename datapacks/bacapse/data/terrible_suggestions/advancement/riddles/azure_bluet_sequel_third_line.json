@@ -1,0 +1,33 @@
+{
+  "rewards": {
+    "function": "suggestion_rewards:riddles/azure_bluet_sequel_third_line"
+  },
+  "criteria": {
+    "third_line": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_second_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:azure_bluet"
+          ]
+        },
+        "entity": {
+          "type": [
+            "minecraft:mooshroom"
+          ],
+          "components": {
+            "minecraft:mooshroom/variant": "brown"
+          }
+        }
+      }
+    }
+  }
+}

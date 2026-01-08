@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_fungus"
+    },
+    "title": "When Hogs Fly",
+    "description": {
+      "translate": "Breed levitating hogsnnSuggested by Hannah"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:end/dogfight",
+  "criteria": {
+    "when_hogs_fly": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": [
+            "minecraft:hoglin"
+          ],
+          "effects": {
+            "minecraft:levitation": {}
+          }
+        },
+        "partner": {
+          "type": [
+            "minecraft:hoglin"
+          ],
+          "effects": {
+            "minecraft:levitation": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/when_hogs_fly"
+  }
+}

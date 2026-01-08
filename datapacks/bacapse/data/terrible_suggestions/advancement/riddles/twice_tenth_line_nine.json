@@ -1,0 +1,53 @@
+{
+	"rewards": {
+		"function": "suggestion_rewards:riddles/twice_tenth_line_nine"
+	},
+	"criteria": {
+		"drowned": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:drowned",
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:fishing_rod"
+							]
+						}
+					}
+				},
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"terrible_suggestions:riddles/twice_tenth_line_eight": true
+						}
+					}
+				}
+			}
+		},
+		"zombie_villager": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:zombie_villager",
+					"nbt": "{VillagerData:{profession:\"minecraft:fisherman\"}}"
+				},
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"terrible_suggestions:riddles/twice_tenth_line_eight": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"drowned",
+			"zombie_villager"
+		]
+	]
+}

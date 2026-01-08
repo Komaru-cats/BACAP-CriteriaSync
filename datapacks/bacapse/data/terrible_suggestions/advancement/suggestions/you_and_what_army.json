@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wolf_spawn_egg"
+    },
+    "title": "You and What Army?",
+    "description": {
+      "translate": "Tame any 9 wolvesnnSuggested by Ashley",
+      "color": "#75E1FF"
+    },
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:animal/puppies_yipe",
+  "criteria": {
+    "you_and_what_army": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/you_and_what_army"
+  }
+}

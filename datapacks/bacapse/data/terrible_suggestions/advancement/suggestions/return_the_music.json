@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warden_spawn_egg"
+    },
+    "title": "Return the music",
+    "description": {
+      "translate": "Play the Music Disc 5 in an ancient city, while near a WardennnSuggested by Dec1ded",
+      "color": "#75E1FF"
+    },
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:mining/9_to_5",
+  "criteria": {
+    "return_the_music": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/return_the_music"
+  }
+}

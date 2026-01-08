@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fire_charge",
+      "components": {
+        "minecraft:enchantments": {
+          "minecraft:flame": 1
+        }
+      }
+    },
+    "title": "You're Not Getting This One",
+    "description": {
+      "translate": "Kill a warden with a deflected ghast fireball in an end city with 37 shulker shells in your main hand, full Curse of Vanishing and Curse of Binding leather armor dyed with 3 blue and 4 green dyes, a Piercing 2 Unbreaking 1 Mending Curse of Vanishing crossbow in your offhand, and with only hunger while sitting on a strider that's on a stridernnSuggested by rounduction",
+      "color": "light_purple"
+    },
+    "frame": "challenge"
+  },
+  "parent": "terrible_suggestions:technical/hiddens/youre_not_getting_this_one_hidden_2",
+  "criteria": {
+    "youre_not_getting_this_one": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/youre_not_getting_this_one"
+  }
+}

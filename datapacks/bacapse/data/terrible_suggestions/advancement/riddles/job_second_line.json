@@ -1,0 +1,904 @@
+{
+  "criteria": {
+    "aqua_affinity_1": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:aqua_affinity": 1
+            }
+          }
+        }
+      }
+    },
+    "bane_of_arthropods_5": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:bane_of_arthropods": 5
+            }
+          }
+        }
+      }
+    },
+    "binding_curse_1": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:binding_curse": 1
+            }
+          }
+        }
+      }
+    },
+    "blast_protection_4": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:blast_protection": 4
+            }
+          }
+        }
+      }
+    },
+    "breach_4": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:breach": 4
+            }
+          }
+        }
+      }
+    },
+    "channeling_1": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:channeling": 1
+            }
+          }
+        }
+      }
+    },
+    "density_5": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:density": 5
+            }
+          }
+        }
+      }
+    },
+    "depth_strider_3": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:depth_strider": 3
+            }
+          }
+        }
+      }
+    },
+    "efficiency_5": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:efficiency": 5
+            }
+          }
+        }
+      }
+    },
+    "feather_falling_4": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:feather_falling": 4
+            }
+          }
+        }
+      }
+    },
+    "fire_aspect_2": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:fire_aspect": 2
+            }
+          }
+        }
+      }
+    },
+    "fire_protection_4": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:fire_protection": 4
+            }
+          }
+        }
+      }
+    },
+    "flame_1": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:flame": 1
+            }
+          }
+        }
+      }
+    },
+    "fortune_3": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:fortune": 3
+            }
+          }
+        }
+      }
+    },
+    "frost_walker_2": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:frost_walker": 2
+            }
+          }
+        }
+      }
+    },
+    "impaling_5": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:impaling": 5
+            }
+          }
+        }
+      }
+    },
+    "infinity_1": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:infinity": 1
+            }
+          }
+        }
+      }
+    },
+    "knockback_2": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:knockback": 2
+            }
+          }
+        }
+      }
+    },
+    "looting_3": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:looting": 3
+            }
+          }
+        }
+      }
+    },
+    "loyalty_3": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:loyalty": 3
+            }
+          }
+        }
+      }
+    },
+    "luck_of_the_sea_3": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:luck_of_the_sea": 3
+            }
+          }
+        }
+      }
+    },
+    "lure_3": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:lure": 3
+            }
+          }
+        }
+      }
+    },
+    "mending_1": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:mending": 1
+            }
+          }
+        }
+      }
+    },
+    "multishot_1": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:multishot": 1
+            }
+          }
+        }
+      }
+    },
+    "piercing_4": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:piercing": 4
+            }
+          }
+        }
+      }
+    },
+    "power_5": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:power": 5
+            }
+          }
+        }
+      }
+    },
+    "projectile_protection_4": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:projectile_protection": 4
+            }
+          }
+        }
+      }
+    },
+    "protection_4": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:protection": 4
+            }
+          }
+        }
+      }
+    },
+    "punch_2": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:punch": 2
+            }
+          }
+        }
+      }
+    },
+    "quick_charge_3": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:quick_charge": 3
+            }
+          }
+        }
+      }
+    },
+    "respiration_3": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:respiration": 3
+            }
+          }
+        }
+      }
+    },
+    "riptide_3": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:riptide": 3
+            }
+          }
+        }
+      }
+    },
+    "sharpness_5": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:sharpness": 5
+            }
+          }
+        }
+      }
+    },
+    "silk_touch_1": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:silk_touch": 1
+            }
+          }
+        }
+      }
+    },
+    "smite_5": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:smite": 5
+            }
+          }
+        }
+      }
+    },
+    "sweeping_edge_3": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:sweeping_edge": 3
+            }
+          }
+        }
+      }
+    },
+    "thorns_3": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:thorns": 3
+            }
+          }
+        }
+      }
+    },
+    "unbreaking_3": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:unbreaking": 3
+            }
+          }
+        }
+      }
+    },
+    "vanishing_curse_1": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:vanishing_curse": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:riddles/job_second_line"
+  }
+}

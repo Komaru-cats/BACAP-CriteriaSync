@@ -1,0 +1,531 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "MHF_Question"
+        }
+      }
+    },
+    "title": "Suggestion Advancement Legend",
+    "description": {
+      "translate": "Complete every single advancement in BACAP Suggestion Edition",
+      "color": "gold"
+    },
+    "frame": "challenge"
+  },
+  "parent": "terrible_suggestions:suggestions/advancement_legend",
+  "criteria": {
+    "highway_to_heaven": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/highway_to_heaven": true
+            }
+          }
+        }
+      }
+    },
+    "making_the_pack_harder": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/making_the_pack_harder": true
+            }
+          }
+        }
+      }
+    },
+    "a_transcendently_superb_duo": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/a_transcendently_superb_duo": true
+            }
+          }
+        }
+      }
+    },
+    "an_ineffably_sublime_trio": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/an_ineffably_sublime_trio": true
+            }
+          }
+        }
+      }
+    },
+    "riddle_me_twice": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/riddle_me_twice": true
+            }
+          }
+        }
+      }
+    },
+    "riddle_me_azure_bluet": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/riddle_me_azure_bluet": true
+            }
+          }
+        }
+      }
+    },
+    "the_bee_movie_abridged": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/the_bee_movie_abridged": true
+            }
+          }
+        }
+      }
+    },
+    "an_exaltedly_resplendent_quartet": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/an_exaltedly_resplendent_quartet": true
+            }
+          }
+        }
+      }
+    },
+    "lumber_legend": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/lumber_legend": true
+            }
+          }
+        }
+      }
+    },
+    "charge_off": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/charge_off": true
+            }
+          }
+        }
+      }
+    },
+    "return_the_music": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/return_the_music": true
+            }
+          }
+        }
+      }
+    },
+    "get_to_the_tardis": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/get_to_the_tardis": true
+            }
+          }
+        }
+      }
+    },
+    "behold_the_malgoshas_army_a": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/behold_the_malgoshas_army_a": true
+            }
+          }
+        }
+      }
+    },
+    "behold_the_malgoshas_army_b": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/behold_the_malgoshas_army_b": true
+            }
+          }
+        }
+      }
+    },
+    "ghost_in_the_graveyard": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/ghost_in_the_graveyard": true
+            }
+          }
+        }
+      }
+    },
+    "horrible_accident": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/horrible_accident": true
+            }
+          }
+        }
+      }
+    },
+    "the_black_pearl": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/the_black_pearl": true
+            }
+          }
+        }
+      }
+    },
+    "blazeandcave": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/blazeandcave": true
+            }
+          }
+        }
+      }
+    },
+    "dopamine_rush": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/dopamine_rush": true
+            }
+          }
+        }
+      }
+    },
+    "potato": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/potato": true
+            }
+          }
+        }
+      }
+    },
+    "shiny_kingdom": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/shiny_kingdom": true
+            }
+          }
+        }
+      }
+    },
+    "biome_rush": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/biome_rush": true
+            }
+          }
+        }
+      }
+    },
+    "this_wont_be_a_breeze": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/this_wont_be_a_breeze": true
+            }
+          }
+        }
+      }
+    },
+    "arsonist": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/arsonist": true
+            }
+          }
+        }
+      }
+    },
+    "working_overtime": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/working_overtime": true
+            }
+          }
+        }
+      }
+    },
+    "ocean_of_blood": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/ocean_of_blood": true
+            }
+          }
+        }
+      }
+    },
+    "extinguished": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/extinguished": true
+            }
+          }
+        }
+      }
+    },
+    "advancement_legend": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/advancement_legend": true
+            }
+          }
+        }
+      }
+    },
+    "its_over_9000": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/its_over_9000": true
+            }
+          }
+        }
+      }
+    },
+    "when_hogs_fly": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/when_hogs_fly": true
+            }
+          }
+        }
+      }
+    },
+    "turn_my_world_upsidedown": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/turn_my_world_upsidedown": true
+            }
+          }
+        }
+      }
+    },
+    "any_percent": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/any_percent": true
+            }
+          }
+        }
+      }
+    },
+    "you_and_what_army": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/you_and_what_army": true
+            }
+          }
+        }
+      }
+    },
+    "wow_this_is_pretty_cool": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/wow_this_is_pretty_cool": true
+            }
+          }
+        }
+      }
+    },
+    "ive_seen_this_somewhere": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/ive_seen_this_somewhere": true
+            }
+          }
+        }
+      }
+    },
+    "a_tuff_moment": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/a_tuff_moment": true
+            }
+          }
+        }
+      }
+    },
+    "im_more_perfect": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/im_more_perfect": true
+            }
+          }
+        }
+      }
+    },
+    "the_blue_marble": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/the_blue_marble": true
+            }
+          }
+        }
+      }
+    },
+    "master_miner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:suggestions/master_miner": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/suggestion_advancement_legend"
+  }
+}

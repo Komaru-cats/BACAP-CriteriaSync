@@ -1,0 +1,24 @@
+{
+	"rewards": {
+		"function": "suggestion_rewards:riddles/twice_tenth_line_six"
+	},		
+	"criteria": {
+		"fifth_line": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:invisibility": {},
+					"minecraft:glowing": {}
+				},
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"terrible_suggestions:riddles/twice_tenth_line_five": true
+						}
+					}
+				}
+			}
+		}
+	}
+}

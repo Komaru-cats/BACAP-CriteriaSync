@@ -1,0 +1,8 @@
+{
+	"parent": "terrible_suggestions:suggestions/i_should_riddle_you_a_job",	
+	"criteria": {
+		"reveal": {
+            "trigger": "minecraft:impossible"
+        }
+	}
+}

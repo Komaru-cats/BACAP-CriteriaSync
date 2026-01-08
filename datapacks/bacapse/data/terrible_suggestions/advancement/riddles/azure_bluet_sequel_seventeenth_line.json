@@ -1,0 +1,33 @@
+{
+  "rewards": {
+    "function": "suggestion_rewards:riddles/azure_bluet_sequel_seventeenth_line"
+  },
+  "criteria": {
+    "seventeenth_line": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_sixteenth_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:suspicious_stew"
+          ],
+          "components": {
+            "minecraft:suspicious_stew_effects": [
+              {
+                "id": "minecraft:blindness",
+                "duration": 220
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

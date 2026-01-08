@@ -1,0 +1,8 @@
+{
+	"parent": "terrible_suggestions:suggestions/riddle_me_azure_bluet_sequel",	
+	"criteria": {
+		"reveal": {
+            "trigger": "minecraft:impossible"
+        }
+	}
+}

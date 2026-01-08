@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_rocket"
+    },
+    "title": "Horrible Accident",
+    "description": {
+      "translate": "Die to a firework explosion set off by a villagernnSuggested by Jamsamamsa"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:adventure/you_are_the_pillager",
+  "criteria": {
+    "horrible_accident": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "killing_blow": {
+          "source_entity": {
+            "type": [
+              "minecraft:villager"
+            ]
+          },
+          "direct_entity": {
+            "type": [
+              "minecraft:firework_rocket"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/horrible_accident"
+  }
+}

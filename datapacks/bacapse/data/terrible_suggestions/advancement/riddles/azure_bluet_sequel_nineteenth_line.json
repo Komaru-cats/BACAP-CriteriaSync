@@ -1,0 +1,38 @@
+{
+  "rewards": {
+    "function": "suggestion_rewards:riddles/azure_bluet_sequel_nineteenth_line"
+  },
+  "criteria": {
+    "nineteenth_line": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_eighteenth_line": true
+            }
+          },
+          "location": {
+            "position": {
+              "y": {
+                "min": 280,
+                "max": 400
+              }
+            }
+          }
+        },
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:azure_bluet"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

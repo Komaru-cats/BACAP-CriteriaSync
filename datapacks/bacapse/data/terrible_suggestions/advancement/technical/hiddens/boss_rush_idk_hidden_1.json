@@ -1,0 +1,8 @@
+{
+	"parent": "terrible_suggestions:suggestions/kings_mace",	
+	"criteria": {
+		"hidden": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

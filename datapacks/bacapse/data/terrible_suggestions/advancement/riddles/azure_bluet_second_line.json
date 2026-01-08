@@ -1,0 +1,30 @@
+{
+  "rewards": {
+    "function": "suggestion_rewards:riddles/azure_bluet_second_line"
+  },
+  "criteria": {
+    "second_line": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_first_line": true
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:azure_bluet"
+          ]
+        },
+        "entity": {
+          "type": [
+            "minecraft:glow_item_frame"
+          ]
+        }
+      }
+    }
+  }
+}

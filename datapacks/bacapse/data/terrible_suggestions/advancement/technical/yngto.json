@@ -1,0 +1,116 @@
+{
+  "criteria": {
+    "yngto": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": [
+              "minecraft:end_city"
+            ]
+          },
+          "vehicle": {
+            "type": [
+              "minecraft:strider"
+            ],
+            "vehicle": {
+              "type": [
+                "minecraft:strider"
+              ]
+            }
+          },
+          "slots": {
+            "weapon.mainhand": {
+              "items": [
+                "minecraft:shulker_shell"
+              ],
+              "count": 37
+            },
+            "weapon.offhand": {
+              "items": [
+                "minecraft:crossbow"
+              ],
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:piercing": 2,
+                  "minecraft:unbreaking": 1,
+                  "minecraft:mending": 1,
+                  "minecraft:vanishing_curse": 1
+                }
+              }
+            },
+            "armor.head": {
+              "items": [
+                "minecraft:leather_helmet"
+              ],
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:binding_curse": 1,
+                  "minecraft:vanishing_curse": 1
+                },
+                "minecraft:dyed_color": 7442298
+              }
+            },
+            "armor.chest": {
+              "items": [
+                "minecraft:leather_chestplate"
+              ],
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:binding_curse": 1,
+                  "minecraft:vanishing_curse": 1
+                },
+                "minecraft:dyed_color": 7442298
+              }
+            },
+            "armor.legs": {
+              "items": [
+                "minecraft:leather_leggings"
+              ],
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:binding_curse": 1,
+                  "minecraft:vanishing_curse": 1
+                },
+                "minecraft:dyed_color": 7442298
+              }
+            },
+            "armor.feet": {
+              "items": [
+                "minecraft:leather_boots"
+              ],
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:binding_curse": 1,
+                  "minecraft:vanishing_curse": 1
+                },
+                "minecraft:dyed_color": 7442298
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:warden"
+          ],
+          "location": {
+            "structures": [
+              "minecraft:end_city"
+            ]
+          }
+        },
+        "killing_blow": {
+          "tags": [],
+          "direct_entity": {
+            "type": [
+              "minecraft:fireball"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "terrible_suggestions:yngto_check"
+  }
+}

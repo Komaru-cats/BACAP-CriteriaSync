@@ -7,7 +7,7 @@ from pathlib import Path
 from BACAP_Parser.utils import cut_namespace
 from BACAP_Parser import AdvType, AdvTypeManager, Datapack, Parser, Color, constants, TabNameMapper
 
-__version__ = "1.2.2"
+__version__ = "1.2.4"
 
 
 def split_set_to_sublists(data_set, divisor):
@@ -58,7 +58,7 @@ def load_parser():
 
     cereal_dedication_hardcore = Datapack(name="cereal_dedication_hardcore", path=Path("datapacks/cereal_dedication_hardcore"), adv_type_manager=cereal_dedication_manager, technical_tabs="technical")
 
-    complete_collection = Datapack(name="complete_collection", path=Path("datapacks/complete_collection"), adv_type_manager=manager, reward_namespace="bacap_rewards", technical_tabs="technical")
+    complete_collection = Datapack(name="complete_collection", path=Path("datapacks/complete_collection"), adv_type_manager=manager, reward_namespace="cc_rewards", technical_tabs="technical")
 
     return Parser(bacap, bacaped, bacaped_hardcore, bacap_hardcore, incendium, bacap_terralith,
                   bacap_nullscapes, bacap_amplified_nether, cereal_dedication_hardcore, cereal_dedication, complete_collection)

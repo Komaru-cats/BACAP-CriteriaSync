@@ -1,0 +1,5 @@
+tellraw @s {"color":"gray","italic":true,"translate":"Ninth Riddle Me Twice line complete…"}
+
+give @s clock[custom_name={"translate":"Tenth Parchment II","color":"white","bold":true,"italic":false},lore=[{"translate":"Do all of what you did the first time in reverse","color":"gray"}],custom_model_data={floats:[422]},enchantment_glint_override=true,minecraft:tooltip_display={hidden_components:["minecraft:attribute_modifiers","minecraft:banner_patterns","minecraft:base_color","minecraft:dyed_color","minecraft:fireworks","minecraft:firework_explosion","minecraft:instrument","minecraft:potion_contents","minecraft:provides_banner_patterns","minecraft:provides_trim_material","minecraft:stored_enchantments","minecraft:trim","minecraft:unbreakable","minecraft:written_book_content"]}] 1
+
+tellraw @s [{"text":" +1 ","color":"white"},{"translate":"Tenth Parchment II"}]

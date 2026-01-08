@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "rabbit_stew_trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:rabbit_stew"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "terrible_suggestions:rabbit_stew_trade"
+  }
+}

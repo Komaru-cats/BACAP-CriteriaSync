@@ -1,0 +1,159 @@
+{
+	"rewards": {
+		"function": "suggestion_rewards:riddles/twice_tenth_line_two"
+	},		
+	"criteria": {
+		"ninth_line_left": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:spyglass"
+					]
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"equipment": {
+								"offhand": {
+									"items": [
+										"minecraft:map",
+										"minecraft:filled_map"
+									]
+								}
+							},
+							"vehicle": {
+								"type": "#blazeandcave:all_boats"
+							},
+							"nbt": "{ShoulderEntityLeft:{id:\"minecraft:parrot\"}}",
+							"type_specific": {
+								"type": "player",
+								"advancements": {
+									"terrible_suggestions:riddles/twice_tenth_line_one": true
+								}
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"ninth_line_right": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:spyglass"
+					]
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"equipment": {
+								"offhand": {
+									"items": [
+										"minecraft:map",
+										"minecraft:filled_map"
+									]
+								}
+							},
+							"vehicle": {
+								"type": "#blazeandcave:all_boats"
+							},
+							"nbt": "{ShoulderEntityRight:{id:\"minecraft:parrot\"}}",
+							"type_specific": {
+								"type": "player",
+								"advancements": {
+									"terrible_suggestions:riddles/twice_tenth_line_one": true
+								}
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"ninth_line_left_mainhand": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:spyglass"
+					]
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"items": [
+										"minecraft:map",
+										"minecraft:filled_map"
+									]
+								}
+							},
+							"vehicle": {
+								"type": "#blazeandcave:all_boats"
+							},
+							"nbt": "{ShoulderEntityLeft:{id:\"minecraft:parrot\"}}",
+							"type_specific": {
+								"type": "player",
+								"advancements": {
+									"terrible_suggestions:riddles/twice_tenth_line_one": true
+								}
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"ninth_line_right_mainhand": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:spyglass"
+					]
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"items": [
+										"minecraft:map",
+										"minecraft:filled_map"
+									]
+								}
+							},
+							"vehicle": {
+								"type": "#blazeandcave:all_boats"
+							},
+							"nbt": "{ShoulderEntityRight:{id:\"minecraft:parrot\"}}",
+							"type_specific": {
+								"type": "player",
+								"advancements": {
+									"terrible_suggestions:riddles/twice_tenth_line_one": true
+								}
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"ninth_line_left",
+			"ninth_line_right",
+			"ninth_line_left_mainhand",
+			"ninth_line_right_mainhand"
+		]
+	]
+}

@@ -1,0 +1,965 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:grass_block"
+    },
+    "title": "The Blue Marble",
+    "description": {
+      "translate": "Send every mob to the Overworld... and kill them all therennSuggested by honestlytzadok",
+      "color": "#FF2A2A"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:challenges/telescopic",
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/the_blue_marble"
+  },
+  "criteria": {
+    "bat": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "bat",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "chicken": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "chicken",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "cod": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "cod",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "cow": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "cow",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "mooshroom": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "mooshroom",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "pig": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "pig",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "rabbit": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "rabbit",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "salmon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "salmon",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "sheep": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "sheep",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "squid": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "squid",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "tropical_fish": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "tropical_fish",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "turtle": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "turtle",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "villager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "villager",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "wandering_trader": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "wandering_trader",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "pufferfish": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "pufferfish",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "cave_spider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "cave_spider",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "enderman": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "enderman",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "panda": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "panda",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "polar_bear": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "polar_bear",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "spider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "spider",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "zombified_piglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "zombified_piglin",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "blaze": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "blaze",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "creeper": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "creeper",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "drowned": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "drowned",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "endermite": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "endermite",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "evoker": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "evoker",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "ghast": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "ghast",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "guardian": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "guardian",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "husk": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "husk",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "magma_cube": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "magma_cube",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "phantom": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "phantom",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "pillager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "pillager",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "ravager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "ravager",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "shulker": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "shulker",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "silverfish": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "silverfish",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "skeleton",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "slime": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "slime",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "stray": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "stray",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "vex": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "vex",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "vindicator": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "vindicator",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "witch": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "witch",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "wither_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "wither_skeleton",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "zombie_villager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "zombie_villager",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "zombie": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "zombie",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "cat": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "cat",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "donkey": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "donkey",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "horse": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "horse",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "llama": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "llama",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "mule": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "mule",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "parrot": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "parrot",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "skeleton_horse": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "skeleton_horse",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "trader_llama": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "trader_llama",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "wolf": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "wolf",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "dolphin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "dolphin",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "fox": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "fox",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "ocelot": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "ocelot",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "iron_golem": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "iron_golem",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "snow_golem": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "snow_golem",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "wither": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "wither",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "bee": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "bee",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "piglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "piglin",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "hoglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "hoglin",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "strider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "strider",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "zoglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "zoglin",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "piglin_brute": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "piglin_brute",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "axolotl": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "axolotl",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "glow_squid": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "glow_squid",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "goat": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "goat",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "frog": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "frog",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "tadpole": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "tadpole",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "allay": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "allay",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "warden": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "warden",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "camel": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "camel",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "sniffer": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "sniffer",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "armadillo": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "armadillo",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "breeze": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "breeze",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "bogged": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "bogged",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "happy_ghast": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "happy_ghast",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "creaking": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "creaking",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "copper_golem": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:copper_golem",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "elder_guardian": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "elder_guardian",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "nautilus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "nautilus",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "zombie_nautilus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "zombie_nautilus",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "zombie_horse": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "zombie_horse",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "camel_husk": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "camel_husk",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    },
+    "parched": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "parched",
+          "location": {
+            "dimension": "overworld"
+          }
+        }
+      }
+    }
+  }
+}

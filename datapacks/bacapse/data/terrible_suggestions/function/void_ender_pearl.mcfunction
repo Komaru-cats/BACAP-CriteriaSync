@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:ender_pearl,predicate=terrible_suggestions:in_void,distance=..200] if entity @p[advancements={terrible_suggestions:riddles/twice_seventh_line=true}] run advancement grant @p only terrible_suggestions:riddles/twice_eighth_line

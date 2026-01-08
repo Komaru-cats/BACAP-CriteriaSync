@@ -1,0 +1,40 @@
+{
+  "criteria": {
+    "tenth_line_one": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_ninth_line": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:paper"
+            ],
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "First Application",
+                "color": "white",
+                "bold": true,
+                "italic": false
+              }
+            }
+          },
+          {
+            "items": [
+              "minecraft:diamond_chestplate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:riddles/job_tenth_line_one"
+  }
+}

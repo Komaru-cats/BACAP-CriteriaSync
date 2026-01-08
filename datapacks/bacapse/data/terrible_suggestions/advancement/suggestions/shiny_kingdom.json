@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_block"
+    },
+    "title": "Shiny Kingdom",
+    "description": {
+      "translate": "Stand within 8 blocks of a blue axolotl, brown mooshroom and pink sheepnnSuggested by CoolgirlOmega"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:animal/axolotl_of_them",
+  "criteria": {
+    "shiny_kingdom": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/shiny_kingdom"
+  }
+}

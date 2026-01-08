@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "fourth_line": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/twice_third_line": true
+            }
+          },
+          "location": {
+            "structures": [
+              "minecraft:jungle_pyramid"
+            ]
+          }
+        },
+        "block": "minecraft:tripwire",
+        "state": {
+          "attached": "true"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:riddles/twice_fourth_line"
+  }
+}

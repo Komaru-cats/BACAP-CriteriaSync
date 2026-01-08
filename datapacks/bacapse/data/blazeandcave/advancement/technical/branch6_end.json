@@ -1,0 +1,18 @@
+{
+	"parent": "terrible_suggestions:suggestions/riddle_me_twice",	
+	"criteria": {
+		"root": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:challenges/root": true
+						}
+					}
+				}
+			}
+		}
+	}
+}

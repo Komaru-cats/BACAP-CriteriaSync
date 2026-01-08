@@ -1,0 +1,10 @@
+{
+  "rewards": {
+    "function": "terrible_suggestions:slept_in_bed"
+  },
+  "criteria": {
+    "slept_in_bed": {
+      "trigger": "minecraft:slept_in_bed"
+    }
+  }
+}

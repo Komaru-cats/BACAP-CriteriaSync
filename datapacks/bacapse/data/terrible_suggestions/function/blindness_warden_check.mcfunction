@@ -1,0 +1,1 @@
+execute if entity @e[type=warden,distance=..15] if entity @s[nbt={active_effects:[{id:"minecraft:blindness"}]}] if entity @s[advancements={terrible_suggestions:riddles/twice_fourth_line=true}] run advancement grant @s only terrible_suggestions:riddles/twice_fifth_line

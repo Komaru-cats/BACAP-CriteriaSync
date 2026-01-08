@@ -1,0 +1,615 @@
+{
+  "criteria": {
+    "word_0": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "according"
+          }
+        }
+      }
+    },
+    "word_1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "to"
+          }
+        }
+      }
+    },
+    "word_2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "all"
+          }
+        }
+      }
+    },
+    "word_3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "known"
+          }
+        }
+      }
+    },
+    "word_4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "laws"
+          }
+        }
+      }
+    },
+    "word_5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "of"
+          }
+        }
+      }
+    },
+    "word_6": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "aviation"
+          }
+        }
+      }
+    },
+    "word_7": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "there"
+          }
+        }
+      }
+    },
+    "word_8": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "is"
+          }
+        }
+      }
+    },
+    "word_9": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "no"
+          }
+        }
+      }
+    },
+    "word_10": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "way"
+          }
+        }
+      }
+    },
+    "word_11": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "a"
+          }
+        }
+      }
+    },
+    "word_12": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "bee"
+          }
+        }
+      }
+    },
+    "word_13": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "should"
+          }
+        }
+      }
+    },
+    "word_14": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "be"
+          }
+        }
+      }
+    },
+    "word_15": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "able"
+          }
+        }
+      }
+    },
+    "word_16": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "to"
+          }
+        }
+      }
+    },
+    "word_17": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "fly"
+          }
+        }
+      }
+    },
+    "word_18": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "its"
+          }
+        }
+      }
+    },
+    "word_19": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "wings"
+          }
+        }
+      }
+    },
+    "word_20": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "are"
+          }
+        }
+      }
+    },
+    "word_21": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "too"
+          }
+        }
+      }
+    },
+    "word_22": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "small"
+          }
+        }
+      }
+    },
+    "word_23": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "to"
+          }
+        }
+      }
+    },
+    "word_24": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "get"
+          }
+        }
+      }
+    },
+    "word_25": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "its"
+          }
+        }
+      }
+    },
+    "word_26": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "fat"
+          }
+        }
+      }
+    },
+    "word_27": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "little"
+          }
+        }
+      }
+    },
+    "word_28": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "body"
+          }
+        }
+      }
+    },
+    "word_29": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "off"
+          }
+        }
+      }
+    },
+    "word_30": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "the"
+          }
+        }
+      }
+    },
+    "word_31": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "ground"
+          }
+        }
+      }
+    },
+    "word_32": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "the"
+          }
+        }
+      }
+    },
+    "word_33": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "bee"
+          }
+        }
+      }
+    },
+    "word_34": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "of"
+          }
+        }
+      }
+    },
+    "word_35": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "course"
+          }
+        }
+      }
+    },
+    "word_36": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "flies"
+          }
+        }
+      }
+    },
+    "word_37": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "anyway"
+          }
+        }
+      }
+    },
+    "word_38": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "because"
+          }
+        }
+      }
+    },
+    "word_39": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "bees"
+          }
+        }
+      }
+    },
+    "word_40": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "don't"
+          }
+        }
+      }
+    },
+    "word_41": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "care"
+          }
+        }
+      }
+    },
+    "word_42": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "what"
+          }
+        }
+      }
+    },
+    "word_43": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "humans"
+          }
+        }
+      }
+    },
+    "word_44": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "think"
+          }
+        }
+      }
+    },
+    "word_45": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "is"
+          }
+        }
+      }
+    },
+    "word_46": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:bee"
+          ],
+          "components": {
+            "minecraft:custom_name": "impossible"
+          }
+        }
+      }
+    }
+  }
+}

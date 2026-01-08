@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "ninth_line": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/twice_eighth_line": true
+            }
+          }
+        },
+        "recipe_id": "minecraft:crafting_table"
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:riddles/twice_ninth_line"
+  }
+}

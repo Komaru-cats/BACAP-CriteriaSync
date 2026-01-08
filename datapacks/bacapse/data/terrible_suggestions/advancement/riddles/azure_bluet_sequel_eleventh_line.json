@@ -1,0 +1,118 @@
+{
+  "rewards": {
+    "function": "suggestion_rewards:riddles/azure_bluet_sequel_eleventh_line"
+  },
+  "criteria": {
+    "eleventh_line": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_tenth_line": true
+            }
+          },
+          "location": {},
+          "vehicle": {
+            "type": [
+              "minecraft:llama"
+            ],
+            "slots": {
+              "horse.0": {
+                "items": [
+                  "minecraft:azure_bluet"
+                ],
+                "count": 64
+              },
+              "horse.1": {
+                "items": [
+                  "minecraft:azure_bluet"
+                ],
+                "count": 64
+              },
+              "horse.2": {
+                "items": [
+                  "minecraft:azure_bluet"
+                ],
+                "count": 64
+              },
+              "horse.3": {
+                "items": [
+                  "minecraft:azure_bluet"
+                ],
+                "count": 64
+              },
+              "horse.4": {
+                "items": [
+                  "minecraft:azure_bluet"
+                ],
+                "count": 64
+              },
+              "horse.5": {
+                "items": [
+                  "minecraft:azure_bluet"
+                ],
+                "count": 64
+              },
+              "horse.6": {
+                "items": [
+                  "minecraft:azure_bluet"
+                ],
+                "count": 64
+              },
+              "horse.7": {
+                "items": [
+                  "minecraft:azure_bluet"
+                ],
+                "count": 64
+              },
+              "horse.8": {
+                "items": [
+                  "minecraft:azure_bluet"
+                ],
+                "count": 64
+              },
+              "horse.9": {
+                "items": [
+                  "minecraft:azure_bluet"
+                ],
+                "count": 64
+              },
+              "horse.10": {
+                "items": [
+                  "minecraft:azure_bluet"
+                ],
+                "count": 64
+              },
+              "horse.11": {
+                "items": [
+                  "minecraft:azure_bluet"
+                ],
+                "count": 64
+              },
+              "horse.12": {
+                "items": [
+                  "minecraft:azure_bluet"
+                ],
+                "count": 64
+              },
+              "horse.13": {
+                "items": [
+                  "minecraft:azure_bluet"
+                ],
+                "count": 64
+              },
+              "horse.14": {
+                "items": [
+                  "minecraft:azure_bluet"
+                ],
+                "count": 64
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

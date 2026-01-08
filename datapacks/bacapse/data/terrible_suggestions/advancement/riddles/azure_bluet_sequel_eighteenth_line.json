@@ -1,0 +1,39 @@
+{
+  "rewards": {
+    "function": "suggestion_rewards:riddles/azure_bluet_sequel_eighteenth_line"
+  },
+  "criteria": {
+    "eighteenth_line": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_seventeenth_line": true
+            }
+          },
+          "slots": {
+            "weapon.mainhand": {
+              "items": [
+                "minecraft:azure_bluet"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:zombie"
+          ],
+          "slots": {
+            "weapon.mainhand": {
+              "items": [
+                "minecraft:azure_bluet"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

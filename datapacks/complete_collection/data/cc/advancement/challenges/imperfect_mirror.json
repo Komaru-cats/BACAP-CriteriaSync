@@ -4,30 +4,30 @@
 			"id": "minecraft:chain_command_block"
 		},
 		"title": {"translate":"Imperfect Mirror"},
-		"description": {"color":"light_purple","translate":"Complete Complete Collection, twice. (This version and Torture Edition's)"},
+		"description": {"color":"light_purple","translate":"Complete A Complete Collection! and Torture Edition’s A Complete Collection"},
 		"announce_to_chat": true,
 		"frame": "challenge",
-		"hidden": true
+		"hidden": false
 	},
 	"parent": "blackbirds_torture_chamber:stuff/a_complete_collection",
 	"rewards": {
-		"function": "bacap_rewards:challenges/imperfect_mirror"
+		"function": "cc_rewards:challenges/imperfect_mirror"
 	},		
 	"criteria": {
-		"complete_collection": {
+		"a_complete_collection": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"cc:challenges/complete_collection": true
+							"cc:challenges/a_complete_collection": true
 						}
 					}
 				}
 			}
 		},
-		"complete_collection_torture": {
+		"a_complete_collection_torture": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {

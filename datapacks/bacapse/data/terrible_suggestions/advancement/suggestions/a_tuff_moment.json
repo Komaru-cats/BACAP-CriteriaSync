@@ -1,0 +1,228 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tuff_bricks"
+    },
+    "title": "A Tuff Moment",
+    "description": {
+      "translate": "Place all tuff variantsnnSuggested by honestlytzadok"
+    },
+    "frame": "task"
+  },
+  "parent": "blazeandcave:building/tuff_stuff",
+  "criteria": {
+    "tuff": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:tuff"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "tuff_slab": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:tuff_slab"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "tuff_stairs": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:tuff_stairs"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "tuff_wall": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:tuff_wall"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "polished_tuff": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:polished_tuff"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "polished_tuff_slab": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:polished_tuff_slab"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "polished_tuff_stairs": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:polished_tuff_stairs"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "polished_tuff_wall": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:polished_tuff_wall"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "tuff_bricks": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:tuff_bricks"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "tuff_brick_slab": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:tuff_brick_slab"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "tuff_brick_stairs": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:tuff_brick_stairs"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "tuff_brick_wall": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:tuff_brick_wall"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "chiseled_tuff": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:chiseled_tuff"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "chiseled_tuff_bricks": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:chiseled_tuff_bricks"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/a_tuff_moment"
+  }
+}

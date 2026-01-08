@@ -1,0 +1,3 @@
+execute if block ~ ~ ~ azure_bluet run scoreboard players add @a[gamemode=!spectator] stay_in_azure_bluet 1
+execute unless block ~ ~ ~ azure_bluet run scoreboard players set @s stay_in_azure_bluet 0
+execute if entity @s[advancements={terrible_suggestions:riddles/azure_bluet_third_line=true}] run advancement grant @s[scores={stay_in_azure_bluet=1200..}] only terrible_suggestions:riddles/azure_bluet_fourth_line

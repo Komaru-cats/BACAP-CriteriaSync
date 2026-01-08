@@ -1,0 +1,97 @@
+{
+  "criteria": {
+    "plains": {
+      "trigger": "minecraft:hero_of_the_village",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_fourth_line": true
+            }
+          },
+          "location": {
+            "biomes": [
+              "minecraft:plains"
+            ]
+          }
+        }
+      }
+    },
+    "savanna": {
+      "trigger": "minecraft:hero_of_the_village",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_fourth_line": true
+            }
+          },
+          "location": {
+            "biomes": [
+              "minecraft:savanna"
+            ]
+          }
+        }
+      }
+    },
+    "taiga": {
+      "trigger": "minecraft:hero_of_the_village",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_fourth_line": true
+            }
+          },
+          "location": {
+            "biomes": [
+              "minecraft:taiga"
+            ]
+          }
+        }
+      }
+    },
+    "snowy_plains": {
+      "trigger": "minecraft:hero_of_the_village",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_fourth_line": true
+            }
+          },
+          "location": {
+            "biomes": [
+              "minecraft:snowy_plains"
+            ]
+          }
+        }
+      }
+    },
+    "desert": {
+      "trigger": "minecraft:hero_of_the_village",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_fourth_line": true
+            }
+          },
+          "location": {
+            "biomes": [
+              "minecraft:desert"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:riddles/job_fifth_line"
+  }
+}

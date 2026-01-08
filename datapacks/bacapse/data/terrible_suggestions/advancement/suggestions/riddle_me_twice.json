@@ -1,0 +1,223 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": {
+      "translate": "Riddle Me Twice",
+      "extra": [
+        {
+          "text": "               ",
+          "italic": true
+        }
+      ]
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "The first is to take some very spicy laps at the pool",
+      "extra": [
+        {
+          "text": "n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "The second is to do something 5 more times and look like a fool"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "The third is for a day, jump once for each and every last step"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "The fourth is for a now-lost enigmatic step, do the prep"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "The fifth is to show the blind that you can't be blinded more"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "The sixth is to make a hand-me-hand-me-down of all the epic BACAP lore"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "The seventh is to bridge the space over a gigantic abyss"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "The eighth is to throw your projection at the ground... and miss"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "The ninth is to use your automatic to swap back to a manual user"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "The tenth, if you can achieve it, you will be the L.O.S.E.R.nnSuggested by BlackBird_6"
+        }
+      ]
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:challenges/riddle_me_this",
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/riddle_me_twice"
+  },
+  "criteria": {
+    "first_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/twice_first_line": true
+            }
+          }
+        }
+      }
+    },
+    "second_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/twice_second_line": true
+            }
+          }
+        }
+      }
+    },
+    "third_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/twice_third_line": true
+            }
+          }
+        }
+      }
+    },
+    "fourth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/twice_fourth_line": true
+            }
+          }
+        }
+      }
+    },
+    "fifth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/twice_fifth_line": true
+            }
+          }
+        }
+      }
+    },
+    "sixth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/twice_sixth_line": true
+            }
+          }
+        }
+      }
+    },
+    "seventh_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/twice_seventh_line": true
+            }
+          }
+        }
+      }
+    },
+    "eighth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/twice_eighth_line": true
+            }
+          }
+        }
+      }
+    },
+    "ninth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/twice_ninth_line": true
+            }
+          }
+        }
+      }
+    },
+    "tenth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/twice_tenth_line": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

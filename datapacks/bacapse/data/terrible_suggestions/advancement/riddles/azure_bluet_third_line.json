@@ -1,0 +1,34 @@
+{
+  "rewards": {
+    "function": "suggestion_rewards:riddles/azure_bluet_third_line"
+  },
+  "criteria": {
+    "third_line": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_second_line": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:light_gray_bundle"
+            ],
+            "components": {
+              "minecraft:bundle_contents": [
+                {
+                  "id": "minecraft:azure_bluet"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

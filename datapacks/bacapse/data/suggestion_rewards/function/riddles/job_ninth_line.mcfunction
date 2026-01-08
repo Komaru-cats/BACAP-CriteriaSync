@@ -1,0 +1,5 @@
+tellraw @s {"color":"gray","italic":true,"translate":"Ninth Job Riddle line complete…"}
+
+give @s paper[custom_name={"translate":"First Application","color":"white","bold":true,"italic":false},lore=[{"translate":"The puzzle you will seek is locked in the opening ","color":"gray"},{"translate":"signs: gather the first spark of every word, ","color":"gray"},{"translate":"weave them into numbers, and let the ","color":"gray"},{"translate":"alphabet itself guide you to the hidden block.","color":"gray"}],custom_model_data={floats:[422]},enchantment_glint_override=true,minecraft:tooltip_display={hidden_components:["minecraft:attribute_modifiers","minecraft:banner_patterns","minecraft:base_color","minecraft:dyed_color","minecraft:fireworks","minecraft:firework_explosion","minecraft:instrument","minecraft:potion_contents","minecraft:provides_banner_patterns","minecraft:provides_trim_material","minecraft:stored_enchantments","minecraft:trim","minecraft:unbreakable","minecraft:written_book_content"]}] 1
+
+tellraw @s [{"text":" +1 ","color":"white"},{"translate":"First Application"}]

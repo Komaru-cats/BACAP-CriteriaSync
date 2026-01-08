@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow",
+      "components": {
+        "minecraft:enchantments": {
+          "minecraft:piercing": 4
+        }
+      }
+    },
+    "title": "Boss Rush idk",
+    "description": {
+      "translate": "Kill the wither, warden, elder guardian and ravager with one piercing arrownnSuggested by rounduction",
+      "color": "light_purple"
+    },
+    "frame": "challenge"
+  },
+  "parent": "terrible_suggestions:technical/hiddens/boss_rush_idk_hidden_2",
+  "criteria": {
+    "boss_rush_idk": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "fired_from_weapon": {
+          "items": [
+            "minecraft:crossbow"
+          ]
+        },
+        "victims": [
+          {
+            "type": [
+              "minecraft:wither"
+            ]
+          },
+          {
+            "type": [
+              "minecraft:warden"
+            ]
+          },
+          {
+            "type": [
+              "minecraft:elder_guardian"
+            ]
+          },
+          {
+            "type": [
+              "minecraft:ravager"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/boss_rush_idk"
+  }
+}

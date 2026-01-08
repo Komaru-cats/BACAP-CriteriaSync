@@ -1,0 +1,320 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:paper"
+    },
+    "title": {
+      "translate": "I should riddle you a job",
+      "extra": [
+        {
+          "text": "",
+          "italic": true
+        }
+      ]
+    },
+    "description": {
+      "color": "light_purple",
+      "translate": "The first is to trap wanderers, a "cinq" to be exact",
+      "extra": [
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "as close as a chunk, make them work as a pact."
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The second is to trade for every book at its max,,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "From the Librarian’s shelf, paying with no tax."
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The third is to sign a résumé, not one but a ton,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "A hundred quills signed in your pack, and the work’s just begun."
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The fourth is to craft from the cane by the river,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "A "job application" that you’re ready to deliver."
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The fifth is to raid, let their attacks fall,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "From plains unto tundra, bring employment to role."
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The sixth is a switch, their homes intertwine,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "the priest that takes gold, as does the swine."
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The seventh is cruel, though its symbol is blessed,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "end the pig’s children, atleast seven at best."
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The eighth is a trade to construe:"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "eight suns in a row, the hare’s banquet for you."
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The ninth is a vagrant in a mansion of dread,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "let him live through nine sunsets, unclaimed, unfed."
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The tenth is a jest, you’ve surely lost class,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "to reach it at all means you'll need some grass."
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "But conquer it whole, no reason to sob,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "for you’ll earn in the end a true J.O.B."
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "And look in your inventory, don’t let it slip past!"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "you now hold The Forbidden Unemployment Tasks.nnSuggested by honestlytzadok"
+        }
+      ]
+    },
+    "frame": "challenge"
+  },
+  "parent": "terrible_suggestions:technical/hiddens/i_should_riddle_you_a_job_hidden_2",
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/i_should_riddle_you_a_job"
+  },
+  "criteria": {
+    "first_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_first_line": true
+            }
+          }
+        }
+      }
+    },
+    "second_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_second_line": true
+            }
+          }
+        }
+      }
+    },
+    "third_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_third_line": true
+            }
+          }
+        }
+      }
+    },
+    "fourth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_fourth_line": true
+            }
+          }
+        }
+      }
+    },
+    "fifth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_fifth_line": true
+            }
+          }
+        }
+      }
+    },
+    "sixth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_sixth_line": true
+            }
+          }
+        }
+      }
+    },
+    "seventh_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_seventh_line": true
+            }
+          }
+        }
+      }
+    },
+    "eighth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_eighth_line": true
+            }
+          }
+        }
+      }
+    },
+    "ninth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_ninth_line": true
+            }
+          }
+        }
+      }
+    },
+    "tenth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_tenth_line": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

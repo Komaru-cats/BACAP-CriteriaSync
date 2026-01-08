@@ -1,0 +1,10 @@
+{
+  "rewards": {
+    "function": "suggestion_rewards:riddles/azure_bluet_sequel_fifteenth_line"
+  },
+  "criteria": {
+    "fifteenth_line": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+tellraw @s {"color":"gray","italic":true,"translate":"You feel the puzzle pieces sliding into place…"}
+
+give @s paper[custom_name={"translate":"Second Application","color":"white","bold":true,"italic":false},lore=[{"translate":"From the block’s final marks draw their worth;","color":"gray"},{"translate":"if the weight climbs beyond a thousand, shave","color":"gray"},{"translate":"away a zero and round - the number left","color":"gray"},{"translate":"how many must be placed or held in hand.","color":"gray"}],custom_model_data={floats:[422]},enchantment_glint_override=true,minecraft:tooltip_display={hidden_components:["minecraft:attribute_modifiers","minecraft:banner_patterns","minecraft:base_color","minecraft:dyed_color","minecraft:fireworks","minecraft:firework_explosion","minecraft:instrument","minecraft:potion_contents","minecraft:provides_banner_patterns","minecraft:provides_trim_material","minecraft:stored_enchantments","minecraft:trim","minecraft:unbreakable","minecraft:written_book_content"]}] 1
+
+tellraw @s [{"text":" +1 ","color":"white"},{"translate":"Second Application"}]

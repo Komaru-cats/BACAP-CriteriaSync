@@ -1,0 +1,435 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:azure_bluet",
+      "components": {
+        "minecraft:enchantments": {
+          "minecraft:power": 5
+        }
+      }
+    },
+    "title": {
+      "translate": "Riddle Me Azure Bluet: A Sequel",
+      "extra": [
+        {
+          "text": "",
+          "italic": true
+        }
+      ]
+    },
+    "description": {
+      "color": "light_purple",
+      "translate": "The first is to meet an ancient fish and use an azure bluet to land a crit,",
+      "extra": [
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The second is to rename a stack of azure bluets to "The Great Flower" in Sanskrit,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The third is to feed an azure bluet to an electrified calf,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The fourth is to help a farmer by using an azure bluet as some draff,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The fifth is to get an azure bluet in the night, but not for free,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The sixth is to use it to feed a childish bee,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The seventh is to rescue a prisoner and gift them a azure bluet bouquet,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The eighth is to craft an explosion colored as an azure bluet - light gray,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The ninth is to pot an azure bluet in the dark for the blind to scent,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The tenth is to end up inside azure bluet colored cement,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The eleventh is to load the strongest llama with azure bluets,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The twelfth is to smash a black azure bluet thief with a mace,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The thirteenth is to plant an azure bluet on a weird dirty block,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The fourteenth is to do the same, except above the long lasting rock,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The fifteenth is to fill up your inventory with azure bluets, including the other hand,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The sixteenth is to plant an azure bluet in a city at the game's end,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The seventeenth is to use an azure bluet to turn blind,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The eighteenth is to win against a zombie in an azure bluet fight,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The nineteenth is to plant an azure bluet while doing the Skyblock advancement,"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "color": "light_purple",
+          "translate": "The twentieth is to hit the sack in an azure bluet's remains, then you'll receive the source of azure bluet's great power, but with a great enhancement."
+        },
+        {
+          "text": "nn"
+        },
+        {
+          "color": "light_purple",
+          "text": "Suggested by yakishbek"
+        }
+      ]
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "terrible_suggestions:technical/hiddens/riddle_me_azure_bluet_sequel_hidden_2",
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/riddle_me_azure_bluet_sequel"
+  },
+  "criteria": {
+    "first_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_first_line": true
+            }
+          }
+        }
+      }
+    },
+    "second_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_second_line": true
+            }
+          }
+        }
+      }
+    },
+    "third_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_third_line": true
+            }
+          }
+        }
+      }
+    },
+    "fourth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_fourth_line": true
+            }
+          }
+        }
+      }
+    },
+    "fifth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_fifth_line": true
+            }
+          }
+        }
+      }
+    },
+    "sixth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_sixth_line": true
+            }
+          }
+        }
+      }
+    },
+    "seventh_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_seventh_line": true
+            }
+          }
+        }
+      }
+    },
+    "eighth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_eighth_line": true
+            }
+          }
+        }
+      }
+    },
+    "ninth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_ninth_line": true
+            }
+          }
+        }
+      }
+    },
+    "tenth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_tenth_line": true
+            }
+          }
+        }
+      }
+    },
+    "eleventh_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_eleventh_line": true
+            }
+          }
+        }
+      }
+    },
+    "twelfth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_twelfth_line": true
+            }
+          }
+        }
+      }
+    },
+    "thirteenth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_thirteenth_line": true
+            }
+          }
+        }
+      }
+    },
+    "fourteenth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_fourteenth_line": true
+            }
+          }
+        }
+      }
+    },
+    "fifteenth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_fifteenth_line": true
+            }
+          }
+        }
+      }
+    },
+    "sixteenth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_sixteenth_line": true
+            }
+          }
+        }
+      }
+    },
+    "seventeenth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_seventeenth_line": true
+            }
+          }
+        }
+      }
+    },
+    "eighteenth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_eighteenth_line": true
+            }
+          }
+        }
+      }
+    },
+    "nineteenth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_nineteenth_line": true
+            }
+          }
+        }
+      }
+    },
+    "twentieth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_twentieth_line": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

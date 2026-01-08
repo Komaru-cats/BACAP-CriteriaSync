@@ -1,0 +1,229 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cornflower"
+    },
+    "title": "Plantsman",
+    "description": {
+      "translate": "Purchase every flower sold by the wandering tradernnSuggested by pokey0827_",
+      "color": "light_purple"
+    },
+    "frame": "challenge"
+  },
+  "parent": "terrible_suggestions:technical/hiddens/plantsman_hidden_2",
+  "criteria": {
+    "dandelion": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": [
+            "minecraft:wandering_trader"
+          ]
+        },
+        "item": {
+          "items": [
+            "minecraft:dandelion"
+          ]
+        }
+      }
+    },
+    "poppy": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": [
+            "minecraft:wandering_trader"
+          ]
+        },
+        "item": {
+          "items": [
+            "minecraft:poppy"
+          ]
+        }
+      }
+    },
+    "allium": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": [
+            "minecraft:wandering_trader"
+          ]
+        },
+        "item": {
+          "items": [
+            "minecraft:allium"
+          ]
+        }
+      }
+    },
+    "azure_bluet": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": [
+            "minecraft:wandering_trader"
+          ]
+        },
+        "item": {
+          "items": [
+            "minecraft:azure_bluet"
+          ]
+        }
+      }
+    },
+    "red_tulip": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": [
+            "minecraft:wandering_trader"
+          ]
+        },
+        "item": {
+          "items": [
+            "minecraft:red_tulip"
+          ]
+        }
+      }
+    },
+    "orange_tulip": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": [
+            "minecraft:wandering_trader"
+          ]
+        },
+        "item": {
+          "items": [
+            "minecraft:orange_tulip"
+          ]
+        }
+      }
+    },
+    "white_tulip": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": [
+            "minecraft:wandering_trader"
+          ]
+        },
+        "item": {
+          "items": [
+            "minecraft:white_tulip"
+          ]
+        }
+      }
+    },
+    "pink_tulip": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": [
+            "minecraft:wandering_trader"
+          ]
+        },
+        "item": {
+          "items": [
+            "minecraft:pink_tulip"
+          ]
+        }
+      }
+    },
+    "oxeye_daisy": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": [
+            "minecraft:wandering_trader"
+          ]
+        },
+        "item": {
+          "items": [
+            "minecraft:oxeye_daisy"
+          ]
+        }
+      }
+    },
+    "cornflower": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": [
+            "minecraft:wandering_trader"
+          ]
+        },
+        "item": {
+          "items": [
+            "minecraft:cornflower"
+          ]
+        }
+      }
+    },
+    "blue_orchid": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": [
+            "minecraft:wandering_trader"
+          ]
+        },
+        "item": {
+          "items": [
+            "minecraft:blue_orchid"
+          ]
+        }
+      }
+    },
+    "lily_of_the_valley": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": [
+            "minecraft:wandering_trader"
+          ]
+        },
+        "item": {
+          "items": [
+            "minecraft:lily_of_the_valley"
+          ]
+        }
+      }
+    },
+    "wildflowers": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": [
+            "minecraft:wandering_trader"
+          ]
+        },
+        "item": {
+          "items": [
+            "minecraft:wildflowers"
+          ]
+        }
+      }
+    },
+    "open_eyeblossom": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": [
+            "minecraft:wandering_trader"
+          ]
+        },
+        "item": {
+          "items": [
+            "minecraft:open_eyeblossom"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/plantsman"
+  }
+}

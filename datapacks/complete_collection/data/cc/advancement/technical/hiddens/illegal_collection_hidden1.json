@@ -1,0 +1,31 @@
+{
+	"parent": "cc:challenges/a_complete_collection",	
+	"criteria": {
+		"root": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:challenges/root": true
+						}
+					}
+				}
+			}
+		},
+		"basic": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"cc:technical/hiddens/basic": true
+						}
+					}
+				}
+			}
+		}
+	}
+}

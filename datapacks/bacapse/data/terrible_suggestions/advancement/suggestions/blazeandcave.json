@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blaze_spawn_egg"
+    },
+    "title": "Blazeandcave",
+    "description": {
+      "translate": "Kill a Blaze in a Cave biome in the overworldnnSuggested by Jamsamamsa"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:nether/time_to_fire_back",
+  "criteria": {
+    "blazeandlushcave": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:blaze"
+          ],
+          "location": {
+            "biomes": [
+              "minecraft:lush_caves"
+            ]
+          }
+        }
+      }
+    },
+    "blazeanddripstonecave": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:blaze"
+          ],
+          "location": {
+            "biomes": [
+              "minecraft:dripstone_caves"
+            ]
+          }
+        }
+      }
+    },
+    "blazeanddeepdarkcave": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:blaze"
+          ],
+          "location": {
+            "biomes": [
+              "minecraft:deep_dark"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "blazeanddeepdarkcave",
+      "blazeanddripstonecave",
+      "blazeandlushcave"
+    ]
+  ],
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/blazeandcave"
+  }
+}

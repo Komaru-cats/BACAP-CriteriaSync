@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:azure_bluet"
+    },
+    "title": "An Ineffably Sublime Trio",
+    "description": {
+      "translate": "Obtain three azure bluetsnnSuggested by yakishbek",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "terrible_suggestions:suggestions/a_transcendently_superb_duo",
+  "criteria": {
+    "an_ineffably_sublime_trio": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:azure_bluet"
+            ],
+            "count": 3
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/an_ineffably_sublime_trio"
+  }
+}

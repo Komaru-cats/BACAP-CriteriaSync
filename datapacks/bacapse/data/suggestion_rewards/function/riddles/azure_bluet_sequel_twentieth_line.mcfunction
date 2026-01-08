@@ -1,0 +1,1 @@
+tellraw @s {"color":"gray","italic":true,"translate":"Twentieth Azure Bluet Sequel line complete…"}

@@ -1,0 +1,111 @@
+{
+  "requirements": [
+    [
+      "eighth_line_small_ball",
+      "eighth_line_large_ball",
+      "eighth_line_star",
+      "eighth_line_creeper",
+      "eighth_line_burst"
+    ]
+  ],
+  "rewards": {
+    "function": "suggestion_rewards:riddles/azure_bluet_sequel_eighth_line"
+  },
+  "criteria": {
+    "eighth_line_small_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_seventh_line": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": ["minecraft:firework_rocket"],
+            "nbt": "{Fireworks:{Explosions:[{Type:0,Colors:[11250603]}]}}"
+          }
+        ]
+      }
+    },
+    "eighth_line_large_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_seventh_line": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": ["minecraft:firework_rocket"],
+            "nbt": "{Fireworks:{Explosions:[{Type:1,Colors:[11250603]}]}}"
+          }
+        ]
+      }
+    },
+    "eighth_line_star": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_seventh_line": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": ["minecraft:firework_rocket"],
+            "nbt": "{Fireworks:{Explosions:[{Type:2,Colors:[11250603]}]}}"
+          }
+        ]
+      }
+    },
+    "eighth_line_creeper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_seventh_line": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": ["minecraft:firework_rocket"],
+            "nbt": "{Fireworks:{Explosions:[{Type:3,Colors:[11250603]}]}}"
+          }
+        ]
+      }
+    },
+    "eighth_line_burst": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_seventh_line": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": ["minecraft:firework_rocket"],
+            "nbt": "{Fireworks:{Explosions:[{Type:4,Colors:[11250603]}]}}"
+          }
+        ]
+      }
+    }
+  }
+}

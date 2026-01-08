@@ -1,0 +1,18 @@
+{
+	"parent": "cc:challenges/triple_trouble",	
+	"criteria": {
+		"root": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"terrible_suggestions:technical/hiddens/complete_collection_hidden_1": true
+						}
+					}
+				}
+			}
+		}
+	}
+}

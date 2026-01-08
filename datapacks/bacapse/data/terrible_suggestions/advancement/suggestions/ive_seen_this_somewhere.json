@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:poison",
+          "custom_effects": []
+        }
+      }
+    },
+    "title": "I've seen this somewhere...",
+    "description": {
+      "translate": "Drink a potion of Poison IInnSuggested by Ashley"
+    },
+    "frame": "task"
+  },
+  "parent": "blazeandcave:potion/root",
+  "criteria": {
+    "ive_seen_this_somewhere": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "components": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:strong_poison"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/ive_seen_this_somewhere"
+  }
+}

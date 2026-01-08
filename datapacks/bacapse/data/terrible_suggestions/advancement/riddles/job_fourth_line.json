@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "fourth_line": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/job_third_line": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:paper"
+            ],
+            "components": {
+              "minecraft:custom_name": "Job Application"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:riddles/job_fourth_line"
+  }
+}

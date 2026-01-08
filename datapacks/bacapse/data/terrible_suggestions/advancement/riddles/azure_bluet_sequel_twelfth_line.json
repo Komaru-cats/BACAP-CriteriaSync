@@ -1,0 +1,34 @@
+{
+  "rewards": {
+    "function": "suggestion_rewards:riddles/azure_bluet_sequel_twelfth_line"
+  },
+  "criteria": {
+    "twelfth_line": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "terrible_suggestions:riddles/azure_bluet_sequel_eleventh_line": true
+            }
+          },
+          "slots": {
+            "weapon.mainhand": {
+              "items": [
+                "minecraft:mace"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:enderman"
+          ],
+          "nbt": "{carriedBlockState:{Name:\"minecraft:azure_bluet\"}}"
+        },
+        "killing_blow": {}
+      }
+    }
+  }
+}

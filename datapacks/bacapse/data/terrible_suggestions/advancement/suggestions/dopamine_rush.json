@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_planks"
+    },
+    "title": "Dopamine Rush",
+    "description": {
+      "translate": "Craft a planknnSuggested by CoolgirlOmega"
+    },
+    "frame": "task"
+  },
+  "parent": "blazeandcave:bacap/getting_wood",
+  "criteria": {
+    "adrenaline_rush": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:acacia_planks",
+              "minecraft:bamboo_planks",
+              "minecraft:birch_planks",
+              "minecraft:cherry_planks",
+              "minecraft:crimson_planks",
+              "minecraft:dark_oak_planks",
+              "minecraft:jungle_planks",
+              "minecraft:mangrove_planks",
+              "minecraft:oak_planks",
+              "minecraft:pale_oak_planks",
+              "minecraft:spruce_planks",
+              "minecraft:warped_planks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/dopamine_rush"
+  }
+}

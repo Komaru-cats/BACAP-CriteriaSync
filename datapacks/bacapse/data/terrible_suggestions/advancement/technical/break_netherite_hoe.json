@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "break_netherite_hoe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": {
+          "max": 0
+        },
+        "item": {
+          "items": [
+            "minecraft:netherite_hoe"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "terrible_suggestions:riddle_me_twice_second_line"
+  }
+}

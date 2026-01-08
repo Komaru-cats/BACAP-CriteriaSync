@@ -1,0 +1,119 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:harming"
+        }
+      }
+    },
+    "title": "Making the Pack Harder",
+    "description": {
+      "translate": "Kill an Elder Guardian in the Nether and End, with splash and lingering potions, and endermen with splash and lingering potionsnnSuggested by rounduction",
+      "color": "#FF2A2A"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/biological_warfare",
+  "criteria": {
+    "elder_guardian_nether": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:elder_guardian"
+          ],
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    },
+    "elder_guardian_end": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:elder_guardian"
+          ],
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "elder_guardian_splash": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:elder_guardian"
+          ]
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "type": [
+              "minecraft:splash_potion"
+            ]
+          }
+        }
+      }
+    },
+    "elder_guardian_lingering": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:elder_guardian"
+          ]
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "type": [
+              "minecraft:area_effect_cloud"
+            ]
+          }
+        }
+      }
+    },
+    "enderman_splash": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:enderman"
+          ]
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "type": [
+              "minecraft:splash_potion"
+            ]
+          }
+        }
+      }
+    },
+    "enderman_lingering": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:enderman"
+          ]
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "type": [
+              "minecraft:area_effect_cloud"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/making_the_pack_harder"
+  }
+}

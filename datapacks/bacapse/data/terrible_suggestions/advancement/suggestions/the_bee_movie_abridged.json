@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bee_spawn_egg"
+    },
+    "title": "The bee movie, abridged",
+    "description": {
+      "translate": "For every word, in order, within the bee movie intro, kill a bee named that word.nnSuggested by BlackBird_6"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:animal/nest_quick",
+  "criteria": {
+    "the_bee_movie_abridged": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/the_bee_movie_abridged"
+  }
+}

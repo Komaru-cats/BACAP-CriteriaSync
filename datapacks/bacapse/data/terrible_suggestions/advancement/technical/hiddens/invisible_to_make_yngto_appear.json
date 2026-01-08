@@ -1,0 +1,8 @@
+{
+	"parent": "terrible_suggestions:suggestions/youre_not_getting_this_one",	
+	"criteria": {
+		"reveal": {
+            "trigger": "minecraft:impossible"
+        }
+	}
+}

@@ -1,0 +1,1515 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate"
+    },
+    "title": "Thrift Master",
+    "description": {
+      "translate": "Trade for every leather armor color from VillagersnnSuggested by StarLatte",
+      "color": "light_purple"
+    },
+    "frame": "challenge"
+  },
+  "parent": "terrible_suggestions:technical/hiddens/thrift_master_hidden_2",
+  "criteria": {
+    "white_white": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 16383998
+          }
+        }
+      }
+    },
+    "white_orange": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 16499086
+          }
+        }
+      }
+    },
+    "white_magenta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 14919903
+          }
+        }
+      }
+    },
+    "white_light_blue": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 10082796
+          }
+        }
+      }
+    },
+    "white_yellow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 16707231
+          }
+        }
+      }
+    },
+    "white_lime": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 12379022
+          }
+        }
+      }
+    },
+    "white_pink": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 16369622
+          }
+        }
+      }
+    },
+    "white_gray": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 10528680
+          }
+        }
+      }
+    },
+    "white_light_gray": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 13356746
+          }
+        }
+      }
+    },
+    "white_cyan": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 8900045
+          }
+        }
+      }
+    },
+    "white_purple": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 12687579
+          }
+        }
+      }
+    },
+    "white_blue": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 10133972
+          }
+        }
+      }
+    },
+    "white_brown": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 12692378
+          }
+        }
+      }
+    },
+    "white_green": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 11255178
+          }
+        }
+      }
+    },
+    "white_red": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 14129300
+          }
+        }
+      }
+    },
+    "white_black": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 9146000
+          }
+        }
+      }
+    },
+    "orange_orange": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 16351261
+          }
+        }
+      }
+    },
+    "orange_magenta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 14706541
+          }
+        }
+      }
+    },
+    "orange_light_blue": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 15329723
+          }
+        }
+      }
+    },
+    "orange_yellow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 16493613
+          }
+        }
+      }
+    },
+    "orange_lime": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 14729763
+          }
+        }
+      }
+    },
+    "orange_pink": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 16156003
+          }
+        }
+      }
+    },
+    "orange_gray": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 10840632
+          }
+        }
+      }
+    },
+    "orange_light_gray": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 13340250
+          }
+        }
+      }
+    },
+    "orange_cyan": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 12634755
+          }
+        }
+      }
+    },
+    "orange_purple": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 14181238
+          }
+        }
+      }
+    },
+    "orange_blue": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 13731206
+          }
+        }
+      }
+    },
+    "orange_brown": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 12479015
+          }
+        }
+      }
+    },
+    "orange_green": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 12224795
+          }
+        }
+      }
+    },
+    "orange_red": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 13915937
+          }
+        }
+      }
+    },
+    "orange_black": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 9260831
+          }
+        }
+      }
+    },
+    "magenta_magenta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 13061821
+          }
+        }
+      }
+    },
+    "magenta_light_blue": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 8618960
+          }
+        }
+      }
+    },
+    "magenta_yellow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 14848893
+          }
+        }
+      }
+    },
+    "magenta_lime": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 13084806
+          }
+        }
+      }
+    },
+    "magenta_pink": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 14511283
+          }
+        }
+      }
+    },
+    "magenta_gray": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 9195916
+          }
+        }
+      }
+    },
+    "magenta_light_gray": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 11695530
+          }
+        }
+      }
+    },
+    "magenta_cyan": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 7436465
+          }
+        }
+      }
+    },
+    "magenta_purple": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 11289023
+          }
+        }
+      }
+    },
+    "magenta_blue": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 8670136
+          }
+        }
+      }
+    },
+    "magenta_brown": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 10834295
+          }
+        }
+      }
+    },
+    "magenta_green": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 10579828
+          }
+        }
+      }
+    },
+    "magenta_red": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 12271217
+          }
+        }
+      }
+    },
+    "magenta_black": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 7615856
+          }
+        }
+      }
+    },
+    "light_blue_light_blue": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 3847130
+          }
+        }
+      }
+    },
+    "light_blue_yellow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 12250278
+          }
+        }
+      }
+    },
+    "light_blue_lime": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 6738056
+          }
+        }
+      }
+    },
+    "light_blue_pink": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 11713766
+          }
+        }
+      }
+    },
+    "light_blue_gray": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 4227478
+          }
+        }
+      }
+    },
+    "light_blue_light_gray": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 7187387
+          }
+        }
+      }
+    },
+    "light_blue_cyan": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 2664379
+          }
+        }
+      }
+    },
+    "light_blue_purple": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 6386377
+          }
+        }
+      }
+    },
+    "light_blue_blue": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 3898306
+          }
+        }
+      }
+    },
+    "light_blue_brown": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 8039086
+          }
+        }
+      }
+    },
+    "light_blue_green": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 5680007
+          }
+        }
+      }
+    },
+    "light_blue_red": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 11840709
+          }
+        }
+      }
+    },
+    "light_blue_black": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 2844797
+          }
+        }
+      }
+    },
+    "yellow_yellow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 16701501
+          }
+        }
+      }
+    },
+    "yellow_lime": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 13689394
+          }
+        }
+      }
+    },
+    "yellow_pink": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 16298355
+          }
+        }
+      }
+    },
+    "yellow_gray": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 11049033
+          }
+        }
+      }
+    },
+    "yellow_light_gray": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 13482602
+          }
+        }
+      }
+    },
+    "yellow_cyan": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 10013815
+          }
+        }
+      }
+    },
+    "yellow_purple": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 14390665
+          }
+        }
+      }
+    },
+    "yellow_blue": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 13942683
+          }
+        }
+      }
+    },
+    "yellow_brown": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 12621367
+          }
+        }
+      }
+    },
+    "yellow_green": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 12433452
+          }
+        }
+      }
+    },
+    "yellow_red": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 14123825
+          }
+        }
+      }
+    },
+    "yellow_black": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 9403439
+          }
+        }
+      }
+    },
+    "lime_lime": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 8439583
+          }
+        }
+      }
+    },
+    "lime_pink": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 14535031
+          }
+        }
+      }
+    },
+    "lime_gray": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 6589496
+          }
+        }
+      }
+    },
+    "lime_light_gray": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 9351771
+          }
+        }
+      }
+    },
+    "lime_cyan": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 4960605
+          }
+        }
+      }
+    },
+    "lime_purple": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 12563355
+          }
+        }
+      }
+    },
+    "lime_blue": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 8566922
+          }
+        }
+      }
+    },
+    "lime_brown": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 9872686
+          }
+        }
+      }
+    },
+    "lime_green": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 7315738
+          }
+        }
+      }
+    },
+    "lime_red": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 12293673
+          }
+        }
+      }
+    },
+    "lime_black": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 5207072
+          }
+        }
+      }
+    },
+    "pink_pink": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 15961002
+          }
+        }
+      }
+    },
+    "pink_gray": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 10645634
+          }
+        }
+      }
+    },
+    "pink_light_gray": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 13145248
+          }
+        }
+      }
+    },
+    "pink_cyan": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 10597319
+          }
+        }
+      }
+    },
+    "pink_purple": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 13986246
+          }
+        }
+      }
+    },
+    "pink_blue": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 12025294
+          }
+        }
+      }
+    },
+    "pink_brown": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 12283758
+          }
+        }
+      }
+    },
+    "pink_green": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 12029800
+          }
+        }
+      }
+    },
+    "pink_red": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 13720680
+          }
+        }
+      }
+    },
+    "pink_black": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 9065830
+          }
+        }
+      }
+    },
+    "gray_gray": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 4673362
+          }
+        }
+      }
+    },
+    "gray_light_gray": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 7567221
+          }
+        }
+      }
+    },
+    "gray_cyan": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 3044727
+          }
+        }
+      }
+    },
+    "gray_purple": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 6832261
+          }
+        }
+      }
+    },
+    "gray_blue": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 4278654
+          }
+        }
+      }
+    },
+    "gray_brown": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 6968645
+          }
+        }
+      }
+    },
+    "gray_green": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 5465909
+          }
+        }
+      }
+    },
+    "gray_red": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 8470846
+          }
+        }
+      }
+    },
+    "gray_black": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 3290681
+          }
+        }
+      }
+    },
+    "light_gray_light_gray": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 10329495
+          }
+        }
+      }
+    },
+    "light_gray_cyan": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 5872793
+          }
+        }
+      }
+    },
+    "light_gray_purple": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 9857450
+          }
+        }
+      }
+    },
+    "light_gray_blue": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 7238307
+          }
+        }
+      }
+    },
+    "light_gray_brown": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 9468004
+          }
+        }
+      }
+    },
+    "light_gray_green": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 8227926
+          }
+        }
+      }
+    },
+    "light_gray_red": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 10904926
+          }
+        }
+      }
+    },
+    "light_gray_black": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 6250333
+          }
+        }
+      }
+    },
+    "cyan_cyan": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 1481884
+          }
+        }
+      }
+    },
+    "cyan_purple": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 5203882
+          }
+        }
+      }
+    },
+    "cyan_blue": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 2715811
+          }
+        }
+      }
+    },
+    "cyan_brown": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 5934971
+          }
+        }
+      }
+    },
+    "cyan_green": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 3837017
+          }
+        }
+      }
+    },
+    "cyan_red": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 10659487
+          }
+        }
+      }
+    },
+    "cyan_black": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 1662046
+          }
+        }
+      }
+    },
+    "purple_purple": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 8991416
+          }
+        }
+      }
+    },
+    "purple_blue": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 6437809
+          }
+        }
+      }
+    },
+    "purple_brown": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 10309257
+          }
+        }
+      }
+    },
+    "purple_green": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 10122377
+          }
+        }
+      }
+    },
+    "purple_red": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 11745152
+          }
+        }
+      }
+    },
+    "purple_black": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 5449580
+          }
+        }
+      }
+    },
+    "blue_blue": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 3949738
+          }
+        }
+      }
+    },
+    "blue_brown": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 8480662
+          }
+        }
+      }
+    },
+    "blue_green": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 7705491
+          }
+        }
+      }
+    },
+    "blue_red": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 11359128
+          }
+        }
+      }
+    },
+    "blue_black": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 2895973
+          }
+        }
+      }
+    },
+    "brown_brown": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 8606770
+          }
+        }
+      }
+    },
+    "brown_green": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 8353320
+          }
+        }
+      }
+    },
+    "brown_red": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 10043692
+          }
+        }
+      }
+    },
+    "brown_black": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 5388586
+          }
+        }
+      }
+    },
+    "green_green": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 6192150
+          }
+        }
+      }
+    },
+    "green_red": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 9854497
+          }
+        }
+      }
+    },
+    "green_black": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 4148763
+          }
+        }
+      }
+    },
+    "red_red": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 11546150
+          }
+        }
+      }
+    },
+    "red_black": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 6825251
+          }
+        }
+      }
+    },
+    "black_black": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#terrible_suggestions:leather_armor",
+          "components": {
+            "minecraft:dyed_color": 1908001
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "suggestion_rewards:suggestions/thrift_master"
+  }
+}

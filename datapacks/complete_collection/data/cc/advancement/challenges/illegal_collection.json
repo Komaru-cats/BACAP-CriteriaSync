@@ -1,17 +1,17 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:command_block_minecart"
+			"id": "minecraft:ender_dragon_spawn_egg"
 		},
 		"title": {"translate":"Illegal Collection"},
-		"description": {"color":"light_purple","translate":"Obtain a stack of the block that should not be stacked."},
+		"description": {"color":"light_purple","translate":"Obtain 64 Dragon Eggs"},
 		"announce_to_chat": true,
 		"frame": "challenge",
-		"hidden": true
+		"hidden": false
 	},
-	"parent": "cc:challenges/complete_collection",
+	"parent": "cc:technical/hiddens/illegal_collection_hidden1",
 	"rewards": {
-		"function": "bacap_rewards:challenges/illegal_collection"
+		"function": "cc_rewards:challenges/illegal_collection"
 	},		
 	"criteria": {
 		"dragon_egg": {
