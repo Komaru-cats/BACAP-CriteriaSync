@@ -1,0 +1,43 @@
+execute if entity @a[advancements={blazeandcave:challenges/stack_all_the_blocks={end_stone=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks end_stone
+execute if entity @a[advancements={blazeandcave:challenges/ultimate_enchanter={fire_protection2=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fire_protection2
+execute if entity @a[advancements={blazeandcave:challenges/all_the_blocks={copper_block=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks copper_block
+execute if entity @a[advancements={blazeandcave:challenges/stack_all_the_blocks={carved_pumpkin=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks carved_pumpkin
+execute if entity @a[advancements={blazeandcave:challenges/all_the_blocks={dried_ghast=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks dried_ghast
+execute if entity @a[advancements={blazeandcave:challenges/all_the_blocks={dead_tube_coral_block=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks dead_tube_coral_block
+execute if entity @a[advancements={blazeandcave:mining/mineral_collection={gold_block=true}}] run advancement grant @a only blazeandcave:mining/mineral_collection gold_block
+execute if entity @a[advancements={blazeandcave:challenges/all_the_blocks={netherrack=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks netherrack
+execute if entity @a[advancements={blazeandcave:biomes/the_boreal_deal={birch_taiga=true}}] run advancement grant @a only blazeandcave:biomes/the_boreal_deal birch_taiga
+execute if entity @a[advancements={blazeandcave:challenges/all_the_items={skull_banner_pattern=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items skull_banner_pattern
+execute if entity @a[advancements={blazeandcave:challenges/biological_warfare={camel=true}}] run advancement grant @a only blazeandcave:challenges/biological_warfare camel
+execute at @a[predicate=bacap_criteria_sync:husbandry/whole_pack/pale] run advancement grant @a only minecraft:husbandry/whole_pack minecraft:pale
+execute if entity @a[advancements={blazeandcave:adventure/you_are_the_pillager={weapon_smith=true}}] run advancement grant @a only blazeandcave:adventure/you_are_the_pillager weapon_smith
+execute if entity @a[advancements={blazeandcave:challenges/potion_master={frog=true}}] run advancement grant @a only blazeandcave:challenges/potion_master frog
+execute at @a[predicate=bacap_criteria_sync:redstone/monstrous_sacrifices/drowned] run advancement grant @a only blazeandcave:redstone/monstrous_sacrifices minecraft:drowned
+execute if entity @a[advancements={blazeandcave:adventure/master_trader={butcher=true}}] run advancement grant @a only blazeandcave:adventure/master_trader butcher
+execute if entity @a[advancements={blazeandcave:challenges/all_the_items={cookie=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items cookie
+execute if entity @a[advancements={blazeandcave:challenges/all_the_items={carrot=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items carrot
+execute if entity @a[advancements={blazeandcave:challenges/stack_all_the_items={glow_berries=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items glow_berries
+execute if entity @a[advancements={blazeandcave:challenges/stack_all_the_blocks={bamboo_stairs=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks bamboo_stairs
+execute if entity @a[advancements={blazeandcave:challenges/all_the_items={stone_sword=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items stone_sword
+execute if entity @a[advancements={blazeandcave:biomes/no_reefing={tube_coral=true}}] run advancement grant @a only blazeandcave:biomes/no_reefing tube_coral
+execute if entity @a[advancements={blazeandcave:monsters/night_runner={parched=true}}] run advancement grant @a only blazeandcave:monsters/night_runner parched
+execute if entity @a[advancements={blazeandcave:weaponry/demolitions_expert={evoker=true}}] run advancement grant @a only blazeandcave:weaponry/demolitions_expert evoker
+execute if entity @a[advancements={blazeandcave:challenges/stack_all_the_blocks={purpur_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks purpur_slab
+execute if entity @a[advancements={blazeandcave:challenges/endergeddon={vex=true}}] run advancement grant @a only blazeandcave:challenges/endergeddon vex
+execute if entity @a[advancements={blazeandcave:challenges/i_am_loot={village_tannery=true}}] run advancement grant @a only blazeandcave:challenges/i_am_loot village_tannery
+execute at @a[predicate=bacap_criteria_sync:redstone/monstrous_sacrifices/zombie] run advancement grant @a only blazeandcave:redstone/monstrous_sacrifices minecraft:zombie
+execute if entity @a[advancements={blazeandcave:weaponry/the_mighty_hunter={horse=true}}] run advancement grant @a only blazeandcave:weaponry/the_mighty_hunter horse
+execute if entity @a[advancements={blazeandcave:challenges/all_the_blocks={gray_shulker_box=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks gray_shulker_box
+execute if entity @a[advancements={blazeandcave:challenges/stack_all_the_blocks={beehive=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks beehive
+execute if entity @a[advancements={blazeandcave:building/the_terracotta_army={red_terracotta=true}}] run advancement grant @a only blazeandcave:building/the_terracotta_army red_terracotta
+execute if entity @a[advancements={blazeandcave:redstone/travelling_bard={peaks=true}}] run advancement grant @a only blazeandcave:redstone/travelling_bard peaks
+execute if entity @a[advancements={blazeandcave:adventure/you_are_the_pillager={unemployed=true}}] run advancement grant @a only blazeandcave:adventure/you_are_the_pillager unemployed
+execute if entity @a[advancements={blazeandcave:mining/copper_computer={waxed_exposed_copper_bulb=true}}] run advancement grant @a only blazeandcave:mining/copper_computer waxed_exposed_copper_bulb
+execute if entity @a[advancements={blazeandcave:mining/bonfire_night={azure_bluet=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night azure_bluet
+execute if entity @a[advancements={blazeandcave:challenges/all_the_blocks={andesite_wall=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks andesite_wall
+execute if entity @a[advancements={blazeandcave:building/fake_fortress={nether_brick_stairs=true}}] run advancement grant @a only blazeandcave:building/fake_fortress nether_brick_stairs
+execute if entity @a[advancements={blazeandcave:challenges/all_the_blocks={nether_brick_fence=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks nether_brick_fence
+execute if entity @a[advancements={blazeandcave:mining/conductive_conglomerate={waxed_oxidized_lightning_rod=true}}] run advancement grant @a only blazeandcave:mining/conductive_conglomerate waxed_oxidized_lightning_rod
+execute if entity @a[advancements={blazeandcave:adventure/raidin_master={mansion=true}}] run advancement grant @a only blazeandcave:adventure/raidin_master mansion
+execute if entity @a[advancements={blazeandcave:building/let_there_be_light={yellow_candle=true}}] run advancement grant @a only blazeandcave:building/let_there_be_light yellow_candle
+execute if entity @a[advancements={blazeandcave:enchanting/master_enchanter={piercing_book=true}}] run advancement grant @a only blazeandcave:enchanting/master_enchanter piercing_book

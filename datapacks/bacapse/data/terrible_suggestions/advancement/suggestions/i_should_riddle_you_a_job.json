@@ -14,7 +14,7 @@
     },
     "description": {
       "color": "light_purple",
-      "translate": "The first is to trap wanderers, a "cinq" to be exact",
+      "translate": "The first is to trap wanderers, a \"cinq\" to be exact",
       "extra": [
         {
           "text": "n"
@@ -63,7 +63,7 @@
         },
         {
           "color": "light_purple",
-          "translate": "A "job application" that you’re ready to deliver."
+          "translate": "A \"job application\" that you’re ready to deliver."
         },
         {
           "text": "n"

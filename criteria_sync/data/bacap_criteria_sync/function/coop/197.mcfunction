@@ -1,0 +1,42 @@
+execute if entity @a[advancements={blazeandcave:weaponry/poseidon_vs_hades={zombified_piglin=true}}] run advancement grant @a only blazeandcave:weaponry/poseidon_vs_hades zombified_piglin
+execute if entity @a[advancements={blazeandcave:challenges/all_the_blocks={clay=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks clay
+execute if entity @a[advancements={bacaped:challenges/big_horse_adventure={the_end=true}}] run advancement grant @a only bacaped:challenges/big_horse_adventure the_end
+execute if entity @a[advancements={blazeandcave:challenges/stack_all_the_blocks={weathered_chiseled_copper=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks weathered_chiseled_copper
+execute if entity @a[advancements={blazeandcave:challenges/ultimate_enchanter={sweeping2_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter sweeping2_book
+execute if entity @a[advancements={cc:challenges/a_complete_collection={arrow_of_strong_strength=true}}] run advancement grant @a only cc:challenges/a_complete_collection arrow_of_strong_strength
+execute at @a[predicate=bacap_criteria_sync:adventure/kill_all_mobs/zombie_villager] run advancement grant @a only minecraft:adventure/kill_all_mobs minecraft:zombie_villager
+execute if entity @a[advancements={bacaped:challenges/professional_assassin={mooshroom=true}}] run advancement grant @a only bacaped:challenges/professional_assassin mooshroom
+execute if entity @a[advancements={blazeandcave:animal/rainbow_collection={cyan_wool=true}}] run advancement grant @a only blazeandcave:animal/rainbow_collection cyan_wool
+execute if entity @a[advancements={blazeandcave:potion/gas_bomb={infested=true}}] run advancement grant @a only blazeandcave:potion/gas_bomb infested
+execute if entity @a[advancements={blazeandcave:biomes/flower_power={wildflowers=true}}] run advancement grant @a only blazeandcave:biomes/flower_power wildflowers
+execute if entity @a[advancements={blazeandcave:mining/bonfire_night={oak_fence_gate=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night oak_fence_gate
+execute at @a[predicate=bacap_criteria_sync:husbandry/whole_pack/snowy] run advancement grant @a only minecraft:husbandry/whole_pack minecraft:snowy
+execute if entity @a[advancements={blazeandcave:animal/colorful_cavalry={purple=true}}] run advancement grant @a only blazeandcave:animal/colorful_cavalry purple
+execute if entity @a[advancements={blazeandcave:challenges/all_the_items={guster_banner_pattern=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items guster_banner_pattern
+execute if entity @a[advancements={bacaped:enchanting/fully_charged={iron_axe=true}}] run advancement grant @a only bacaped:enchanting/fully_charged iron_axe
+execute if entity @a[advancements={blazeandcave:building/art_gallery={stage=true}}] run advancement grant @a only blazeandcave:building/art_gallery stage
+execute if entity @a[advancements={blazeandcave:farming/whats_new_with_composting={glow_berries=true}}] run advancement grant @a only blazeandcave:farming/whats_new_with_composting glow_berries
+execute if entity @a[advancements={blazeandcave:challenges/stack_all_the_items={white_harness=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items white_harness
+execute if entity @a[advancements={blazeandcave:enchanting/master_armorer={boots_fire_protection_depth_strider=true}}] run advancement grant @a only blazeandcave:enchanting/master_armorer boots_fire_protection_depth_strider
+execute if entity @a[advancements={blazeandcave:building/bamboozled={bamboo_fence=true}}] run advancement grant @a only blazeandcave:building/bamboozled bamboo_fence
+execute if entity @a[advancements={cc:challenges/a_complete_collection={arrow_of_strong_healing=true}}] run advancement grant @a only cc:challenges/a_complete_collection arrow_of_strong_healing
+execute if entity @a[advancements={blazeandcave:building/crazy_walls={deepslate_brick_wall=true}}] run advancement grant @a only blazeandcave:building/crazy_walls deepslate_brick_wall
+execute if entity @a[advancements={blazeandcave:challenges/stack_all_the_blocks={ochre_froglight=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks ochre_froglight
+execute if entity @a[advancements={blazeandcave:challenges/telescopic={silverfish=true}}] run advancement grant @a only blazeandcave:challenges/telescopic silverfish
+execute if entity @a[advancements={blazeandcave:challenges/stack_all_the_blocks={bubble_coral_fan=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks bubble_coral_fan
+execute if entity @a[advancements={blazeandcave:mining/bonfire_night={dark_oak_leaves=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night dark_oak_leaves
+execute at @a[predicate=bacap_criteria_sync:redstone/monstrous_sacrifices/enderman] run advancement grant @a only blazeandcave:redstone/monstrous_sacrifices minecraft:enderman
+execute if entity @a[advancements={cc:challenges/a_complete_collection={howl_pottery_sherd=true}}] run advancement grant @a only cc:challenges/a_complete_collection howl_pottery_sherd
+execute if entity @a[advancements={blazeandcave:challenges/stack_all_the_blocks={magenta_bed=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks magenta_bed
+execute if entity @a[advancements={blazeandcave:biomes/a_grassy_nature={savanna=true}}] run advancement grant @a only blazeandcave:biomes/a_grassy_nature savanna
+execute if entity @a[advancements={bacaped:challenges/big_horse_adventure={windswept_forest=true}}] run advancement grant @a only bacaped:challenges/big_horse_adventure windswept_forest
+execute if entity @a[advancements={bacaped:mining/the_master_of_falls={powder_snow=true}}] run advancement grant @a only bacaped:mining/the_master_of_falls powder_snow
+execute if entity @a[advancements={blazeandcave:challenges/i_am_loot={bastion_treasure=true}}] run advancement grant @a only blazeandcave:challenges/i_am_loot bastion_treasure
+execute if entity @a[advancements={blazeandcave:challenges/stack_all_the_blocks={bamboo_block=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks bamboo_block
+execute if entity @a[advancements={bacaped:enchanting/fully_charged={iron_pickaxe=true}}] run advancement grant @a only bacaped:enchanting/fully_charged iron_pickaxe
+execute if entity @a[advancements={bacaped:nether/herbarium_to_my_friend={dandelion=true}}] run advancement grant @a only bacaped:nether/herbarium_to_my_friend dandelion
+execute if entity @a[advancements={blazeandcave:challenges/stack_all_the_items={phantom_membrane=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items phantom_membrane
+execute if entity @a[advancements={blazeandcave:building/pale_gardener={pale_oak_trapdoor=true}}] run advancement grant @a only blazeandcave:building/pale_gardener pale_oak_trapdoor
+execute if entity @a[advancements={blazeandcave:building/professor_dark_oak={dark_oak_sign=true}}] run advancement grant @a only blazeandcave:building/professor_dark_oak dark_oak_sign
+execute if entity @a[advancements={blazeandcave:challenges/endergeddon={villager=true}}] run advancement grant @a only blazeandcave:challenges/endergeddon villager
+execute if entity @a[advancements={blazeandcave:challenges/stack_all_the_blocks={warped_shelf=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks warped_shelf

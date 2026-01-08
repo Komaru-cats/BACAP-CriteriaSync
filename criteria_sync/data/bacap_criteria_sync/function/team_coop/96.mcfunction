@@ -1,714 +1,1376 @@
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:building/the_acacia_king={stripped_acacia_wood=true}}] run advancement grant @a only blazeandcave:building/the_acacia_king stripped_acacia_wood
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:building/the_acacia_king={stripped_acacia_wood=true}}] run advancement grant @a only blazeandcave:building/the_acacia_king stripped_acacia_wood
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:building/the_acacia_king={stripped_acacia_wood=true}}] run advancement grant @a only blazeandcave:building/the_acacia_king stripped_acacia_wood
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:building/the_acacia_king={stripped_acacia_wood=true}}] run advancement grant @a only blazeandcave:building/the_acacia_king stripped_acacia_wood
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:building/the_acacia_king={stripped_acacia_wood=true}}] run advancement grant @a only blazeandcave:building/the_acacia_king stripped_acacia_wood
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:building/the_acacia_king={stripped_acacia_wood=true}}] run advancement grant @a only blazeandcave:building/the_acacia_king stripped_acacia_wood
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:building/the_acacia_king={stripped_acacia_wood=true}}] run advancement grant @a only blazeandcave:building/the_acacia_king stripped_acacia_wood
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:building/the_acacia_king={stripped_acacia_wood=true}}] run advancement grant @a only blazeandcave:building/the_acacia_king stripped_acacia_wood
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:building/the_acacia_king={stripped_acacia_wood=true}}] run advancement grant @a only blazeandcave:building/the_acacia_king stripped_acacia_wood
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:building/the_acacia_king={stripped_acacia_wood=true}}] run advancement grant @a only blazeandcave:building/the_acacia_king stripped_acacia_wood
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:building/the_acacia_king={stripped_acacia_wood=true}}] run advancement grant @a only blazeandcave:building/the_acacia_king stripped_acacia_wood
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:building/the_acacia_king={stripped_acacia_wood=true}}] run advancement grant @a only blazeandcave:building/the_acacia_king stripped_acacia_wood
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:building/the_acacia_king={stripped_acacia_wood=true}}] run advancement grant @a only blazeandcave:building/the_acacia_king stripped_acacia_wood
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:building/the_acacia_king={stripped_acacia_wood=true}}] run advancement grant @a only blazeandcave:building/the_acacia_king stripped_acacia_wood
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:building/the_acacia_king={stripped_acacia_wood=true}}] run advancement grant @a only blazeandcave:building/the_acacia_king stripped_acacia_wood
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:building/the_acacia_king={stripped_acacia_wood=true}}] run advancement grant @a only blazeandcave:building/the_acacia_king stripped_acacia_wood
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/stack_all_the_items={mojang_banner_pattern=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items mojang_banner_pattern
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:building/slabs_for_days={polished_deepslate_slab=true}}] run advancement grant @a only blazeandcave:building/slabs_for_days polished_deepslate_slab
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:building/slabs_for_days={polished_deepslate_slab=true}}] run advancement grant @a only blazeandcave:building/slabs_for_days polished_deepslate_slab
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:building/slabs_for_days={polished_deepslate_slab=true}}] run advancement grant @a only blazeandcave:building/slabs_for_days polished_deepslate_slab
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:building/slabs_for_days={polished_deepslate_slab=true}}] run advancement grant @a only blazeandcave:building/slabs_for_days polished_deepslate_slab
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:building/slabs_for_days={polished_deepslate_slab=true}}] run advancement grant @a only blazeandcave:building/slabs_for_days polished_deepslate_slab
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:building/slabs_for_days={polished_deepslate_slab=true}}] run advancement grant @a only blazeandcave:building/slabs_for_days polished_deepslate_slab
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:building/slabs_for_days={polished_deepslate_slab=true}}] run advancement grant @a only blazeandcave:building/slabs_for_days polished_deepslate_slab
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:building/slabs_for_days={polished_deepslate_slab=true}}] run advancement grant @a only blazeandcave:building/slabs_for_days polished_deepslate_slab
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:building/slabs_for_days={polished_deepslate_slab=true}}] run advancement grant @a only blazeandcave:building/slabs_for_days polished_deepslate_slab
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:building/slabs_for_days={polished_deepslate_slab=true}}] run advancement grant @a only blazeandcave:building/slabs_for_days polished_deepslate_slab
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:building/slabs_for_days={polished_deepslate_slab=true}}] run advancement grant @a only blazeandcave:building/slabs_for_days polished_deepslate_slab
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:building/slabs_for_days={polished_deepslate_slab=true}}] run advancement grant @a only blazeandcave:building/slabs_for_days polished_deepslate_slab
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:building/slabs_for_days={polished_deepslate_slab=true}}] run advancement grant @a only blazeandcave:building/slabs_for_days polished_deepslate_slab
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:building/slabs_for_days={polished_deepslate_slab=true}}] run advancement grant @a only blazeandcave:building/slabs_for_days polished_deepslate_slab
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:building/slabs_for_days={polished_deepslate_slab=true}}] run advancement grant @a only blazeandcave:building/slabs_for_days polished_deepslate_slab
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:building/slabs_for_days={polished_deepslate_slab=true}}] run advancement grant @a only blazeandcave:building/slabs_for_days polished_deepslate_slab
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/stack_all_the_items={mojang_banner_pattern=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items mojang_banner_pattern
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:building/the_rainbow_you_always_wanted={purple_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted purple_concrete
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:building/the_rainbow_you_always_wanted={purple_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted purple_concrete
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:building/the_rainbow_you_always_wanted={purple_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted purple_concrete
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:building/the_rainbow_you_always_wanted={purple_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted purple_concrete
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:building/the_rainbow_you_always_wanted={purple_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted purple_concrete
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:building/the_rainbow_you_always_wanted={purple_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted purple_concrete
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:building/the_rainbow_you_always_wanted={purple_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted purple_concrete
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:building/the_rainbow_you_always_wanted={purple_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted purple_concrete
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:building/the_rainbow_you_always_wanted={purple_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted purple_concrete
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:building/the_rainbow_you_always_wanted={purple_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted purple_concrete
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:building/the_rainbow_you_always_wanted={purple_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted purple_concrete
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:building/the_rainbow_you_always_wanted={purple_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted purple_concrete
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:building/the_rainbow_you_always_wanted={purple_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted purple_concrete
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:building/the_rainbow_you_always_wanted={purple_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted purple_concrete
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:building/the_rainbow_you_always_wanted={purple_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted purple_concrete
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:building/the_rainbow_you_always_wanted={purple_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted purple_concrete
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/stack_all_the_items={mojang_banner_pattern=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items mojang_banner_pattern
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:building/master_logger={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/master_logger crimson_stem
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:building/master_logger={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/master_logger crimson_stem
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:building/master_logger={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/master_logger crimson_stem
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:building/master_logger={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/master_logger crimson_stem
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:building/master_logger={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/master_logger crimson_stem
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:building/master_logger={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/master_logger crimson_stem
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:building/master_logger={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/master_logger crimson_stem
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:building/master_logger={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/master_logger crimson_stem
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:building/master_logger={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/master_logger crimson_stem
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:building/master_logger={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/master_logger crimson_stem
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:building/master_logger={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/master_logger crimson_stem
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:building/master_logger={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/master_logger crimson_stem
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:building/master_logger={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/master_logger crimson_stem
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:building/master_logger={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/master_logger crimson_stem
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:building/master_logger={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/master_logger crimson_stem
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:building/master_logger={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/master_logger crimson_stem
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/stack_all_the_items={mojang_banner_pattern=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items mojang_banner_pattern
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/global_vaccination={leatherworker_plains=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination leatherworker_plains
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/global_vaccination={leatherworker_plains=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination leatherworker_plains
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/global_vaccination={leatherworker_plains=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination leatherworker_plains
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/global_vaccination={leatherworker_plains=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination leatherworker_plains
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/global_vaccination={leatherworker_plains=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination leatherworker_plains
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/global_vaccination={leatherworker_plains=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination leatherworker_plains
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/global_vaccination={leatherworker_plains=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination leatherworker_plains
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/global_vaccination={leatherworker_plains=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination leatherworker_plains
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/global_vaccination={leatherworker_plains=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination leatherworker_plains
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/global_vaccination={leatherworker_plains=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination leatherworker_plains
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/global_vaccination={leatherworker_plains=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination leatherworker_plains
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/global_vaccination={leatherworker_plains=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination leatherworker_plains
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/global_vaccination={leatherworker_plains=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination leatherworker_plains
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/global_vaccination={leatherworker_plains=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination leatherworker_plains
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/global_vaccination={leatherworker_plains=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination leatherworker_plains
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/global_vaccination={leatherworker_plains=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination leatherworker_plains
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/stack_all_the_items={mojang_banner_pattern=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items mojang_banner_pattern
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/stack_all_the_items={goat_horn=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items goat_horn
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/stack_all_the_items={goat_horn=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items goat_horn
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/stack_all_the_items={goat_horn=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items goat_horn
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/stack_all_the_items={goat_horn=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items goat_horn
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/stack_all_the_items={goat_horn=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items goat_horn
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/stack_all_the_items={goat_horn=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items goat_horn
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/stack_all_the_items={goat_horn=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items goat_horn
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/stack_all_the_items={goat_horn=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items goat_horn
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/stack_all_the_items={goat_horn=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items goat_horn
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/stack_all_the_items={goat_horn=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items goat_horn
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/stack_all_the_items={goat_horn=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items goat_horn
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/stack_all_the_items={goat_horn=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items goat_horn
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/stack_all_the_items={goat_horn=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items goat_horn
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/stack_all_the_items={goat_horn=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items goat_horn
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/stack_all_the_items={goat_horn=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items goat_horn
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/stack_all_the_items={goat_horn=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items goat_horn
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/stack_all_the_items={mojang_banner_pattern=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items mojang_banner_pattern
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/all_the_blocks={magenta_banner=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks magenta_banner
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/all_the_blocks={magenta_banner=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks magenta_banner
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/all_the_blocks={magenta_banner=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks magenta_banner
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/all_the_blocks={magenta_banner=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks magenta_banner
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/all_the_blocks={magenta_banner=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks magenta_banner
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/all_the_blocks={magenta_banner=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks magenta_banner
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/all_the_blocks={magenta_banner=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks magenta_banner
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/all_the_blocks={magenta_banner=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks magenta_banner
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/all_the_blocks={magenta_banner=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks magenta_banner
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/all_the_blocks={magenta_banner=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks magenta_banner
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/all_the_blocks={magenta_banner=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks magenta_banner
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/all_the_blocks={magenta_banner=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks magenta_banner
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/all_the_blocks={magenta_banner=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks magenta_banner
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/all_the_blocks={magenta_banner=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks magenta_banner
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/all_the_blocks={magenta_banner=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks magenta_banner
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/all_the_blocks={magenta_banner=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks magenta_banner
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/stack_all_the_items={mojang_banner_pattern=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items mojang_banner_pattern
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:building/the_rainbow_you_always_wanted={green_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted green_concrete
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:building/the_rainbow_you_always_wanted={green_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted green_concrete
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:building/the_rainbow_you_always_wanted={green_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted green_concrete
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:building/the_rainbow_you_always_wanted={green_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted green_concrete
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:building/the_rainbow_you_always_wanted={green_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted green_concrete
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:building/the_rainbow_you_always_wanted={green_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted green_concrete
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:building/the_rainbow_you_always_wanted={green_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted green_concrete
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:building/the_rainbow_you_always_wanted={green_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted green_concrete
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:building/the_rainbow_you_always_wanted={green_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted green_concrete
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:building/the_rainbow_you_always_wanted={green_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted green_concrete
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:building/the_rainbow_you_always_wanted={green_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted green_concrete
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:building/the_rainbow_you_always_wanted={green_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted green_concrete
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:building/the_rainbow_you_always_wanted={green_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted green_concrete
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:building/the_rainbow_you_always_wanted={green_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted green_concrete
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:building/the_rainbow_you_always_wanted={green_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted green_concrete
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:building/the_rainbow_you_always_wanted={green_concrete=true}}] run advancement grant @a only blazeandcave:building/the_rainbow_you_always_wanted green_concrete
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/stack_all_the_items={mojang_banner_pattern=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items mojang_banner_pattern
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/all_the_items={potion=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items potion
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/all_the_items={potion=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items potion
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/all_the_items={potion=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items potion
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/all_the_items={potion=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items potion
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/all_the_items={potion=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items potion
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/all_the_items={potion=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items potion
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/all_the_items={potion=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items potion
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/all_the_items={potion=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items potion
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/all_the_items={potion=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items potion
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/all_the_items={potion=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items potion
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/all_the_items={potion=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items potion
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/all_the_items={potion=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items potion
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/all_the_items={potion=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items potion
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/all_the_items={potion=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items potion
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/all_the_items={potion=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items potion
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/all_the_items={potion=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items potion
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/stack_all_the_items={mojang_banner_pattern=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items mojang_banner_pattern
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:adventure/town_planner={blast_furnace=true}}] run advancement grant @a only blazeandcave:adventure/town_planner blast_furnace
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:adventure/town_planner={blast_furnace=true}}] run advancement grant @a only blazeandcave:adventure/town_planner blast_furnace
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:adventure/town_planner={blast_furnace=true}}] run advancement grant @a only blazeandcave:adventure/town_planner blast_furnace
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:adventure/town_planner={blast_furnace=true}}] run advancement grant @a only blazeandcave:adventure/town_planner blast_furnace
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:adventure/town_planner={blast_furnace=true}}] run advancement grant @a only blazeandcave:adventure/town_planner blast_furnace
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:adventure/town_planner={blast_furnace=true}}] run advancement grant @a only blazeandcave:adventure/town_planner blast_furnace
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:adventure/town_planner={blast_furnace=true}}] run advancement grant @a only blazeandcave:adventure/town_planner blast_furnace
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:adventure/town_planner={blast_furnace=true}}] run advancement grant @a only blazeandcave:adventure/town_planner blast_furnace
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:adventure/town_planner={blast_furnace=true}}] run advancement grant @a only blazeandcave:adventure/town_planner blast_furnace
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:adventure/town_planner={blast_furnace=true}}] run advancement grant @a only blazeandcave:adventure/town_planner blast_furnace
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:adventure/town_planner={blast_furnace=true}}] run advancement grant @a only blazeandcave:adventure/town_planner blast_furnace
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:adventure/town_planner={blast_furnace=true}}] run advancement grant @a only blazeandcave:adventure/town_planner blast_furnace
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:adventure/town_planner={blast_furnace=true}}] run advancement grant @a only blazeandcave:adventure/town_planner blast_furnace
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:adventure/town_planner={blast_furnace=true}}] run advancement grant @a only blazeandcave:adventure/town_planner blast_furnace
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:adventure/town_planner={blast_furnace=true}}] run advancement grant @a only blazeandcave:adventure/town_planner blast_furnace
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:adventure/town_planner={blast_furnace=true}}] run advancement grant @a only blazeandcave:adventure/town_planner blast_furnace
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/stack_all_the_items={mojang_banner_pattern=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items mojang_banner_pattern
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/ultimate_enchanter={density3_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter density3_book
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/ultimate_enchanter={density3_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter density3_book
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/ultimate_enchanter={density3_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter density3_book
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/ultimate_enchanter={density3_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter density3_book
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/ultimate_enchanter={density3_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter density3_book
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/ultimate_enchanter={density3_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter density3_book
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/ultimate_enchanter={density3_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter density3_book
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/ultimate_enchanter={density3_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter density3_book
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/ultimate_enchanter={density3_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter density3_book
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/ultimate_enchanter={density3_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter density3_book
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/ultimate_enchanter={density3_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter density3_book
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/ultimate_enchanter={density3_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter density3_book
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/ultimate_enchanter={density3_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter density3_book
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/ultimate_enchanter={density3_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter density3_book
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/ultimate_enchanter={density3_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter density3_book
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/ultimate_enchanter={density3_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter density3_book
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/stack_all_the_items={mojang_banner_pattern=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items mojang_banner_pattern
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/stack_all_the_blocks={stone_bricks=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks stone_bricks
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/stack_all_the_blocks={stone_bricks=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks stone_bricks
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/stack_all_the_blocks={stone_bricks=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks stone_bricks
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/stack_all_the_blocks={stone_bricks=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks stone_bricks
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/stack_all_the_blocks={stone_bricks=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks stone_bricks
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/stack_all_the_blocks={stone_bricks=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks stone_bricks
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/stack_all_the_blocks={stone_bricks=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks stone_bricks
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/stack_all_the_blocks={stone_bricks=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks stone_bricks
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/stack_all_the_blocks={stone_bricks=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks stone_bricks
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/stack_all_the_blocks={stone_bricks=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks stone_bricks
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/stack_all_the_blocks={stone_bricks=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks stone_bricks
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/stack_all_the_blocks={stone_bricks=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks stone_bricks
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/stack_all_the_blocks={stone_bricks=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks stone_bricks
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/stack_all_the_blocks={stone_bricks=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks stone_bricks
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/stack_all_the_blocks={stone_bricks=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks stone_bricks
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/stack_all_the_blocks={stone_bricks=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks stone_bricks
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/stack_all_the_items={mojang_banner_pattern=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items mojang_banner_pattern
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:weaponry/the_aquatic_hunter={dolphin=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter dolphin
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:weaponry/the_aquatic_hunter={dolphin=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter dolphin
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:weaponry/the_aquatic_hunter={dolphin=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter dolphin
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:weaponry/the_aquatic_hunter={dolphin=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter dolphin
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:weaponry/the_aquatic_hunter={dolphin=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter dolphin
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:weaponry/the_aquatic_hunter={dolphin=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter dolphin
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:weaponry/the_aquatic_hunter={dolphin=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter dolphin
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:weaponry/the_aquatic_hunter={dolphin=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter dolphin
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:weaponry/the_aquatic_hunter={dolphin=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter dolphin
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:weaponry/the_aquatic_hunter={dolphin=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter dolphin
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:weaponry/the_aquatic_hunter={dolphin=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter dolphin
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:weaponry/the_aquatic_hunter={dolphin=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter dolphin
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:weaponry/the_aquatic_hunter={dolphin=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter dolphin
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:weaponry/the_aquatic_hunter={dolphin=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter dolphin
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:weaponry/the_aquatic_hunter={dolphin=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter dolphin
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:weaponry/the_aquatic_hunter={dolphin=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter dolphin
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/stack_all_the_items={mojang_banner_pattern=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items mojang_banner_pattern
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/all_the_items={magma_cream=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items magma_cream
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/all_the_items={magma_cream=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items magma_cream
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/all_the_items={magma_cream=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items magma_cream
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/all_the_items={magma_cream=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items magma_cream
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/all_the_items={magma_cream=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items magma_cream
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/all_the_items={magma_cream=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items magma_cream
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/all_the_items={magma_cream=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items magma_cream
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/all_the_items={magma_cream=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items magma_cream
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/all_the_items={magma_cream=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items magma_cream
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/all_the_items={magma_cream=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items magma_cream
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/all_the_items={magma_cream=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items magma_cream
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/all_the_items={magma_cream=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items magma_cream
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/all_the_items={magma_cream=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items magma_cream
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/all_the_items={magma_cream=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items magma_cream
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/all_the_items={magma_cream=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items magma_cream
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/all_the_items={magma_cream=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items magma_cream
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/stack_all_the_items={mojang_banner_pattern=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items mojang_banner_pattern
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/stack_all_the_items={cyan_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items cyan_dye
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/stack_all_the_items={cyan_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items cyan_dye
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/stack_all_the_items={cyan_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items cyan_dye
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/stack_all_the_items={cyan_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items cyan_dye
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/stack_all_the_items={cyan_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items cyan_dye
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/stack_all_the_items={cyan_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items cyan_dye
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/stack_all_the_items={cyan_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items cyan_dye
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/stack_all_the_items={cyan_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items cyan_dye
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/stack_all_the_items={cyan_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items cyan_dye
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/stack_all_the_items={cyan_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items cyan_dye
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/stack_all_the_items={cyan_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items cyan_dye
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/stack_all_the_items={cyan_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items cyan_dye
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/stack_all_the_items={cyan_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items cyan_dye
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/stack_all_the_items={cyan_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items cyan_dye
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/stack_all_the_items={cyan_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items cyan_dye
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/stack_all_the_items={cyan_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items cyan_dye
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/stack_all_the_items={mojang_banner_pattern=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items mojang_banner_pattern
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/stack_all_the_blocks={dark_oak_door=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks dark_oak_door
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/stack_all_the_blocks={dark_oak_door=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks dark_oak_door
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/stack_all_the_blocks={dark_oak_door=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks dark_oak_door
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/stack_all_the_blocks={dark_oak_door=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks dark_oak_door
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/stack_all_the_blocks={dark_oak_door=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks dark_oak_door
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/stack_all_the_blocks={dark_oak_door=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks dark_oak_door
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/stack_all_the_blocks={dark_oak_door=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks dark_oak_door
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/stack_all_the_blocks={dark_oak_door=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks dark_oak_door
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/stack_all_the_blocks={dark_oak_door=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks dark_oak_door
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/stack_all_the_blocks={dark_oak_door=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks dark_oak_door
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/stack_all_the_blocks={dark_oak_door=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks dark_oak_door
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/stack_all_the_blocks={dark_oak_door=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks dark_oak_door
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/stack_all_the_blocks={dark_oak_door=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks dark_oak_door
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/stack_all_the_blocks={dark_oak_door=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks dark_oak_door
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/stack_all_the_blocks={dark_oak_door=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks dark_oak_door
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/stack_all_the_blocks={dark_oak_door=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks dark_oak_door
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/stack_all_the_items={mojang_banner_pattern=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items mojang_banner_pattern
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/ultimate_enchanter={fortune2=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fortune2
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/ultimate_enchanter={fortune2=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fortune2
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/ultimate_enchanter={fortune2=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fortune2
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/ultimate_enchanter={fortune2=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fortune2
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/ultimate_enchanter={fortune2=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fortune2
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/ultimate_enchanter={fortune2=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fortune2
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/ultimate_enchanter={fortune2=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fortune2
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/ultimate_enchanter={fortune2=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fortune2
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/ultimate_enchanter={fortune2=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fortune2
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/ultimate_enchanter={fortune2=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fortune2
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/ultimate_enchanter={fortune2=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fortune2
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/ultimate_enchanter={fortune2=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fortune2
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/ultimate_enchanter={fortune2=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fortune2
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/ultimate_enchanter={fortune2=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fortune2
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/ultimate_enchanter={fortune2=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fortune2
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/ultimate_enchanter={fortune2=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fortune2
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:monsters/basketblock_championship={red_mushroom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship red_mushroom
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/all_the_items={diamond_leggings=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items diamond_leggings
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/all_the_items={diamond_leggings=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items diamond_leggings
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/all_the_items={diamond_leggings=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items diamond_leggings
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/all_the_items={diamond_leggings=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items diamond_leggings
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/all_the_items={diamond_leggings=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items diamond_leggings
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/all_the_items={diamond_leggings=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items diamond_leggings
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/all_the_items={diamond_leggings=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items diamond_leggings
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/all_the_items={diamond_leggings=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items diamond_leggings
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/all_the_items={diamond_leggings=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items diamond_leggings
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/all_the_items={diamond_leggings=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items diamond_leggings
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/all_the_items={diamond_leggings=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items diamond_leggings
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/all_the_items={diamond_leggings=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items diamond_leggings
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/all_the_items={diamond_leggings=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items diamond_leggings
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/all_the_items={diamond_leggings=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items diamond_leggings
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/all_the_items={diamond_leggings=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items diamond_leggings
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/all_the_items={diamond_leggings=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items diamond_leggings
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:monsters/basketblock_championship={red_mushroom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship red_mushroom
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/stack_all_the_blocks={quartz_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks quartz_slab
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/stack_all_the_blocks={quartz_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks quartz_slab
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/stack_all_the_blocks={quartz_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks quartz_slab
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/stack_all_the_blocks={quartz_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks quartz_slab
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/stack_all_the_blocks={quartz_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks quartz_slab
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/stack_all_the_blocks={quartz_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks quartz_slab
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/stack_all_the_blocks={quartz_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks quartz_slab
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/stack_all_the_blocks={quartz_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks quartz_slab
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/stack_all_the_blocks={quartz_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks quartz_slab
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/stack_all_the_blocks={quartz_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks quartz_slab
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/stack_all_the_blocks={quartz_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks quartz_slab
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/stack_all_the_blocks={quartz_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks quartz_slab
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/stack_all_the_blocks={quartz_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks quartz_slab
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/stack_all_the_blocks={quartz_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks quartz_slab
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/stack_all_the_blocks={quartz_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks quartz_slab
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/stack_all_the_blocks={quartz_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks quartz_slab
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:monsters/basketblock_championship={red_mushroom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship red_mushroom
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/stack_all_the_blocks={waxed_exposed_copper_bars=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks waxed_exposed_copper_bars
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/stack_all_the_blocks={waxed_exposed_copper_bars=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks waxed_exposed_copper_bars
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/stack_all_the_blocks={waxed_exposed_copper_bars=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks waxed_exposed_copper_bars
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/stack_all_the_blocks={waxed_exposed_copper_bars=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks waxed_exposed_copper_bars
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/stack_all_the_blocks={waxed_exposed_copper_bars=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks waxed_exposed_copper_bars
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/stack_all_the_blocks={waxed_exposed_copper_bars=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks waxed_exposed_copper_bars
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/stack_all_the_blocks={waxed_exposed_copper_bars=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks waxed_exposed_copper_bars
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/stack_all_the_blocks={waxed_exposed_copper_bars=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks waxed_exposed_copper_bars
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/stack_all_the_blocks={waxed_exposed_copper_bars=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks waxed_exposed_copper_bars
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/stack_all_the_blocks={waxed_exposed_copper_bars=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks waxed_exposed_copper_bars
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/stack_all_the_blocks={waxed_exposed_copper_bars=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks waxed_exposed_copper_bars
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/stack_all_the_blocks={waxed_exposed_copper_bars=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks waxed_exposed_copper_bars
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/stack_all_the_blocks={waxed_exposed_copper_bars=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks waxed_exposed_copper_bars
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/stack_all_the_blocks={waxed_exposed_copper_bars=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks waxed_exposed_copper_bars
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/stack_all_the_blocks={waxed_exposed_copper_bars=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks waxed_exposed_copper_bars
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/stack_all_the_blocks={waxed_exposed_copper_bars=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks waxed_exposed_copper_bars
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:monsters/basketblock_championship={red_mushroom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship red_mushroom
 
-execute if entity @a[team=bac_team_aqua, advancements={bacaped:challenges/professional_assassin={piglin=true}}] run advancement grant @a only bacaped:challenges/professional_assassin piglin
-execute if entity @a[team=bac_team_black, advancements={bacaped:challenges/professional_assassin={piglin=true}}] run advancement grant @a only bacaped:challenges/professional_assassin piglin
-execute if entity @a[team=bac_team_blue, advancements={bacaped:challenges/professional_assassin={piglin=true}}] run advancement grant @a only bacaped:challenges/professional_assassin piglin
-execute if entity @a[team=bac_team_dark_aqua, advancements={bacaped:challenges/professional_assassin={piglin=true}}] run advancement grant @a only bacaped:challenges/professional_assassin piglin
-execute if entity @a[team=bac_team_dark_blue, advancements={bacaped:challenges/professional_assassin={piglin=true}}] run advancement grant @a only bacaped:challenges/professional_assassin piglin
-execute if entity @a[team=bac_team_dark_gray, advancements={bacaped:challenges/professional_assassin={piglin=true}}] run advancement grant @a only bacaped:challenges/professional_assassin piglin
-execute if entity @a[team=bac_team_dark_green, advancements={bacaped:challenges/professional_assassin={piglin=true}}] run advancement grant @a only bacaped:challenges/professional_assassin piglin
-execute if entity @a[team=bac_team_dark_purple, advancements={bacaped:challenges/professional_assassin={piglin=true}}] run advancement grant @a only bacaped:challenges/professional_assassin piglin
-execute if entity @a[team=bac_team_dark_red, advancements={bacaped:challenges/professional_assassin={piglin=true}}] run advancement grant @a only bacaped:challenges/professional_assassin piglin
-execute if entity @a[team=bac_team_gold, advancements={bacaped:challenges/professional_assassin={piglin=true}}] run advancement grant @a only bacaped:challenges/professional_assassin piglin
-execute if entity @a[team=bac_team_gray, advancements={bacaped:challenges/professional_assassin={piglin=true}}] run advancement grant @a only bacaped:challenges/professional_assassin piglin
-execute if entity @a[team=bac_team_green, advancements={bacaped:challenges/professional_assassin={piglin=true}}] run advancement grant @a only bacaped:challenges/professional_assassin piglin
-execute if entity @a[team=bac_team_light_purple, advancements={bacaped:challenges/professional_assassin={piglin=true}}] run advancement grant @a only bacaped:challenges/professional_assassin piglin
-execute if entity @a[team=bac_team_red, advancements={bacaped:challenges/professional_assassin={piglin=true}}] run advancement grant @a only bacaped:challenges/professional_assassin piglin
-execute if entity @a[team=bac_team_white, advancements={bacaped:challenges/professional_assassin={piglin=true}}] run advancement grant @a only bacaped:challenges/professional_assassin piglin
-execute if entity @a[team=bac_team_yellow, advancements={bacaped:challenges/professional_assassin={piglin=true}}] run advancement grant @a only bacaped:challenges/professional_assassin piglin
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:monsters/basketblock_championship={red_mushroom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship red_mushroom
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/all_the_items={dark_oak_boat=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items dark_oak_boat
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/all_the_items={dark_oak_boat=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items dark_oak_boat
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/all_the_items={dark_oak_boat=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items dark_oak_boat
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/all_the_items={dark_oak_boat=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items dark_oak_boat
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/all_the_items={dark_oak_boat=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items dark_oak_boat
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/all_the_items={dark_oak_boat=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items dark_oak_boat
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/all_the_items={dark_oak_boat=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items dark_oak_boat
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/all_the_items={dark_oak_boat=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items dark_oak_boat
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/all_the_items={dark_oak_boat=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items dark_oak_boat
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/all_the_items={dark_oak_boat=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items dark_oak_boat
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/all_the_items={dark_oak_boat=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items dark_oak_boat
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/all_the_items={dark_oak_boat=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items dark_oak_boat
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/all_the_items={dark_oak_boat=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items dark_oak_boat
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/all_the_items={dark_oak_boat=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items dark_oak_boat
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/all_the_items={dark_oak_boat=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items dark_oak_boat
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/all_the_items={dark_oak_boat=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items dark_oak_boat
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:monsters/basketblock_championship={red_mushroom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship red_mushroom
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/all_the_blocks={yellow_stained_glass_pane=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks yellow_stained_glass_pane
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/all_the_blocks={yellow_stained_glass_pane=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks yellow_stained_glass_pane
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/all_the_blocks={yellow_stained_glass_pane=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks yellow_stained_glass_pane
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/all_the_blocks={yellow_stained_glass_pane=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks yellow_stained_glass_pane
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/all_the_blocks={yellow_stained_glass_pane=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks yellow_stained_glass_pane
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/all_the_blocks={yellow_stained_glass_pane=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks yellow_stained_glass_pane
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/all_the_blocks={yellow_stained_glass_pane=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks yellow_stained_glass_pane
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/all_the_blocks={yellow_stained_glass_pane=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks yellow_stained_glass_pane
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/all_the_blocks={yellow_stained_glass_pane=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks yellow_stained_glass_pane
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/all_the_blocks={yellow_stained_glass_pane=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks yellow_stained_glass_pane
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/all_the_blocks={yellow_stained_glass_pane=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks yellow_stained_glass_pane
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/all_the_blocks={yellow_stained_glass_pane=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks yellow_stained_glass_pane
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/all_the_blocks={yellow_stained_glass_pane=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks yellow_stained_glass_pane
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/all_the_blocks={yellow_stained_glass_pane=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks yellow_stained_glass_pane
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/all_the_blocks={yellow_stained_glass_pane=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks yellow_stained_glass_pane
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/all_the_blocks={yellow_stained_glass_pane=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks yellow_stained_glass_pane
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:monsters/basketblock_championship={red_mushroom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship red_mushroom
 
-execute if entity @a[team=bac_team_aqua, advancements={bacaped:challenges/shopaholic={cod_bucket=true}}] run advancement grant @a only bacaped:challenges/shopaholic cod_bucket
-execute if entity @a[team=bac_team_black, advancements={bacaped:challenges/shopaholic={cod_bucket=true}}] run advancement grant @a only bacaped:challenges/shopaholic cod_bucket
-execute if entity @a[team=bac_team_blue, advancements={bacaped:challenges/shopaholic={cod_bucket=true}}] run advancement grant @a only bacaped:challenges/shopaholic cod_bucket
-execute if entity @a[team=bac_team_dark_aqua, advancements={bacaped:challenges/shopaholic={cod_bucket=true}}] run advancement grant @a only bacaped:challenges/shopaholic cod_bucket
-execute if entity @a[team=bac_team_dark_blue, advancements={bacaped:challenges/shopaholic={cod_bucket=true}}] run advancement grant @a only bacaped:challenges/shopaholic cod_bucket
-execute if entity @a[team=bac_team_dark_gray, advancements={bacaped:challenges/shopaholic={cod_bucket=true}}] run advancement grant @a only bacaped:challenges/shopaholic cod_bucket
-execute if entity @a[team=bac_team_dark_green, advancements={bacaped:challenges/shopaholic={cod_bucket=true}}] run advancement grant @a only bacaped:challenges/shopaholic cod_bucket
-execute if entity @a[team=bac_team_dark_purple, advancements={bacaped:challenges/shopaholic={cod_bucket=true}}] run advancement grant @a only bacaped:challenges/shopaholic cod_bucket
-execute if entity @a[team=bac_team_dark_red, advancements={bacaped:challenges/shopaholic={cod_bucket=true}}] run advancement grant @a only bacaped:challenges/shopaholic cod_bucket
-execute if entity @a[team=bac_team_gold, advancements={bacaped:challenges/shopaholic={cod_bucket=true}}] run advancement grant @a only bacaped:challenges/shopaholic cod_bucket
-execute if entity @a[team=bac_team_gray, advancements={bacaped:challenges/shopaholic={cod_bucket=true}}] run advancement grant @a only bacaped:challenges/shopaholic cod_bucket
-execute if entity @a[team=bac_team_green, advancements={bacaped:challenges/shopaholic={cod_bucket=true}}] run advancement grant @a only bacaped:challenges/shopaholic cod_bucket
-execute if entity @a[team=bac_team_light_purple, advancements={bacaped:challenges/shopaholic={cod_bucket=true}}] run advancement grant @a only bacaped:challenges/shopaholic cod_bucket
-execute if entity @a[team=bac_team_red, advancements={bacaped:challenges/shopaholic={cod_bucket=true}}] run advancement grant @a only bacaped:challenges/shopaholic cod_bucket
-execute if entity @a[team=bac_team_white, advancements={bacaped:challenges/shopaholic={cod_bucket=true}}] run advancement grant @a only bacaped:challenges/shopaholic cod_bucket
-execute if entity @a[team=bac_team_yellow, advancements={bacaped:challenges/shopaholic={cod_bucket=true}}] run advancement grant @a only bacaped:challenges/shopaholic cod_bucket
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:monsters/basketblock_championship={red_mushroom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship red_mushroom
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/stack_all_the_blocks={bell=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks bell
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/stack_all_the_blocks={bell=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks bell
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/stack_all_the_blocks={bell=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks bell
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/stack_all_the_blocks={bell=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks bell
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/stack_all_the_blocks={bell=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks bell
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/stack_all_the_blocks={bell=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks bell
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/stack_all_the_blocks={bell=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks bell
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/stack_all_the_blocks={bell=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks bell
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/stack_all_the_blocks={bell=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks bell
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/stack_all_the_blocks={bell=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks bell
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/stack_all_the_blocks={bell=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks bell
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/stack_all_the_blocks={bell=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks bell
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/stack_all_the_blocks={bell=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks bell
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/stack_all_the_blocks={bell=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks bell
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/stack_all_the_blocks={bell=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks bell
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/stack_all_the_blocks={bell=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks bell
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:monsters/basketblock_championship={red_mushroom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship red_mushroom
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:redstone/master_engineer={trapped_chest=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer trapped_chest
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:redstone/master_engineer={trapped_chest=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer trapped_chest
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:redstone/master_engineer={trapped_chest=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer trapped_chest
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:redstone/master_engineer={trapped_chest=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer trapped_chest
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:redstone/master_engineer={trapped_chest=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer trapped_chest
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:redstone/master_engineer={trapped_chest=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer trapped_chest
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:redstone/master_engineer={trapped_chest=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer trapped_chest
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:redstone/master_engineer={trapped_chest=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer trapped_chest
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:redstone/master_engineer={trapped_chest=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer trapped_chest
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:redstone/master_engineer={trapped_chest=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer trapped_chest
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:redstone/master_engineer={trapped_chest=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer trapped_chest
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:redstone/master_engineer={trapped_chest=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer trapped_chest
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:redstone/master_engineer={trapped_chest=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer trapped_chest
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:redstone/master_engineer={trapped_chest=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer trapped_chest
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:redstone/master_engineer={trapped_chest=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer trapped_chest
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:redstone/master_engineer={trapped_chest=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer trapped_chest
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:monsters/basketblock_championship={red_mushroom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship red_mushroom
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/global_vaccination={fletcher_jungle=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination fletcher_jungle
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/global_vaccination={fletcher_jungle=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination fletcher_jungle
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/global_vaccination={fletcher_jungle=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination fletcher_jungle
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/global_vaccination={fletcher_jungle=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination fletcher_jungle
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/global_vaccination={fletcher_jungle=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination fletcher_jungle
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/global_vaccination={fletcher_jungle=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination fletcher_jungle
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/global_vaccination={fletcher_jungle=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination fletcher_jungle
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/global_vaccination={fletcher_jungle=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination fletcher_jungle
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/global_vaccination={fletcher_jungle=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination fletcher_jungle
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/global_vaccination={fletcher_jungle=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination fletcher_jungle
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/global_vaccination={fletcher_jungle=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination fletcher_jungle
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/global_vaccination={fletcher_jungle=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination fletcher_jungle
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/global_vaccination={fletcher_jungle=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination fletcher_jungle
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/global_vaccination={fletcher_jungle=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination fletcher_jungle
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/global_vaccination={fletcher_jungle=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination fletcher_jungle
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/global_vaccination={fletcher_jungle=true}}] run advancement grant @a only blazeandcave:challenges/global_vaccination fletcher_jungle
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:monsters/basketblock_championship={red_mushroom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship red_mushroom
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:adventure/disc_jockey={music_disc_creator=true}}] run advancement grant @a only blazeandcave:adventure/disc_jockey music_disc_creator
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:adventure/disc_jockey={music_disc_creator=true}}] run advancement grant @a only blazeandcave:adventure/disc_jockey music_disc_creator
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:adventure/disc_jockey={music_disc_creator=true}}] run advancement grant @a only blazeandcave:adventure/disc_jockey music_disc_creator
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:adventure/disc_jockey={music_disc_creator=true}}] run advancement grant @a only blazeandcave:adventure/disc_jockey music_disc_creator
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:adventure/disc_jockey={music_disc_creator=true}}] run advancement grant @a only blazeandcave:adventure/disc_jockey music_disc_creator
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:adventure/disc_jockey={music_disc_creator=true}}] run advancement grant @a only blazeandcave:adventure/disc_jockey music_disc_creator
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:adventure/disc_jockey={music_disc_creator=true}}] run advancement grant @a only blazeandcave:adventure/disc_jockey music_disc_creator
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:adventure/disc_jockey={music_disc_creator=true}}] run advancement grant @a only blazeandcave:adventure/disc_jockey music_disc_creator
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:adventure/disc_jockey={music_disc_creator=true}}] run advancement grant @a only blazeandcave:adventure/disc_jockey music_disc_creator
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:adventure/disc_jockey={music_disc_creator=true}}] run advancement grant @a only blazeandcave:adventure/disc_jockey music_disc_creator
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:adventure/disc_jockey={music_disc_creator=true}}] run advancement grant @a only blazeandcave:adventure/disc_jockey music_disc_creator
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:adventure/disc_jockey={music_disc_creator=true}}] run advancement grant @a only blazeandcave:adventure/disc_jockey music_disc_creator
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:adventure/disc_jockey={music_disc_creator=true}}] run advancement grant @a only blazeandcave:adventure/disc_jockey music_disc_creator
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:adventure/disc_jockey={music_disc_creator=true}}] run advancement grant @a only blazeandcave:adventure/disc_jockey music_disc_creator
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:adventure/disc_jockey={music_disc_creator=true}}] run advancement grant @a only blazeandcave:adventure/disc_jockey music_disc_creator
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:adventure/disc_jockey={music_disc_creator=true}}] run advancement grant @a only blazeandcave:adventure/disc_jockey music_disc_creator
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:monsters/basketblock_championship={red_mushroom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship red_mushroom
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:biomes/terralithic={moonlight_grove=true}}] run advancement grant @a only blazeandcave:biomes/terralithic moonlight_grove
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:biomes/terralithic={moonlight_grove=true}}] run advancement grant @a only blazeandcave:biomes/terralithic moonlight_grove
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:biomes/terralithic={moonlight_grove=true}}] run advancement grant @a only blazeandcave:biomes/terralithic moonlight_grove
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:biomes/terralithic={moonlight_grove=true}}] run advancement grant @a only blazeandcave:biomes/terralithic moonlight_grove
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:biomes/terralithic={moonlight_grove=true}}] run advancement grant @a only blazeandcave:biomes/terralithic moonlight_grove
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:biomes/terralithic={moonlight_grove=true}}] run advancement grant @a only blazeandcave:biomes/terralithic moonlight_grove
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:biomes/terralithic={moonlight_grove=true}}] run advancement grant @a only blazeandcave:biomes/terralithic moonlight_grove
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:biomes/terralithic={moonlight_grove=true}}] run advancement grant @a only blazeandcave:biomes/terralithic moonlight_grove
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:biomes/terralithic={moonlight_grove=true}}] run advancement grant @a only blazeandcave:biomes/terralithic moonlight_grove
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:biomes/terralithic={moonlight_grove=true}}] run advancement grant @a only blazeandcave:biomes/terralithic moonlight_grove
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:biomes/terralithic={moonlight_grove=true}}] run advancement grant @a only blazeandcave:biomes/terralithic moonlight_grove
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:biomes/terralithic={moonlight_grove=true}}] run advancement grant @a only blazeandcave:biomes/terralithic moonlight_grove
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:biomes/terralithic={moonlight_grove=true}}] run advancement grant @a only blazeandcave:biomes/terralithic moonlight_grove
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:biomes/terralithic={moonlight_grove=true}}] run advancement grant @a only blazeandcave:biomes/terralithic moonlight_grove
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:biomes/terralithic={moonlight_grove=true}}] run advancement grant @a only blazeandcave:biomes/terralithic moonlight_grove
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:biomes/terralithic={moonlight_grove=true}}] run advancement grant @a only blazeandcave:biomes/terralithic moonlight_grove
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:monsters/basketblock_championship={red_mushroom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship red_mushroom
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/stockbroker={librarian_swamp=true}}] run advancement grant @a only blazeandcave:challenges/stockbroker librarian_swamp
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/stockbroker={librarian_swamp=true}}] run advancement grant @a only blazeandcave:challenges/stockbroker librarian_swamp
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/stockbroker={librarian_swamp=true}}] run advancement grant @a only blazeandcave:challenges/stockbroker librarian_swamp
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/stockbroker={librarian_swamp=true}}] run advancement grant @a only blazeandcave:challenges/stockbroker librarian_swamp
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/stockbroker={librarian_swamp=true}}] run advancement grant @a only blazeandcave:challenges/stockbroker librarian_swamp
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/stockbroker={librarian_swamp=true}}] run advancement grant @a only blazeandcave:challenges/stockbroker librarian_swamp
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/stockbroker={librarian_swamp=true}}] run advancement grant @a only blazeandcave:challenges/stockbroker librarian_swamp
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/stockbroker={librarian_swamp=true}}] run advancement grant @a only blazeandcave:challenges/stockbroker librarian_swamp
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/stockbroker={librarian_swamp=true}}] run advancement grant @a only blazeandcave:challenges/stockbroker librarian_swamp
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/stockbroker={librarian_swamp=true}}] run advancement grant @a only blazeandcave:challenges/stockbroker librarian_swamp
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/stockbroker={librarian_swamp=true}}] run advancement grant @a only blazeandcave:challenges/stockbroker librarian_swamp
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/stockbroker={librarian_swamp=true}}] run advancement grant @a only blazeandcave:challenges/stockbroker librarian_swamp
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/stockbroker={librarian_swamp=true}}] run advancement grant @a only blazeandcave:challenges/stockbroker librarian_swamp
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/stockbroker={librarian_swamp=true}}] run advancement grant @a only blazeandcave:challenges/stockbroker librarian_swamp
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/stockbroker={librarian_swamp=true}}] run advancement grant @a only blazeandcave:challenges/stockbroker librarian_swamp
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/stockbroker={librarian_swamp=true}}] run advancement grant @a only blazeandcave:challenges/stockbroker librarian_swamp
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:monsters/basketblock_championship={red_mushroom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship red_mushroom
 
-execute if entity @a[team=bac_team_aqua, advancements={bacaped:animal/the_foxs_banquet={cod=true}}] run advancement grant @a only bacaped:animal/the_foxs_banquet cod
-execute if entity @a[team=bac_team_black, advancements={bacaped:animal/the_foxs_banquet={cod=true}}] run advancement grant @a only bacaped:animal/the_foxs_banquet cod
-execute if entity @a[team=bac_team_blue, advancements={bacaped:animal/the_foxs_banquet={cod=true}}] run advancement grant @a only bacaped:animal/the_foxs_banquet cod
-execute if entity @a[team=bac_team_dark_aqua, advancements={bacaped:animal/the_foxs_banquet={cod=true}}] run advancement grant @a only bacaped:animal/the_foxs_banquet cod
-execute if entity @a[team=bac_team_dark_blue, advancements={bacaped:animal/the_foxs_banquet={cod=true}}] run advancement grant @a only bacaped:animal/the_foxs_banquet cod
-execute if entity @a[team=bac_team_dark_gray, advancements={bacaped:animal/the_foxs_banquet={cod=true}}] run advancement grant @a only bacaped:animal/the_foxs_banquet cod
-execute if entity @a[team=bac_team_dark_green, advancements={bacaped:animal/the_foxs_banquet={cod=true}}] run advancement grant @a only bacaped:animal/the_foxs_banquet cod
-execute if entity @a[team=bac_team_dark_purple, advancements={bacaped:animal/the_foxs_banquet={cod=true}}] run advancement grant @a only bacaped:animal/the_foxs_banquet cod
-execute if entity @a[team=bac_team_dark_red, advancements={bacaped:animal/the_foxs_banquet={cod=true}}] run advancement grant @a only bacaped:animal/the_foxs_banquet cod
-execute if entity @a[team=bac_team_gold, advancements={bacaped:animal/the_foxs_banquet={cod=true}}] run advancement grant @a only bacaped:animal/the_foxs_banquet cod
-execute if entity @a[team=bac_team_gray, advancements={bacaped:animal/the_foxs_banquet={cod=true}}] run advancement grant @a only bacaped:animal/the_foxs_banquet cod
-execute if entity @a[team=bac_team_green, advancements={bacaped:animal/the_foxs_banquet={cod=true}}] run advancement grant @a only bacaped:animal/the_foxs_banquet cod
-execute if entity @a[team=bac_team_light_purple, advancements={bacaped:animal/the_foxs_banquet={cod=true}}] run advancement grant @a only bacaped:animal/the_foxs_banquet cod
-execute if entity @a[team=bac_team_red, advancements={bacaped:animal/the_foxs_banquet={cod=true}}] run advancement grant @a only bacaped:animal/the_foxs_banquet cod
-execute if entity @a[team=bac_team_white, advancements={bacaped:animal/the_foxs_banquet={cod=true}}] run advancement grant @a only bacaped:animal/the_foxs_banquet cod
-execute if entity @a[team=bac_team_yellow, advancements={bacaped:animal/the_foxs_banquet={cod=true}}] run advancement grant @a only bacaped:animal/the_foxs_banquet cod
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:monsters/basketblock_championship={red_mushroom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship red_mushroom
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:building/ah_my_old_enemy={tuff_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy tuff_stairs
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:building/ah_my_old_enemy={tuff_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy tuff_stairs
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:building/ah_my_old_enemy={tuff_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy tuff_stairs
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:building/ah_my_old_enemy={tuff_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy tuff_stairs
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:building/ah_my_old_enemy={tuff_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy tuff_stairs
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:building/ah_my_old_enemy={tuff_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy tuff_stairs
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:building/ah_my_old_enemy={tuff_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy tuff_stairs
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:building/ah_my_old_enemy={tuff_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy tuff_stairs
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:building/ah_my_old_enemy={tuff_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy tuff_stairs
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:building/ah_my_old_enemy={tuff_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy tuff_stairs
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:building/ah_my_old_enemy={tuff_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy tuff_stairs
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:building/ah_my_old_enemy={tuff_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy tuff_stairs
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:building/ah_my_old_enemy={tuff_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy tuff_stairs
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:building/ah_my_old_enemy={tuff_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy tuff_stairs
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:building/ah_my_old_enemy={tuff_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy tuff_stairs
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:building/ah_my_old_enemy={tuff_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy tuff_stairs
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:monsters/basketblock_championship={red_mushroom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship red_mushroom
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:mining/bonfire_night={wildflowers=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night wildflowers
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:mining/bonfire_night={wildflowers=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night wildflowers
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:mining/bonfire_night={wildflowers=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night wildflowers
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:mining/bonfire_night={wildflowers=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night wildflowers
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:mining/bonfire_night={wildflowers=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night wildflowers
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:mining/bonfire_night={wildflowers=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night wildflowers
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:mining/bonfire_night={wildflowers=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night wildflowers
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:mining/bonfire_night={wildflowers=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night wildflowers
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:mining/bonfire_night={wildflowers=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night wildflowers
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:mining/bonfire_night={wildflowers=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night wildflowers
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:mining/bonfire_night={wildflowers=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night wildflowers
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:mining/bonfire_night={wildflowers=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night wildflowers
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:mining/bonfire_night={wildflowers=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night wildflowers
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:mining/bonfire_night={wildflowers=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night wildflowers
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:mining/bonfire_night={wildflowers=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night wildflowers
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:mining/bonfire_night={wildflowers=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night wildflowers
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/stack_all_the_blocks={crimson_fence_gate=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks crimson_fence_gate
 
-execute if entity @a[team=bac_team_aqua, advancements={bacaped:challenges/shopaholic={arrow=true}}] run advancement grant @a only bacaped:challenges/shopaholic arrow
-execute if entity @a[team=bac_team_black, advancements={bacaped:challenges/shopaholic={arrow=true}}] run advancement grant @a only bacaped:challenges/shopaholic arrow
-execute if entity @a[team=bac_team_blue, advancements={bacaped:challenges/shopaholic={arrow=true}}] run advancement grant @a only bacaped:challenges/shopaholic arrow
-execute if entity @a[team=bac_team_dark_aqua, advancements={bacaped:challenges/shopaholic={arrow=true}}] run advancement grant @a only bacaped:challenges/shopaholic arrow
-execute if entity @a[team=bac_team_dark_blue, advancements={bacaped:challenges/shopaholic={arrow=true}}] run advancement grant @a only bacaped:challenges/shopaholic arrow
-execute if entity @a[team=bac_team_dark_gray, advancements={bacaped:challenges/shopaholic={arrow=true}}] run advancement grant @a only bacaped:challenges/shopaholic arrow
-execute if entity @a[team=bac_team_dark_green, advancements={bacaped:challenges/shopaholic={arrow=true}}] run advancement grant @a only bacaped:challenges/shopaholic arrow
-execute if entity @a[team=bac_team_dark_purple, advancements={bacaped:challenges/shopaholic={arrow=true}}] run advancement grant @a only bacaped:challenges/shopaholic arrow
-execute if entity @a[team=bac_team_dark_red, advancements={bacaped:challenges/shopaholic={arrow=true}}] run advancement grant @a only bacaped:challenges/shopaholic arrow
-execute if entity @a[team=bac_team_gold, advancements={bacaped:challenges/shopaholic={arrow=true}}] run advancement grant @a only bacaped:challenges/shopaholic arrow
-execute if entity @a[team=bac_team_gray, advancements={bacaped:challenges/shopaholic={arrow=true}}] run advancement grant @a only bacaped:challenges/shopaholic arrow
-execute if entity @a[team=bac_team_green, advancements={bacaped:challenges/shopaholic={arrow=true}}] run advancement grant @a only bacaped:challenges/shopaholic arrow
-execute if entity @a[team=bac_team_light_purple, advancements={bacaped:challenges/shopaholic={arrow=true}}] run advancement grant @a only bacaped:challenges/shopaholic arrow
-execute if entity @a[team=bac_team_red, advancements={bacaped:challenges/shopaholic={arrow=true}}] run advancement grant @a only bacaped:challenges/shopaholic arrow
-execute if entity @a[team=bac_team_white, advancements={bacaped:challenges/shopaholic={arrow=true}}] run advancement grant @a only bacaped:challenges/shopaholic arrow
-execute if entity @a[team=bac_team_yellow, advancements={bacaped:challenges/shopaholic={arrow=true}}] run advancement grant @a only bacaped:challenges/shopaholic arrow
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/stack_all_the_blocks={crimson_fence_gate=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks crimson_fence_gate
 
-execute if entity @a[team=bac_team_aqua, advancements={bacaped:challenges/shopaholic={suspicious_stew=true}}] run advancement grant @a only bacaped:challenges/shopaholic suspicious_stew
-execute if entity @a[team=bac_team_black, advancements={bacaped:challenges/shopaholic={suspicious_stew=true}}] run advancement grant @a only bacaped:challenges/shopaholic suspicious_stew
-execute if entity @a[team=bac_team_blue, advancements={bacaped:challenges/shopaholic={suspicious_stew=true}}] run advancement grant @a only bacaped:challenges/shopaholic suspicious_stew
-execute if entity @a[team=bac_team_dark_aqua, advancements={bacaped:challenges/shopaholic={suspicious_stew=true}}] run advancement grant @a only bacaped:challenges/shopaholic suspicious_stew
-execute if entity @a[team=bac_team_dark_blue, advancements={bacaped:challenges/shopaholic={suspicious_stew=true}}] run advancement grant @a only bacaped:challenges/shopaholic suspicious_stew
-execute if entity @a[team=bac_team_dark_gray, advancements={bacaped:challenges/shopaholic={suspicious_stew=true}}] run advancement grant @a only bacaped:challenges/shopaholic suspicious_stew
-execute if entity @a[team=bac_team_dark_green, advancements={bacaped:challenges/shopaholic={suspicious_stew=true}}] run advancement grant @a only bacaped:challenges/shopaholic suspicious_stew
-execute if entity @a[team=bac_team_dark_purple, advancements={bacaped:challenges/shopaholic={suspicious_stew=true}}] run advancement grant @a only bacaped:challenges/shopaholic suspicious_stew
-execute if entity @a[team=bac_team_dark_red, advancements={bacaped:challenges/shopaholic={suspicious_stew=true}}] run advancement grant @a only bacaped:challenges/shopaholic suspicious_stew
-execute if entity @a[team=bac_team_gold, advancements={bacaped:challenges/shopaholic={suspicious_stew=true}}] run advancement grant @a only bacaped:challenges/shopaholic suspicious_stew
-execute if entity @a[team=bac_team_gray, advancements={bacaped:challenges/shopaholic={suspicious_stew=true}}] run advancement grant @a only bacaped:challenges/shopaholic suspicious_stew
-execute if entity @a[team=bac_team_green, advancements={bacaped:challenges/shopaholic={suspicious_stew=true}}] run advancement grant @a only bacaped:challenges/shopaholic suspicious_stew
-execute if entity @a[team=bac_team_light_purple, advancements={bacaped:challenges/shopaholic={suspicious_stew=true}}] run advancement grant @a only bacaped:challenges/shopaholic suspicious_stew
-execute if entity @a[team=bac_team_red, advancements={bacaped:challenges/shopaholic={suspicious_stew=true}}] run advancement grant @a only bacaped:challenges/shopaholic suspicious_stew
-execute if entity @a[team=bac_team_white, advancements={bacaped:challenges/shopaholic={suspicious_stew=true}}] run advancement grant @a only bacaped:challenges/shopaholic suspicious_stew
-execute if entity @a[team=bac_team_yellow, advancements={bacaped:challenges/shopaholic={suspicious_stew=true}}] run advancement grant @a only bacaped:challenges/shopaholic suspicious_stew
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/stack_all_the_blocks={crimson_fence_gate=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks crimson_fence_gate
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:building/ah_my_old_enemy={deepslate_brick_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy deepslate_brick_stairs
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:building/ah_my_old_enemy={deepslate_brick_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy deepslate_brick_stairs
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:building/ah_my_old_enemy={deepslate_brick_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy deepslate_brick_stairs
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:building/ah_my_old_enemy={deepslate_brick_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy deepslate_brick_stairs
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:building/ah_my_old_enemy={deepslate_brick_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy deepslate_brick_stairs
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:building/ah_my_old_enemy={deepslate_brick_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy deepslate_brick_stairs
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:building/ah_my_old_enemy={deepslate_brick_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy deepslate_brick_stairs
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:building/ah_my_old_enemy={deepslate_brick_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy deepslate_brick_stairs
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:building/ah_my_old_enemy={deepslate_brick_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy deepslate_brick_stairs
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:building/ah_my_old_enemy={deepslate_brick_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy deepslate_brick_stairs
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:building/ah_my_old_enemy={deepslate_brick_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy deepslate_brick_stairs
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:building/ah_my_old_enemy={deepslate_brick_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy deepslate_brick_stairs
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:building/ah_my_old_enemy={deepslate_brick_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy deepslate_brick_stairs
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:building/ah_my_old_enemy={deepslate_brick_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy deepslate_brick_stairs
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:building/ah_my_old_enemy={deepslate_brick_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy deepslate_brick_stairs
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:building/ah_my_old_enemy={deepslate_brick_stairs=true}}] run advancement grant @a only blazeandcave:building/ah_my_old_enemy deepslate_brick_stairs
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/stack_all_the_blocks={crimson_fence_gate=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks crimson_fence_gate
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/potion_master={salmon=true}}] run advancement grant @a only blazeandcave:challenges/potion_master salmon
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/potion_master={salmon=true}}] run advancement grant @a only blazeandcave:challenges/potion_master salmon
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/potion_master={salmon=true}}] run advancement grant @a only blazeandcave:challenges/potion_master salmon
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/potion_master={salmon=true}}] run advancement grant @a only blazeandcave:challenges/potion_master salmon
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/potion_master={salmon=true}}] run advancement grant @a only blazeandcave:challenges/potion_master salmon
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/potion_master={salmon=true}}] run advancement grant @a only blazeandcave:challenges/potion_master salmon
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/potion_master={salmon=true}}] run advancement grant @a only blazeandcave:challenges/potion_master salmon
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/potion_master={salmon=true}}] run advancement grant @a only blazeandcave:challenges/potion_master salmon
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/potion_master={salmon=true}}] run advancement grant @a only blazeandcave:challenges/potion_master salmon
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/potion_master={salmon=true}}] run advancement grant @a only blazeandcave:challenges/potion_master salmon
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/potion_master={salmon=true}}] run advancement grant @a only blazeandcave:challenges/potion_master salmon
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/potion_master={salmon=true}}] run advancement grant @a only blazeandcave:challenges/potion_master salmon
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/potion_master={salmon=true}}] run advancement grant @a only blazeandcave:challenges/potion_master salmon
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/potion_master={salmon=true}}] run advancement grant @a only blazeandcave:challenges/potion_master salmon
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/potion_master={salmon=true}}] run advancement grant @a only blazeandcave:challenges/potion_master salmon
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/potion_master={salmon=true}}] run advancement grant @a only blazeandcave:challenges/potion_master salmon
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/stack_all_the_blocks={crimson_fence_gate=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks crimson_fence_gate
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:mining/bonfire_night={acacia_slab=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night acacia_slab
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:mining/bonfire_night={acacia_slab=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night acacia_slab
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:mining/bonfire_night={acacia_slab=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night acacia_slab
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:mining/bonfire_night={acacia_slab=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night acacia_slab
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:mining/bonfire_night={acacia_slab=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night acacia_slab
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:mining/bonfire_night={acacia_slab=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night acacia_slab
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:mining/bonfire_night={acacia_slab=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night acacia_slab
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:mining/bonfire_night={acacia_slab=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night acacia_slab
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:mining/bonfire_night={acacia_slab=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night acacia_slab
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:mining/bonfire_night={acacia_slab=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night acacia_slab
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:mining/bonfire_night={acacia_slab=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night acacia_slab
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:mining/bonfire_night={acacia_slab=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night acacia_slab
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:mining/bonfire_night={acacia_slab=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night acacia_slab
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:mining/bonfire_night={acacia_slab=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night acacia_slab
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:mining/bonfire_night={acacia_slab=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night acacia_slab
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:mining/bonfire_night={acacia_slab=true}}] run advancement grant @a only blazeandcave:mining/bonfire_night acacia_slab
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/stack_all_the_blocks={crimson_fence_gate=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks crimson_fence_gate
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:animal/chicken_cooper={chicken=true}}] run advancement grant @a only blazeandcave:animal/chicken_cooper chicken
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:animal/chicken_cooper={chicken=true}}] run advancement grant @a only blazeandcave:animal/chicken_cooper chicken
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:animal/chicken_cooper={chicken=true}}] run advancement grant @a only blazeandcave:animal/chicken_cooper chicken
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:animal/chicken_cooper={chicken=true}}] run advancement grant @a only blazeandcave:animal/chicken_cooper chicken
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:animal/chicken_cooper={chicken=true}}] run advancement grant @a only blazeandcave:animal/chicken_cooper chicken
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:animal/chicken_cooper={chicken=true}}] run advancement grant @a only blazeandcave:animal/chicken_cooper chicken
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:animal/chicken_cooper={chicken=true}}] run advancement grant @a only blazeandcave:animal/chicken_cooper chicken
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:animal/chicken_cooper={chicken=true}}] run advancement grant @a only blazeandcave:animal/chicken_cooper chicken
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:animal/chicken_cooper={chicken=true}}] run advancement grant @a only blazeandcave:animal/chicken_cooper chicken
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:animal/chicken_cooper={chicken=true}}] run advancement grant @a only blazeandcave:animal/chicken_cooper chicken
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:animal/chicken_cooper={chicken=true}}] run advancement grant @a only blazeandcave:animal/chicken_cooper chicken
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:animal/chicken_cooper={chicken=true}}] run advancement grant @a only blazeandcave:animal/chicken_cooper chicken
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:animal/chicken_cooper={chicken=true}}] run advancement grant @a only blazeandcave:animal/chicken_cooper chicken
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:animal/chicken_cooper={chicken=true}}] run advancement grant @a only blazeandcave:animal/chicken_cooper chicken
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:animal/chicken_cooper={chicken=true}}] run advancement grant @a only blazeandcave:animal/chicken_cooper chicken
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:animal/chicken_cooper={chicken=true}}] run advancement grant @a only blazeandcave:animal/chicken_cooper chicken
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/stack_all_the_blocks={crimson_fence_gate=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks crimson_fence_gate
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:animal/follow_the_leader={happy_ghast=true}}] run advancement grant @a only blazeandcave:animal/follow_the_leader happy_ghast
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:animal/follow_the_leader={happy_ghast=true}}] run advancement grant @a only blazeandcave:animal/follow_the_leader happy_ghast
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:animal/follow_the_leader={happy_ghast=true}}] run advancement grant @a only blazeandcave:animal/follow_the_leader happy_ghast
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:animal/follow_the_leader={happy_ghast=true}}] run advancement grant @a only blazeandcave:animal/follow_the_leader happy_ghast
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:animal/follow_the_leader={happy_ghast=true}}] run advancement grant @a only blazeandcave:animal/follow_the_leader happy_ghast
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:animal/follow_the_leader={happy_ghast=true}}] run advancement grant @a only blazeandcave:animal/follow_the_leader happy_ghast
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:animal/follow_the_leader={happy_ghast=true}}] run advancement grant @a only blazeandcave:animal/follow_the_leader happy_ghast
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:animal/follow_the_leader={happy_ghast=true}}] run advancement grant @a only blazeandcave:animal/follow_the_leader happy_ghast
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:animal/follow_the_leader={happy_ghast=true}}] run advancement grant @a only blazeandcave:animal/follow_the_leader happy_ghast
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:animal/follow_the_leader={happy_ghast=true}}] run advancement grant @a only blazeandcave:animal/follow_the_leader happy_ghast
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:animal/follow_the_leader={happy_ghast=true}}] run advancement grant @a only blazeandcave:animal/follow_the_leader happy_ghast
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:animal/follow_the_leader={happy_ghast=true}}] run advancement grant @a only blazeandcave:animal/follow_the_leader happy_ghast
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:animal/follow_the_leader={happy_ghast=true}}] run advancement grant @a only blazeandcave:animal/follow_the_leader happy_ghast
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:animal/follow_the_leader={happy_ghast=true}}] run advancement grant @a only blazeandcave:animal/follow_the_leader happy_ghast
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:animal/follow_the_leader={happy_ghast=true}}] run advancement grant @a only blazeandcave:animal/follow_the_leader happy_ghast
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:animal/follow_the_leader={happy_ghast=true}}] run advancement grant @a only blazeandcave:animal/follow_the_leader happy_ghast
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/stack_all_the_blocks={crimson_fence_gate=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks crimson_fence_gate
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/ultimate_enchanter={protection3=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter protection3
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/ultimate_enchanter={protection3=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter protection3
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/ultimate_enchanter={protection3=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter protection3
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/ultimate_enchanter={protection3=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter protection3
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/ultimate_enchanter={protection3=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter protection3
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/ultimate_enchanter={protection3=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter protection3
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/ultimate_enchanter={protection3=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter protection3
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/ultimate_enchanter={protection3=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter protection3
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/ultimate_enchanter={protection3=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter protection3
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/ultimate_enchanter={protection3=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter protection3
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/ultimate_enchanter={protection3=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter protection3
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/ultimate_enchanter={protection3=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter protection3
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/ultimate_enchanter={protection3=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter protection3
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/ultimate_enchanter={protection3=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter protection3
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/ultimate_enchanter={protection3=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter protection3
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/ultimate_enchanter={protection3=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter protection3
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/stack_all_the_blocks={crimson_fence_gate=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks crimson_fence_gate
 
-execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:building/yay_i_got_my_wood={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/yay_i_got_my_wood crimson_stem
-execute if entity @a[team=bac_team_black, advancements={blazeandcave:building/yay_i_got_my_wood={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/yay_i_got_my_wood crimson_stem
-execute if entity @a[team=bac_team_blue, advancements={blazeandcave:building/yay_i_got_my_wood={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/yay_i_got_my_wood crimson_stem
-execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:building/yay_i_got_my_wood={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/yay_i_got_my_wood crimson_stem
-execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:building/yay_i_got_my_wood={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/yay_i_got_my_wood crimson_stem
-execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:building/yay_i_got_my_wood={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/yay_i_got_my_wood crimson_stem
-execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:building/yay_i_got_my_wood={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/yay_i_got_my_wood crimson_stem
-execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:building/yay_i_got_my_wood={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/yay_i_got_my_wood crimson_stem
-execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:building/yay_i_got_my_wood={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/yay_i_got_my_wood crimson_stem
-execute if entity @a[team=bac_team_gold, advancements={blazeandcave:building/yay_i_got_my_wood={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/yay_i_got_my_wood crimson_stem
-execute if entity @a[team=bac_team_gray, advancements={blazeandcave:building/yay_i_got_my_wood={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/yay_i_got_my_wood crimson_stem
-execute if entity @a[team=bac_team_green, advancements={blazeandcave:building/yay_i_got_my_wood={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/yay_i_got_my_wood crimson_stem
-execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:building/yay_i_got_my_wood={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/yay_i_got_my_wood crimson_stem
-execute if entity @a[team=bac_team_red, advancements={blazeandcave:building/yay_i_got_my_wood={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/yay_i_got_my_wood crimson_stem
-execute if entity @a[team=bac_team_white, advancements={blazeandcave:building/yay_i_got_my_wood={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/yay_i_got_my_wood crimson_stem
-execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:building/yay_i_got_my_wood={crimson_stem=true}}] run advancement grant @a only blazeandcave:building/yay_i_got_my_wood crimson_stem
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/stack_all_the_blocks={crimson_fence_gate=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks crimson_fence_gate
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/stack_all_the_blocks={crimson_fence_gate=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks crimson_fence_gate
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/stack_all_the_blocks={crimson_fence_gate=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks crimson_fence_gate
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/stack_all_the_blocks={crimson_fence_gate=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks crimson_fence_gate
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/stack_all_the_blocks={crimson_fence_gate=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks crimson_fence_gate
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/stack_all_the_blocks={crimson_fence_gate=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks crimson_fence_gate
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/stack_all_the_blocks={crimson_fence_gate=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks crimson_fence_gate
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/all_the_blocks={melon=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks melon
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/all_the_blocks={melon=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks melon
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/all_the_blocks={melon=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks melon
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/all_the_blocks={melon=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks melon
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/all_the_blocks={melon=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks melon
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/all_the_blocks={melon=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks melon
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/all_the_blocks={melon=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks melon
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/all_the_blocks={melon=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks melon
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/all_the_blocks={melon=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks melon
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/all_the_blocks={melon=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks melon
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/all_the_blocks={melon=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks melon
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/all_the_blocks={melon=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks melon
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/all_the_blocks={melon=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks melon
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/all_the_blocks={melon=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks melon
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/all_the_blocks={melon=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks melon
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/all_the_blocks={melon=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks melon
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/i_am_loot={terralith_igloo=true}}] run advancement grant @a only blazeandcave:challenges/i_am_loot terralith_igloo
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/i_am_loot={terralith_igloo=true}}] run advancement grant @a only blazeandcave:challenges/i_am_loot terralith_igloo
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/i_am_loot={terralith_igloo=true}}] run advancement grant @a only blazeandcave:challenges/i_am_loot terralith_igloo
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/i_am_loot={terralith_igloo=true}}] run advancement grant @a only blazeandcave:challenges/i_am_loot terralith_igloo
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/i_am_loot={terralith_igloo=true}}] run advancement grant @a only blazeandcave:challenges/i_am_loot terralith_igloo
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/i_am_loot={terralith_igloo=true}}] run advancement grant @a only blazeandcave:challenges/i_am_loot terralith_igloo
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/i_am_loot={terralith_igloo=true}}] run advancement grant @a only blazeandcave:challenges/i_am_loot terralith_igloo
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/i_am_loot={terralith_igloo=true}}] run advancement grant @a only blazeandcave:challenges/i_am_loot terralith_igloo
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/i_am_loot={terralith_igloo=true}}] run advancement grant @a only blazeandcave:challenges/i_am_loot terralith_igloo
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/i_am_loot={terralith_igloo=true}}] run advancement grant @a only blazeandcave:challenges/i_am_loot terralith_igloo
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/i_am_loot={terralith_igloo=true}}] run advancement grant @a only blazeandcave:challenges/i_am_loot terralith_igloo
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/i_am_loot={terralith_igloo=true}}] run advancement grant @a only blazeandcave:challenges/i_am_loot terralith_igloo
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/i_am_loot={terralith_igloo=true}}] run advancement grant @a only blazeandcave:challenges/i_am_loot terralith_igloo
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/i_am_loot={terralith_igloo=true}}] run advancement grant @a only blazeandcave:challenges/i_am_loot terralith_igloo
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/i_am_loot={terralith_igloo=true}}] run advancement grant @a only blazeandcave:challenges/i_am_loot terralith_igloo
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/i_am_loot={terralith_igloo=true}}] run advancement grant @a only blazeandcave:challenges/i_am_loot terralith_igloo
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/all_the_items={blue_bundle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items blue_bundle
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/all_the_items={blue_bundle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items blue_bundle
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/all_the_items={blue_bundle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items blue_bundle
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/all_the_items={blue_bundle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items blue_bundle
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/all_the_items={blue_bundle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items blue_bundle
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/all_the_items={blue_bundle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items blue_bundle
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/all_the_items={blue_bundle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items blue_bundle
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/all_the_items={blue_bundle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items blue_bundle
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/all_the_items={blue_bundle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items blue_bundle
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/all_the_items={blue_bundle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items blue_bundle
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/all_the_items={blue_bundle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items blue_bundle
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/all_the_items={blue_bundle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items blue_bundle
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/all_the_items={blue_bundle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items blue_bundle
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/all_the_items={blue_bundle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items blue_bundle
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/all_the_items={blue_bundle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items blue_bundle
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/all_the_items={blue_bundle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_items blue_bundle
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:animal/live_and_let_dye={pink_dye=true}}] run advancement grant @a only blazeandcave:animal/live_and_let_dye pink_dye
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:animal/live_and_let_dye={pink_dye=true}}] run advancement grant @a only blazeandcave:animal/live_and_let_dye pink_dye
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:animal/live_and_let_dye={pink_dye=true}}] run advancement grant @a only blazeandcave:animal/live_and_let_dye pink_dye
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:animal/live_and_let_dye={pink_dye=true}}] run advancement grant @a only blazeandcave:animal/live_and_let_dye pink_dye
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:animal/live_and_let_dye={pink_dye=true}}] run advancement grant @a only blazeandcave:animal/live_and_let_dye pink_dye
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:animal/live_and_let_dye={pink_dye=true}}] run advancement grant @a only blazeandcave:animal/live_and_let_dye pink_dye
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:animal/live_and_let_dye={pink_dye=true}}] run advancement grant @a only blazeandcave:animal/live_and_let_dye pink_dye
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:animal/live_and_let_dye={pink_dye=true}}] run advancement grant @a only blazeandcave:animal/live_and_let_dye pink_dye
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:animal/live_and_let_dye={pink_dye=true}}] run advancement grant @a only blazeandcave:animal/live_and_let_dye pink_dye
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:animal/live_and_let_dye={pink_dye=true}}] run advancement grant @a only blazeandcave:animal/live_and_let_dye pink_dye
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:animal/live_and_let_dye={pink_dye=true}}] run advancement grant @a only blazeandcave:animal/live_and_let_dye pink_dye
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:animal/live_and_let_dye={pink_dye=true}}] run advancement grant @a only blazeandcave:animal/live_and_let_dye pink_dye
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:animal/live_and_let_dye={pink_dye=true}}] run advancement grant @a only blazeandcave:animal/live_and_let_dye pink_dye
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:animal/live_and_let_dye={pink_dye=true}}] run advancement grant @a only blazeandcave:animal/live_and_let_dye pink_dye
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:animal/live_and_let_dye={pink_dye=true}}] run advancement grant @a only blazeandcave:animal/live_and_let_dye pink_dye
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:animal/live_and_let_dye={pink_dye=true}}] run advancement grant @a only blazeandcave:animal/live_and_let_dye pink_dye
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:building/the_glazed_terracotta_army={light_blue_glazed_terracotta=true}}] run advancement grant @a only blazeandcave:building/the_glazed_terracotta_army light_blue_glazed_terracotta
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:building/the_glazed_terracotta_army={light_blue_glazed_terracotta=true}}] run advancement grant @a only blazeandcave:building/the_glazed_terracotta_army light_blue_glazed_terracotta
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:building/the_glazed_terracotta_army={light_blue_glazed_terracotta=true}}] run advancement grant @a only blazeandcave:building/the_glazed_terracotta_army light_blue_glazed_terracotta
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:building/the_glazed_terracotta_army={light_blue_glazed_terracotta=true}}] run advancement grant @a only blazeandcave:building/the_glazed_terracotta_army light_blue_glazed_terracotta
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:building/the_glazed_terracotta_army={light_blue_glazed_terracotta=true}}] run advancement grant @a only blazeandcave:building/the_glazed_terracotta_army light_blue_glazed_terracotta
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:building/the_glazed_terracotta_army={light_blue_glazed_terracotta=true}}] run advancement grant @a only blazeandcave:building/the_glazed_terracotta_army light_blue_glazed_terracotta
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:building/the_glazed_terracotta_army={light_blue_glazed_terracotta=true}}] run advancement grant @a only blazeandcave:building/the_glazed_terracotta_army light_blue_glazed_terracotta
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:building/the_glazed_terracotta_army={light_blue_glazed_terracotta=true}}] run advancement grant @a only blazeandcave:building/the_glazed_terracotta_army light_blue_glazed_terracotta
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:building/the_glazed_terracotta_army={light_blue_glazed_terracotta=true}}] run advancement grant @a only blazeandcave:building/the_glazed_terracotta_army light_blue_glazed_terracotta
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:building/the_glazed_terracotta_army={light_blue_glazed_terracotta=true}}] run advancement grant @a only blazeandcave:building/the_glazed_terracotta_army light_blue_glazed_terracotta
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:building/the_glazed_terracotta_army={light_blue_glazed_terracotta=true}}] run advancement grant @a only blazeandcave:building/the_glazed_terracotta_army light_blue_glazed_terracotta
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:building/the_glazed_terracotta_army={light_blue_glazed_terracotta=true}}] run advancement grant @a only blazeandcave:building/the_glazed_terracotta_army light_blue_glazed_terracotta
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:building/the_glazed_terracotta_army={light_blue_glazed_terracotta=true}}] run advancement grant @a only blazeandcave:building/the_glazed_terracotta_army light_blue_glazed_terracotta
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:building/the_glazed_terracotta_army={light_blue_glazed_terracotta=true}}] run advancement grant @a only blazeandcave:building/the_glazed_terracotta_army light_blue_glazed_terracotta
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:building/the_glazed_terracotta_army={light_blue_glazed_terracotta=true}}] run advancement grant @a only blazeandcave:building/the_glazed_terracotta_army light_blue_glazed_terracotta
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:building/the_glazed_terracotta_army={light_blue_glazed_terracotta=true}}] run advancement grant @a only blazeandcave:building/the_glazed_terracotta_army light_blue_glazed_terracotta
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:weaponry/pyrotechnic={large_ball=true}}] run advancement grant @a only blazeandcave:weaponry/pyrotechnic large_ball
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:weaponry/pyrotechnic={large_ball=true}}] run advancement grant @a only blazeandcave:weaponry/pyrotechnic large_ball
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:weaponry/pyrotechnic={large_ball=true}}] run advancement grant @a only blazeandcave:weaponry/pyrotechnic large_ball
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:weaponry/pyrotechnic={large_ball=true}}] run advancement grant @a only blazeandcave:weaponry/pyrotechnic large_ball
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:weaponry/pyrotechnic={large_ball=true}}] run advancement grant @a only blazeandcave:weaponry/pyrotechnic large_ball
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:weaponry/pyrotechnic={large_ball=true}}] run advancement grant @a only blazeandcave:weaponry/pyrotechnic large_ball
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:weaponry/pyrotechnic={large_ball=true}}] run advancement grant @a only blazeandcave:weaponry/pyrotechnic large_ball
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:weaponry/pyrotechnic={large_ball=true}}] run advancement grant @a only blazeandcave:weaponry/pyrotechnic large_ball
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:weaponry/pyrotechnic={large_ball=true}}] run advancement grant @a only blazeandcave:weaponry/pyrotechnic large_ball
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:weaponry/pyrotechnic={large_ball=true}}] run advancement grant @a only blazeandcave:weaponry/pyrotechnic large_ball
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:weaponry/pyrotechnic={large_ball=true}}] run advancement grant @a only blazeandcave:weaponry/pyrotechnic large_ball
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:weaponry/pyrotechnic={large_ball=true}}] run advancement grant @a only blazeandcave:weaponry/pyrotechnic large_ball
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:weaponry/pyrotechnic={large_ball=true}}] run advancement grant @a only blazeandcave:weaponry/pyrotechnic large_ball
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:weaponry/pyrotechnic={large_ball=true}}] run advancement grant @a only blazeandcave:weaponry/pyrotechnic large_ball
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:weaponry/pyrotechnic={large_ball=true}}] run advancement grant @a only blazeandcave:weaponry/pyrotechnic large_ball
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:weaponry/pyrotechnic={large_ball=true}}] run advancement grant @a only blazeandcave:weaponry/pyrotechnic large_ball
+
+execute if entity @a[team=bac_team_aqua, advancements={bacaped:nether/give_them_everything_they_want={nether_gold_ore=true}}] run advancement grant @a only bacaped:nether/give_them_everything_they_want nether_gold_ore
+
+execute if entity @a[team=bac_team_black, advancements={bacaped:nether/give_them_everything_they_want={nether_gold_ore=true}}] run advancement grant @a only bacaped:nether/give_them_everything_they_want nether_gold_ore
+
+execute if entity @a[team=bac_team_blue, advancements={bacaped:nether/give_them_everything_they_want={nether_gold_ore=true}}] run advancement grant @a only bacaped:nether/give_them_everything_they_want nether_gold_ore
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={bacaped:nether/give_them_everything_they_want={nether_gold_ore=true}}] run advancement grant @a only bacaped:nether/give_them_everything_they_want nether_gold_ore
+
+execute if entity @a[team=bac_team_dark_blue, advancements={bacaped:nether/give_them_everything_they_want={nether_gold_ore=true}}] run advancement grant @a only bacaped:nether/give_them_everything_they_want nether_gold_ore
+
+execute if entity @a[team=bac_team_dark_gray, advancements={bacaped:nether/give_them_everything_they_want={nether_gold_ore=true}}] run advancement grant @a only bacaped:nether/give_them_everything_they_want nether_gold_ore
+
+execute if entity @a[team=bac_team_dark_green, advancements={bacaped:nether/give_them_everything_they_want={nether_gold_ore=true}}] run advancement grant @a only bacaped:nether/give_them_everything_they_want nether_gold_ore
+
+execute if entity @a[team=bac_team_dark_purple, advancements={bacaped:nether/give_them_everything_they_want={nether_gold_ore=true}}] run advancement grant @a only bacaped:nether/give_them_everything_they_want nether_gold_ore
+
+execute if entity @a[team=bac_team_dark_red, advancements={bacaped:nether/give_them_everything_they_want={nether_gold_ore=true}}] run advancement grant @a only bacaped:nether/give_them_everything_they_want nether_gold_ore
+
+execute if entity @a[team=bac_team_gold, advancements={bacaped:nether/give_them_everything_they_want={nether_gold_ore=true}}] run advancement grant @a only bacaped:nether/give_them_everything_they_want nether_gold_ore
+
+execute if entity @a[team=bac_team_gray, advancements={bacaped:nether/give_them_everything_they_want={nether_gold_ore=true}}] run advancement grant @a only bacaped:nether/give_them_everything_they_want nether_gold_ore
+
+execute if entity @a[team=bac_team_green, advancements={bacaped:nether/give_them_everything_they_want={nether_gold_ore=true}}] run advancement grant @a only bacaped:nether/give_them_everything_they_want nether_gold_ore
+
+execute if entity @a[team=bac_team_light_purple, advancements={bacaped:nether/give_them_everything_they_want={nether_gold_ore=true}}] run advancement grant @a only bacaped:nether/give_them_everything_they_want nether_gold_ore
+
+execute if entity @a[team=bac_team_red, advancements={bacaped:nether/give_them_everything_they_want={nether_gold_ore=true}}] run advancement grant @a only bacaped:nether/give_them_everything_they_want nether_gold_ore
+
+execute if entity @a[team=bac_team_white, advancements={bacaped:nether/give_them_everything_they_want={nether_gold_ore=true}}] run advancement grant @a only bacaped:nether/give_them_everything_they_want nether_gold_ore
+
+execute if entity @a[team=bac_team_yellow, advancements={bacaped:nether/give_them_everything_they_want={nether_gold_ore=true}}] run advancement grant @a only bacaped:nether/give_them_everything_they_want nether_gold_ore
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/stack_all_the_items={lime_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items lime_dye
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/stack_all_the_items={lime_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items lime_dye
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/stack_all_the_items={lime_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items lime_dye
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/stack_all_the_items={lime_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items lime_dye
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/stack_all_the_items={lime_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items lime_dye
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/stack_all_the_items={lime_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items lime_dye
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/stack_all_the_items={lime_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items lime_dye
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/stack_all_the_items={lime_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items lime_dye
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/stack_all_the_items={lime_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items lime_dye
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/stack_all_the_items={lime_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items lime_dye
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/stack_all_the_items={lime_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items lime_dye
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/stack_all_the_items={lime_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items lime_dye
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/stack_all_the_items={lime_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items lime_dye
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/stack_all_the_items={lime_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items lime_dye
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/stack_all_the_items={lime_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items lime_dye
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/stack_all_the_items={lime_dye=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items lime_dye
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/stack_all_the_items={nether_brick=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items nether_brick
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/stack_all_the_items={nether_brick=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items nether_brick
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/stack_all_the_items={nether_brick=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items nether_brick
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/stack_all_the_items={nether_brick=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items nether_brick
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/stack_all_the_items={nether_brick=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items nether_brick
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/stack_all_the_items={nether_brick=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items nether_brick
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/stack_all_the_items={nether_brick=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items nether_brick
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/stack_all_the_items={nether_brick=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items nether_brick
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/stack_all_the_items={nether_brick=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items nether_brick
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/stack_all_the_items={nether_brick=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items nether_brick
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/stack_all_the_items={nether_brick=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items nether_brick
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/stack_all_the_items={nether_brick=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items nether_brick
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/stack_all_the_items={nether_brick=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items nether_brick
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/stack_all_the_items={nether_brick=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items nether_brick
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/stack_all_the_items={nether_brick=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items nether_brick
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/stack_all_the_items={nether_brick=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items nether_brick
+
+execute if entity @a[team=bac_team_aqua, advancements={bacaped:building/chromatic_completion={gray_from_closed_eyeblossom=true}}] run advancement grant @a only bacaped:building/chromatic_completion gray_from_closed_eyeblossom
+
+execute if entity @a[team=bac_team_black, advancements={bacaped:building/chromatic_completion={gray_from_closed_eyeblossom=true}}] run advancement grant @a only bacaped:building/chromatic_completion gray_from_closed_eyeblossom
+
+execute if entity @a[team=bac_team_blue, advancements={bacaped:building/chromatic_completion={gray_from_closed_eyeblossom=true}}] run advancement grant @a only bacaped:building/chromatic_completion gray_from_closed_eyeblossom
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={bacaped:building/chromatic_completion={gray_from_closed_eyeblossom=true}}] run advancement grant @a only bacaped:building/chromatic_completion gray_from_closed_eyeblossom
+
+execute if entity @a[team=bac_team_dark_blue, advancements={bacaped:building/chromatic_completion={gray_from_closed_eyeblossom=true}}] run advancement grant @a only bacaped:building/chromatic_completion gray_from_closed_eyeblossom
+
+execute if entity @a[team=bac_team_dark_gray, advancements={bacaped:building/chromatic_completion={gray_from_closed_eyeblossom=true}}] run advancement grant @a only bacaped:building/chromatic_completion gray_from_closed_eyeblossom
+
+execute if entity @a[team=bac_team_dark_green, advancements={bacaped:building/chromatic_completion={gray_from_closed_eyeblossom=true}}] run advancement grant @a only bacaped:building/chromatic_completion gray_from_closed_eyeblossom
+
+execute if entity @a[team=bac_team_dark_purple, advancements={bacaped:building/chromatic_completion={gray_from_closed_eyeblossom=true}}] run advancement grant @a only bacaped:building/chromatic_completion gray_from_closed_eyeblossom
+
+execute if entity @a[team=bac_team_dark_red, advancements={bacaped:building/chromatic_completion={gray_from_closed_eyeblossom=true}}] run advancement grant @a only bacaped:building/chromatic_completion gray_from_closed_eyeblossom
+
+execute if entity @a[team=bac_team_gold, advancements={bacaped:building/chromatic_completion={gray_from_closed_eyeblossom=true}}] run advancement grant @a only bacaped:building/chromatic_completion gray_from_closed_eyeblossom
+
+execute if entity @a[team=bac_team_gray, advancements={bacaped:building/chromatic_completion={gray_from_closed_eyeblossom=true}}] run advancement grant @a only bacaped:building/chromatic_completion gray_from_closed_eyeblossom
+
+execute if entity @a[team=bac_team_green, advancements={bacaped:building/chromatic_completion={gray_from_closed_eyeblossom=true}}] run advancement grant @a only bacaped:building/chromatic_completion gray_from_closed_eyeblossom
+
+execute if entity @a[team=bac_team_light_purple, advancements={bacaped:building/chromatic_completion={gray_from_closed_eyeblossom=true}}] run advancement grant @a only bacaped:building/chromatic_completion gray_from_closed_eyeblossom
+
+execute if entity @a[team=bac_team_red, advancements={bacaped:building/chromatic_completion={gray_from_closed_eyeblossom=true}}] run advancement grant @a only bacaped:building/chromatic_completion gray_from_closed_eyeblossom
+
+execute if entity @a[team=bac_team_white, advancements={bacaped:building/chromatic_completion={gray_from_closed_eyeblossom=true}}] run advancement grant @a only bacaped:building/chromatic_completion gray_from_closed_eyeblossom
+
+execute if entity @a[team=bac_team_yellow, advancements={bacaped:building/chromatic_completion={gray_from_closed_eyeblossom=true}}] run advancement grant @a only bacaped:building/chromatic_completion gray_from_closed_eyeblossom
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/all_the_blocks={cut_copper_stairs=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks cut_copper_stairs
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/all_the_blocks={cut_copper_stairs=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks cut_copper_stairs
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/all_the_blocks={cut_copper_stairs=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks cut_copper_stairs
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/all_the_blocks={cut_copper_stairs=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks cut_copper_stairs
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/all_the_blocks={cut_copper_stairs=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks cut_copper_stairs
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/all_the_blocks={cut_copper_stairs=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks cut_copper_stairs
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/all_the_blocks={cut_copper_stairs=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks cut_copper_stairs
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/all_the_blocks={cut_copper_stairs=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks cut_copper_stairs
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/all_the_blocks={cut_copper_stairs=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks cut_copper_stairs
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/all_the_blocks={cut_copper_stairs=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks cut_copper_stairs
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/all_the_blocks={cut_copper_stairs=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks cut_copper_stairs
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/all_the_blocks={cut_copper_stairs=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks cut_copper_stairs
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/all_the_blocks={cut_copper_stairs=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks cut_copper_stairs
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/all_the_blocks={cut_copper_stairs=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks cut_copper_stairs
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/all_the_blocks={cut_copper_stairs=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks cut_copper_stairs
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/all_the_blocks={cut_copper_stairs=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks cut_copper_stairs
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/stack_all_the_blocks={nether_brick_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks nether_brick_slab
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/stack_all_the_blocks={nether_brick_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks nether_brick_slab
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/stack_all_the_blocks={nether_brick_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks nether_brick_slab
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/stack_all_the_blocks={nether_brick_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks nether_brick_slab
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/stack_all_the_blocks={nether_brick_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks nether_brick_slab
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/stack_all_the_blocks={nether_brick_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks nether_brick_slab
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/stack_all_the_blocks={nether_brick_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks nether_brick_slab
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/stack_all_the_blocks={nether_brick_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks nether_brick_slab
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/stack_all_the_blocks={nether_brick_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks nether_brick_slab
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/stack_all_the_blocks={nether_brick_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks nether_brick_slab
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/stack_all_the_blocks={nether_brick_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks nether_brick_slab
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/stack_all_the_blocks={nether_brick_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks nether_brick_slab
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/stack_all_the_blocks={nether_brick_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks nether_brick_slab
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/stack_all_the_blocks={nether_brick_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks nether_brick_slab
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/stack_all_the_blocks={nether_brick_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks nether_brick_slab
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/stack_all_the_blocks={nether_brick_slab=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks nether_brick_slab
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:building/art_gallery={bouquet=true}}] run advancement grant @a only blazeandcave:building/art_gallery bouquet
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:building/art_gallery={bouquet=true}}] run advancement grant @a only blazeandcave:building/art_gallery bouquet
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:building/art_gallery={bouquet=true}}] run advancement grant @a only blazeandcave:building/art_gallery bouquet
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:building/art_gallery={bouquet=true}}] run advancement grant @a only blazeandcave:building/art_gallery bouquet
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:building/art_gallery={bouquet=true}}] run advancement grant @a only blazeandcave:building/art_gallery bouquet
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:building/art_gallery={bouquet=true}}] run advancement grant @a only blazeandcave:building/art_gallery bouquet
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:building/art_gallery={bouquet=true}}] run advancement grant @a only blazeandcave:building/art_gallery bouquet
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:building/art_gallery={bouquet=true}}] run advancement grant @a only blazeandcave:building/art_gallery bouquet
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:building/art_gallery={bouquet=true}}] run advancement grant @a only blazeandcave:building/art_gallery bouquet
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:building/art_gallery={bouquet=true}}] run advancement grant @a only blazeandcave:building/art_gallery bouquet
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:building/art_gallery={bouquet=true}}] run advancement grant @a only blazeandcave:building/art_gallery bouquet
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:building/art_gallery={bouquet=true}}] run advancement grant @a only blazeandcave:building/art_gallery bouquet
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:building/art_gallery={bouquet=true}}] run advancement grant @a only blazeandcave:building/art_gallery bouquet
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:building/art_gallery={bouquet=true}}] run advancement grant @a only blazeandcave:building/art_gallery bouquet
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:building/art_gallery={bouquet=true}}] run advancement grant @a only blazeandcave:building/art_gallery bouquet
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:building/art_gallery={bouquet=true}}] run advancement grant @a only blazeandcave:building/art_gallery bouquet
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/stack_all_the_blocks={green_banner=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks green_banner
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/stack_all_the_blocks={green_banner=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks green_banner
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/stack_all_the_blocks={green_banner=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks green_banner
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/stack_all_the_blocks={green_banner=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks green_banner
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/stack_all_the_blocks={green_banner=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks green_banner
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/stack_all_the_blocks={green_banner=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks green_banner
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/stack_all_the_blocks={green_banner=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks green_banner
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/stack_all_the_blocks={green_banner=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks green_banner
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/stack_all_the_blocks={green_banner=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks green_banner
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/stack_all_the_blocks={green_banner=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks green_banner
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/stack_all_the_blocks={green_banner=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks green_banner
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/stack_all_the_blocks={green_banner=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks green_banner
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/stack_all_the_blocks={green_banner=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks green_banner
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/stack_all_the_blocks={green_banner=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks green_banner
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/stack_all_the_blocks={green_banner=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks green_banner
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/stack_all_the_blocks={green_banner=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks green_banner
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:monsters/dungeon_crawler={pillager=true}}] run advancement grant @a only blazeandcave:monsters/dungeon_crawler pillager
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:monsters/dungeon_crawler={pillager=true}}] run advancement grant @a only blazeandcave:monsters/dungeon_crawler pillager
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:monsters/dungeon_crawler={pillager=true}}] run advancement grant @a only blazeandcave:monsters/dungeon_crawler pillager
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:monsters/dungeon_crawler={pillager=true}}] run advancement grant @a only blazeandcave:monsters/dungeon_crawler pillager
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:monsters/dungeon_crawler={pillager=true}}] run advancement grant @a only blazeandcave:monsters/dungeon_crawler pillager
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:monsters/dungeon_crawler={pillager=true}}] run advancement grant @a only blazeandcave:monsters/dungeon_crawler pillager
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:monsters/dungeon_crawler={pillager=true}}] run advancement grant @a only blazeandcave:monsters/dungeon_crawler pillager
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:monsters/dungeon_crawler={pillager=true}}] run advancement grant @a only blazeandcave:monsters/dungeon_crawler pillager
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:monsters/dungeon_crawler={pillager=true}}] run advancement grant @a only blazeandcave:monsters/dungeon_crawler pillager
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:monsters/dungeon_crawler={pillager=true}}] run advancement grant @a only blazeandcave:monsters/dungeon_crawler pillager
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:monsters/dungeon_crawler={pillager=true}}] run advancement grant @a only blazeandcave:monsters/dungeon_crawler pillager
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:monsters/dungeon_crawler={pillager=true}}] run advancement grant @a only blazeandcave:monsters/dungeon_crawler pillager
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:monsters/dungeon_crawler={pillager=true}}] run advancement grant @a only blazeandcave:monsters/dungeon_crawler pillager
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:monsters/dungeon_crawler={pillager=true}}] run advancement grant @a only blazeandcave:monsters/dungeon_crawler pillager
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:monsters/dungeon_crawler={pillager=true}}] run advancement grant @a only blazeandcave:monsters/dungeon_crawler pillager
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:monsters/dungeon_crawler={pillager=true}}] run advancement grant @a only blazeandcave:monsters/dungeon_crawler pillager
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/stack_all_the_items={furnace_minecart=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items furnace_minecart
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/stack_all_the_items={furnace_minecart=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items furnace_minecart
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/stack_all_the_items={furnace_minecart=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items furnace_minecart
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/stack_all_the_items={furnace_minecart=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items furnace_minecart
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/stack_all_the_items={furnace_minecart=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items furnace_minecart
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/stack_all_the_items={furnace_minecart=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items furnace_minecart
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/stack_all_the_items={furnace_minecart=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items furnace_minecart
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/stack_all_the_items={furnace_minecart=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items furnace_minecart
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/stack_all_the_items={furnace_minecart=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items furnace_minecart
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/stack_all_the_items={furnace_minecart=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items furnace_minecart
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/stack_all_the_items={furnace_minecart=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items furnace_minecart
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/stack_all_the_items={furnace_minecart=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items furnace_minecart
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/stack_all_the_items={furnace_minecart=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items furnace_minecart
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/stack_all_the_items={furnace_minecart=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items furnace_minecart
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/stack_all_the_items={furnace_minecart=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items furnace_minecart
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/stack_all_the_items={furnace_minecart=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items furnace_minecart
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:mining/green_lanterns={exposed_copper_lantern=true}}] run advancement grant @a only blazeandcave:mining/green_lanterns exposed_copper_lantern
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:mining/green_lanterns={exposed_copper_lantern=true}}] run advancement grant @a only blazeandcave:mining/green_lanterns exposed_copper_lantern
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:mining/green_lanterns={exposed_copper_lantern=true}}] run advancement grant @a only blazeandcave:mining/green_lanterns exposed_copper_lantern
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:mining/green_lanterns={exposed_copper_lantern=true}}] run advancement grant @a only blazeandcave:mining/green_lanterns exposed_copper_lantern
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:mining/green_lanterns={exposed_copper_lantern=true}}] run advancement grant @a only blazeandcave:mining/green_lanterns exposed_copper_lantern
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:mining/green_lanterns={exposed_copper_lantern=true}}] run advancement grant @a only blazeandcave:mining/green_lanterns exposed_copper_lantern
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:mining/green_lanterns={exposed_copper_lantern=true}}] run advancement grant @a only blazeandcave:mining/green_lanterns exposed_copper_lantern
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:mining/green_lanterns={exposed_copper_lantern=true}}] run advancement grant @a only blazeandcave:mining/green_lanterns exposed_copper_lantern
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:mining/green_lanterns={exposed_copper_lantern=true}}] run advancement grant @a only blazeandcave:mining/green_lanterns exposed_copper_lantern
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:mining/green_lanterns={exposed_copper_lantern=true}}] run advancement grant @a only blazeandcave:mining/green_lanterns exposed_copper_lantern
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:mining/green_lanterns={exposed_copper_lantern=true}}] run advancement grant @a only blazeandcave:mining/green_lanterns exposed_copper_lantern
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:mining/green_lanterns={exposed_copper_lantern=true}}] run advancement grant @a only blazeandcave:mining/green_lanterns exposed_copper_lantern
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:mining/green_lanterns={exposed_copper_lantern=true}}] run advancement grant @a only blazeandcave:mining/green_lanterns exposed_copper_lantern
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:mining/green_lanterns={exposed_copper_lantern=true}}] run advancement grant @a only blazeandcave:mining/green_lanterns exposed_copper_lantern
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:mining/green_lanterns={exposed_copper_lantern=true}}] run advancement grant @a only blazeandcave:mining/green_lanterns exposed_copper_lantern
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:mining/green_lanterns={exposed_copper_lantern=true}}] run advancement grant @a only blazeandcave:mining/green_lanterns exposed_copper_lantern
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:farming/whats_new_with_composting={allium=true}}] run advancement grant @a only blazeandcave:farming/whats_new_with_composting allium
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:farming/whats_new_with_composting={allium=true}}] run advancement grant @a only blazeandcave:farming/whats_new_with_composting allium
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:farming/whats_new_with_composting={allium=true}}] run advancement grant @a only blazeandcave:farming/whats_new_with_composting allium
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:farming/whats_new_with_composting={allium=true}}] run advancement grant @a only blazeandcave:farming/whats_new_with_composting allium
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:farming/whats_new_with_composting={allium=true}}] run advancement grant @a only blazeandcave:farming/whats_new_with_composting allium
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:farming/whats_new_with_composting={allium=true}}] run advancement grant @a only blazeandcave:farming/whats_new_with_composting allium
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:farming/whats_new_with_composting={allium=true}}] run advancement grant @a only blazeandcave:farming/whats_new_with_composting allium
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:farming/whats_new_with_composting={allium=true}}] run advancement grant @a only blazeandcave:farming/whats_new_with_composting allium
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:farming/whats_new_with_composting={allium=true}}] run advancement grant @a only blazeandcave:farming/whats_new_with_composting allium
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:farming/whats_new_with_composting={allium=true}}] run advancement grant @a only blazeandcave:farming/whats_new_with_composting allium
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:farming/whats_new_with_composting={allium=true}}] run advancement grant @a only blazeandcave:farming/whats_new_with_composting allium
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:farming/whats_new_with_composting={allium=true}}] run advancement grant @a only blazeandcave:farming/whats_new_with_composting allium
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:farming/whats_new_with_composting={allium=true}}] run advancement grant @a only blazeandcave:farming/whats_new_with_composting allium
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:farming/whats_new_with_composting={allium=true}}] run advancement grant @a only blazeandcave:farming/whats_new_with_composting allium
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:farming/whats_new_with_composting={allium=true}}] run advancement grant @a only blazeandcave:farming/whats_new_with_composting allium
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:farming/whats_new_with_composting={allium=true}}] run advancement grant @a only blazeandcave:farming/whats_new_with_composting allium
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:animal/tropical_collection={fish1=true}}] run advancement grant @a only blazeandcave:animal/tropical_collection fish1
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:animal/tropical_collection={fish1=true}}] run advancement grant @a only blazeandcave:animal/tropical_collection fish1
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:animal/tropical_collection={fish1=true}}] run advancement grant @a only blazeandcave:animal/tropical_collection fish1
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:animal/tropical_collection={fish1=true}}] run advancement grant @a only blazeandcave:animal/tropical_collection fish1
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:animal/tropical_collection={fish1=true}}] run advancement grant @a only blazeandcave:animal/tropical_collection fish1
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:animal/tropical_collection={fish1=true}}] run advancement grant @a only blazeandcave:animal/tropical_collection fish1
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:animal/tropical_collection={fish1=true}}] run advancement grant @a only blazeandcave:animal/tropical_collection fish1
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:animal/tropical_collection={fish1=true}}] run advancement grant @a only blazeandcave:animal/tropical_collection fish1
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:animal/tropical_collection={fish1=true}}] run advancement grant @a only blazeandcave:animal/tropical_collection fish1
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:animal/tropical_collection={fish1=true}}] run advancement grant @a only blazeandcave:animal/tropical_collection fish1
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:animal/tropical_collection={fish1=true}}] run advancement grant @a only blazeandcave:animal/tropical_collection fish1
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:animal/tropical_collection={fish1=true}}] run advancement grant @a only blazeandcave:animal/tropical_collection fish1
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:animal/tropical_collection={fish1=true}}] run advancement grant @a only blazeandcave:animal/tropical_collection fish1
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:animal/tropical_collection={fish1=true}}] run advancement grant @a only blazeandcave:animal/tropical_collection fish1
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:animal/tropical_collection={fish1=true}}] run advancement grant @a only blazeandcave:animal/tropical_collection fish1
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:animal/tropical_collection={fish1=true}}] run advancement grant @a only blazeandcave:animal/tropical_collection fish1
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/stack_all_the_blocks={smooth_sandstone_stairs=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks smooth_sandstone_stairs
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/stack_all_the_blocks={smooth_sandstone_stairs=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks smooth_sandstone_stairs
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/stack_all_the_blocks={smooth_sandstone_stairs=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks smooth_sandstone_stairs
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/stack_all_the_blocks={smooth_sandstone_stairs=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks smooth_sandstone_stairs
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/stack_all_the_blocks={smooth_sandstone_stairs=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks smooth_sandstone_stairs
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/stack_all_the_blocks={smooth_sandstone_stairs=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks smooth_sandstone_stairs
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/stack_all_the_blocks={smooth_sandstone_stairs=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks smooth_sandstone_stairs
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/stack_all_the_blocks={smooth_sandstone_stairs=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks smooth_sandstone_stairs
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/stack_all_the_blocks={smooth_sandstone_stairs=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks smooth_sandstone_stairs
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/stack_all_the_blocks={smooth_sandstone_stairs=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks smooth_sandstone_stairs
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/stack_all_the_blocks={smooth_sandstone_stairs=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks smooth_sandstone_stairs
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/stack_all_the_blocks={smooth_sandstone_stairs=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks smooth_sandstone_stairs
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/stack_all_the_blocks={smooth_sandstone_stairs=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks smooth_sandstone_stairs
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/stack_all_the_blocks={smooth_sandstone_stairs=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks smooth_sandstone_stairs
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/stack_all_the_blocks={smooth_sandstone_stairs=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks smooth_sandstone_stairs
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/stack_all_the_blocks={smooth_sandstone_stairs=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks smooth_sandstone_stairs
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/stack_all_the_blocks={gravel=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks gravel
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/stack_all_the_blocks={gravel=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks gravel
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/stack_all_the_blocks={gravel=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks gravel
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/stack_all_the_blocks={gravel=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks gravel
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/stack_all_the_blocks={gravel=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks gravel
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/stack_all_the_blocks={gravel=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks gravel
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/stack_all_the_blocks={gravel=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks gravel
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/stack_all_the_blocks={gravel=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks gravel
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/stack_all_the_blocks={gravel=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks gravel
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/stack_all_the_blocks={gravel=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks gravel
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/stack_all_the_blocks={gravel=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks gravel
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/stack_all_the_blocks={gravel=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks gravel
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/stack_all_the_blocks={gravel=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks gravel
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/stack_all_the_blocks={gravel=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks gravel
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/stack_all_the_blocks={gravel=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks gravel
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/stack_all_the_blocks={gravel=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks gravel
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/ultimate_enchanter={fire_aspect1_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fire_aspect1_book
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/ultimate_enchanter={fire_aspect1_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fire_aspect1_book
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/ultimate_enchanter={fire_aspect1_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fire_aspect1_book
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/ultimate_enchanter={fire_aspect1_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fire_aspect1_book
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/ultimate_enchanter={fire_aspect1_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fire_aspect1_book
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/ultimate_enchanter={fire_aspect1_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fire_aspect1_book
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/ultimate_enchanter={fire_aspect1_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fire_aspect1_book
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/ultimate_enchanter={fire_aspect1_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fire_aspect1_book
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/ultimate_enchanter={fire_aspect1_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fire_aspect1_book
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/ultimate_enchanter={fire_aspect1_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fire_aspect1_book
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/ultimate_enchanter={fire_aspect1_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fire_aspect1_book
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/ultimate_enchanter={fire_aspect1_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fire_aspect1_book
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/ultimate_enchanter={fire_aspect1_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fire_aspect1_book
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/ultimate_enchanter={fire_aspect1_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fire_aspect1_book
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/ultimate_enchanter={fire_aspect1_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fire_aspect1_book
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/ultimate_enchanter={fire_aspect1_book=true}}] run advancement grant @a only blazeandcave:challenges/ultimate_enchanter fire_aspect1_book
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:monsters/basketblock_championship={open_eyeblossom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship open_eyeblossom
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:monsters/basketblock_championship={open_eyeblossom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship open_eyeblossom
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:monsters/basketblock_championship={open_eyeblossom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship open_eyeblossom
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:monsters/basketblock_championship={open_eyeblossom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship open_eyeblossom
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:monsters/basketblock_championship={open_eyeblossom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship open_eyeblossom
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:monsters/basketblock_championship={open_eyeblossom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship open_eyeblossom
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:monsters/basketblock_championship={open_eyeblossom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship open_eyeblossom
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:monsters/basketblock_championship={open_eyeblossom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship open_eyeblossom
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:monsters/basketblock_championship={open_eyeblossom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship open_eyeblossom
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:monsters/basketblock_championship={open_eyeblossom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship open_eyeblossom
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:monsters/basketblock_championship={open_eyeblossom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship open_eyeblossom
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:monsters/basketblock_championship={open_eyeblossom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship open_eyeblossom
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:monsters/basketblock_championship={open_eyeblossom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship open_eyeblossom
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:monsters/basketblock_championship={open_eyeblossom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship open_eyeblossom
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:monsters/basketblock_championship={open_eyeblossom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship open_eyeblossom
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:monsters/basketblock_championship={open_eyeblossom=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship open_eyeblossom
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:mining/sly_copper_the_copper_heist={exposed_copper=true}}] run advancement grant @a only blazeandcave:mining/sly_copper_the_copper_heist exposed_copper
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:mining/sly_copper_the_copper_heist={exposed_copper=true}}] run advancement grant @a only blazeandcave:mining/sly_copper_the_copper_heist exposed_copper
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:mining/sly_copper_the_copper_heist={exposed_copper=true}}] run advancement grant @a only blazeandcave:mining/sly_copper_the_copper_heist exposed_copper
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:mining/sly_copper_the_copper_heist={exposed_copper=true}}] run advancement grant @a only blazeandcave:mining/sly_copper_the_copper_heist exposed_copper
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:mining/sly_copper_the_copper_heist={exposed_copper=true}}] run advancement grant @a only blazeandcave:mining/sly_copper_the_copper_heist exposed_copper
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:mining/sly_copper_the_copper_heist={exposed_copper=true}}] run advancement grant @a only blazeandcave:mining/sly_copper_the_copper_heist exposed_copper
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:mining/sly_copper_the_copper_heist={exposed_copper=true}}] run advancement grant @a only blazeandcave:mining/sly_copper_the_copper_heist exposed_copper
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:mining/sly_copper_the_copper_heist={exposed_copper=true}}] run advancement grant @a only blazeandcave:mining/sly_copper_the_copper_heist exposed_copper
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:mining/sly_copper_the_copper_heist={exposed_copper=true}}] run advancement grant @a only blazeandcave:mining/sly_copper_the_copper_heist exposed_copper
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:mining/sly_copper_the_copper_heist={exposed_copper=true}}] run advancement grant @a only blazeandcave:mining/sly_copper_the_copper_heist exposed_copper
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:mining/sly_copper_the_copper_heist={exposed_copper=true}}] run advancement grant @a only blazeandcave:mining/sly_copper_the_copper_heist exposed_copper
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:mining/sly_copper_the_copper_heist={exposed_copper=true}}] run advancement grant @a only blazeandcave:mining/sly_copper_the_copper_heist exposed_copper
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:mining/sly_copper_the_copper_heist={exposed_copper=true}}] run advancement grant @a only blazeandcave:mining/sly_copper_the_copper_heist exposed_copper
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:mining/sly_copper_the_copper_heist={exposed_copper=true}}] run advancement grant @a only blazeandcave:mining/sly_copper_the_copper_heist exposed_copper
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:mining/sly_copper_the_copper_heist={exposed_copper=true}}] run advancement grant @a only blazeandcave:mining/sly_copper_the_copper_heist exposed_copper
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:mining/sly_copper_the_copper_heist={exposed_copper=true}}] run advancement grant @a only blazeandcave:mining/sly_copper_the_copper_heist exposed_copper
+
+execute if entity @a[team=bac_team_aqua, advancements={bacaped:redstone/craft_me_all={powered_rail=true}}] run advancement grant @a only bacaped:redstone/craft_me_all powered_rail
+
+execute if entity @a[team=bac_team_black, advancements={bacaped:redstone/craft_me_all={powered_rail=true}}] run advancement grant @a only bacaped:redstone/craft_me_all powered_rail
+
+execute if entity @a[team=bac_team_blue, advancements={bacaped:redstone/craft_me_all={powered_rail=true}}] run advancement grant @a only bacaped:redstone/craft_me_all powered_rail
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={bacaped:redstone/craft_me_all={powered_rail=true}}] run advancement grant @a only bacaped:redstone/craft_me_all powered_rail
+
+execute if entity @a[team=bac_team_dark_blue, advancements={bacaped:redstone/craft_me_all={powered_rail=true}}] run advancement grant @a only bacaped:redstone/craft_me_all powered_rail
+
+execute if entity @a[team=bac_team_dark_gray, advancements={bacaped:redstone/craft_me_all={powered_rail=true}}] run advancement grant @a only bacaped:redstone/craft_me_all powered_rail
+
+execute if entity @a[team=bac_team_dark_green, advancements={bacaped:redstone/craft_me_all={powered_rail=true}}] run advancement grant @a only bacaped:redstone/craft_me_all powered_rail
+
+execute if entity @a[team=bac_team_dark_purple, advancements={bacaped:redstone/craft_me_all={powered_rail=true}}] run advancement grant @a only bacaped:redstone/craft_me_all powered_rail
+
+execute if entity @a[team=bac_team_dark_red, advancements={bacaped:redstone/craft_me_all={powered_rail=true}}] run advancement grant @a only bacaped:redstone/craft_me_all powered_rail
+
+execute if entity @a[team=bac_team_gold, advancements={bacaped:redstone/craft_me_all={powered_rail=true}}] run advancement grant @a only bacaped:redstone/craft_me_all powered_rail
+
+execute if entity @a[team=bac_team_gray, advancements={bacaped:redstone/craft_me_all={powered_rail=true}}] run advancement grant @a only bacaped:redstone/craft_me_all powered_rail
+
+execute if entity @a[team=bac_team_green, advancements={bacaped:redstone/craft_me_all={powered_rail=true}}] run advancement grant @a only bacaped:redstone/craft_me_all powered_rail
+
+execute if entity @a[team=bac_team_light_purple, advancements={bacaped:redstone/craft_me_all={powered_rail=true}}] run advancement grant @a only bacaped:redstone/craft_me_all powered_rail
+
+execute if entity @a[team=bac_team_red, advancements={bacaped:redstone/craft_me_all={powered_rail=true}}] run advancement grant @a only bacaped:redstone/craft_me_all powered_rail
+
+execute if entity @a[team=bac_team_white, advancements={bacaped:redstone/craft_me_all={powered_rail=true}}] run advancement grant @a only bacaped:redstone/craft_me_all powered_rail
+
+execute if entity @a[team=bac_team_yellow, advancements={bacaped:redstone/craft_me_all={powered_rail=true}}] run advancement grant @a only bacaped:redstone/craft_me_all powered_rail
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:farming/meat_lovers={cooked_salmon=true}}] run advancement grant @a only blazeandcave:farming/meat_lovers cooked_salmon
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:farming/meat_lovers={cooked_salmon=true}}] run advancement grant @a only blazeandcave:farming/meat_lovers cooked_salmon
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:farming/meat_lovers={cooked_salmon=true}}] run advancement grant @a only blazeandcave:farming/meat_lovers cooked_salmon
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:farming/meat_lovers={cooked_salmon=true}}] run advancement grant @a only blazeandcave:farming/meat_lovers cooked_salmon
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:farming/meat_lovers={cooked_salmon=true}}] run advancement grant @a only blazeandcave:farming/meat_lovers cooked_salmon
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:farming/meat_lovers={cooked_salmon=true}}] run advancement grant @a only blazeandcave:farming/meat_lovers cooked_salmon
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:farming/meat_lovers={cooked_salmon=true}}] run advancement grant @a only blazeandcave:farming/meat_lovers cooked_salmon
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:farming/meat_lovers={cooked_salmon=true}}] run advancement grant @a only blazeandcave:farming/meat_lovers cooked_salmon
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:farming/meat_lovers={cooked_salmon=true}}] run advancement grant @a only blazeandcave:farming/meat_lovers cooked_salmon
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:farming/meat_lovers={cooked_salmon=true}}] run advancement grant @a only blazeandcave:farming/meat_lovers cooked_salmon
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:farming/meat_lovers={cooked_salmon=true}}] run advancement grant @a only blazeandcave:farming/meat_lovers cooked_salmon
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:farming/meat_lovers={cooked_salmon=true}}] run advancement grant @a only blazeandcave:farming/meat_lovers cooked_salmon
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:farming/meat_lovers={cooked_salmon=true}}] run advancement grant @a only blazeandcave:farming/meat_lovers cooked_salmon
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:farming/meat_lovers={cooked_salmon=true}}] run advancement grant @a only blazeandcave:farming/meat_lovers cooked_salmon
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:farming/meat_lovers={cooked_salmon=true}}] run advancement grant @a only blazeandcave:farming/meat_lovers cooked_salmon
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:farming/meat_lovers={cooked_salmon=true}}] run advancement grant @a only blazeandcave:farming/meat_lovers cooked_salmon
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:redstone/master_engineer={jukebox=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer jukebox
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:redstone/master_engineer={jukebox=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer jukebox
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:redstone/master_engineer={jukebox=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer jukebox
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:redstone/master_engineer={jukebox=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer jukebox
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:redstone/master_engineer={jukebox=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer jukebox
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:redstone/master_engineer={jukebox=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer jukebox
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:redstone/master_engineer={jukebox=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer jukebox
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:redstone/master_engineer={jukebox=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer jukebox
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:redstone/master_engineer={jukebox=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer jukebox
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:redstone/master_engineer={jukebox=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer jukebox
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:redstone/master_engineer={jukebox=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer jukebox
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:redstone/master_engineer={jukebox=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer jukebox
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:redstone/master_engineer={jukebox=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer jukebox
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:redstone/master_engineer={jukebox=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer jukebox
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:redstone/master_engineer={jukebox=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer jukebox
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:redstone/master_engineer={jukebox=true}}] run advancement grant @a only blazeandcave:redstone/master_engineer jukebox
+
+execute if entity @a[team=bac_team_aqua, advancements={bacaped:animal/full_catch={medium=true}}] run advancement grant @a only bacaped:animal/full_catch medium
+
+execute if entity @a[team=bac_team_black, advancements={bacaped:animal/full_catch={medium=true}}] run advancement grant @a only bacaped:animal/full_catch medium
+
+execute if entity @a[team=bac_team_blue, advancements={bacaped:animal/full_catch={medium=true}}] run advancement grant @a only bacaped:animal/full_catch medium
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={bacaped:animal/full_catch={medium=true}}] run advancement grant @a only bacaped:animal/full_catch medium
+
+execute if entity @a[team=bac_team_dark_blue, advancements={bacaped:animal/full_catch={medium=true}}] run advancement grant @a only bacaped:animal/full_catch medium
+
+execute if entity @a[team=bac_team_dark_gray, advancements={bacaped:animal/full_catch={medium=true}}] run advancement grant @a only bacaped:animal/full_catch medium
+
+execute if entity @a[team=bac_team_dark_green, advancements={bacaped:animal/full_catch={medium=true}}] run advancement grant @a only bacaped:animal/full_catch medium
+
+execute if entity @a[team=bac_team_dark_purple, advancements={bacaped:animal/full_catch={medium=true}}] run advancement grant @a only bacaped:animal/full_catch medium
+
+execute if entity @a[team=bac_team_dark_red, advancements={bacaped:animal/full_catch={medium=true}}] run advancement grant @a only bacaped:animal/full_catch medium
+
+execute if entity @a[team=bac_team_gold, advancements={bacaped:animal/full_catch={medium=true}}] run advancement grant @a only bacaped:animal/full_catch medium
+
+execute if entity @a[team=bac_team_gray, advancements={bacaped:animal/full_catch={medium=true}}] run advancement grant @a only bacaped:animal/full_catch medium
+
+execute if entity @a[team=bac_team_green, advancements={bacaped:animal/full_catch={medium=true}}] run advancement grant @a only bacaped:animal/full_catch medium
+
+execute if entity @a[team=bac_team_light_purple, advancements={bacaped:animal/full_catch={medium=true}}] run advancement grant @a only bacaped:animal/full_catch medium
+
+execute if entity @a[team=bac_team_red, advancements={bacaped:animal/full_catch={medium=true}}] run advancement grant @a only bacaped:animal/full_catch medium
+
+execute if entity @a[team=bac_team_white, advancements={bacaped:animal/full_catch={medium=true}}] run advancement grant @a only bacaped:animal/full_catch medium
+
+execute if entity @a[team=bac_team_yellow, advancements={bacaped:animal/full_catch={medium=true}}] run advancement grant @a only bacaped:animal/full_catch medium
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:adventure/guardian_destroyer={prismarine_shard=true}}] run advancement grant @a only blazeandcave:adventure/guardian_destroyer prismarine_shard
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:adventure/guardian_destroyer={prismarine_shard=true}}] run advancement grant @a only blazeandcave:adventure/guardian_destroyer prismarine_shard
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:adventure/guardian_destroyer={prismarine_shard=true}}] run advancement grant @a only blazeandcave:adventure/guardian_destroyer prismarine_shard
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:adventure/guardian_destroyer={prismarine_shard=true}}] run advancement grant @a only blazeandcave:adventure/guardian_destroyer prismarine_shard
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:adventure/guardian_destroyer={prismarine_shard=true}}] run advancement grant @a only blazeandcave:adventure/guardian_destroyer prismarine_shard
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:adventure/guardian_destroyer={prismarine_shard=true}}] run advancement grant @a only blazeandcave:adventure/guardian_destroyer prismarine_shard
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:adventure/guardian_destroyer={prismarine_shard=true}}] run advancement grant @a only blazeandcave:adventure/guardian_destroyer prismarine_shard
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:adventure/guardian_destroyer={prismarine_shard=true}}] run advancement grant @a only blazeandcave:adventure/guardian_destroyer prismarine_shard
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:adventure/guardian_destroyer={prismarine_shard=true}}] run advancement grant @a only blazeandcave:adventure/guardian_destroyer prismarine_shard
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:adventure/guardian_destroyer={prismarine_shard=true}}] run advancement grant @a only blazeandcave:adventure/guardian_destroyer prismarine_shard
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:adventure/guardian_destroyer={prismarine_shard=true}}] run advancement grant @a only blazeandcave:adventure/guardian_destroyer prismarine_shard
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:adventure/guardian_destroyer={prismarine_shard=true}}] run advancement grant @a only blazeandcave:adventure/guardian_destroyer prismarine_shard
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:adventure/guardian_destroyer={prismarine_shard=true}}] run advancement grant @a only blazeandcave:adventure/guardian_destroyer prismarine_shard
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:adventure/guardian_destroyer={prismarine_shard=true}}] run advancement grant @a only blazeandcave:adventure/guardian_destroyer prismarine_shard
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:adventure/guardian_destroyer={prismarine_shard=true}}] run advancement grant @a only blazeandcave:adventure/guardian_destroyer prismarine_shard
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:adventure/guardian_destroyer={prismarine_shard=true}}] run advancement grant @a only blazeandcave:adventure/guardian_destroyer prismarine_shard
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:monsters/void_ender={enderman=true}}] run advancement grant @a only blazeandcave:monsters/void_ender enderman
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:monsters/void_ender={enderman=true}}] run advancement grant @a only blazeandcave:monsters/void_ender enderman
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:monsters/void_ender={enderman=true}}] run advancement grant @a only blazeandcave:monsters/void_ender enderman
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:monsters/void_ender={enderman=true}}] run advancement grant @a only blazeandcave:monsters/void_ender enderman
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:monsters/void_ender={enderman=true}}] run advancement grant @a only blazeandcave:monsters/void_ender enderman
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:monsters/void_ender={enderman=true}}] run advancement grant @a only blazeandcave:monsters/void_ender enderman
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:monsters/void_ender={enderman=true}}] run advancement grant @a only blazeandcave:monsters/void_ender enderman
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:monsters/void_ender={enderman=true}}] run advancement grant @a only blazeandcave:monsters/void_ender enderman
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:monsters/void_ender={enderman=true}}] run advancement grant @a only blazeandcave:monsters/void_ender enderman
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:monsters/void_ender={enderman=true}}] run advancement grant @a only blazeandcave:monsters/void_ender enderman
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:monsters/void_ender={enderman=true}}] run advancement grant @a only blazeandcave:monsters/void_ender enderman
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:monsters/void_ender={enderman=true}}] run advancement grant @a only blazeandcave:monsters/void_ender enderman
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:monsters/void_ender={enderman=true}}] run advancement grant @a only blazeandcave:monsters/void_ender enderman
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:monsters/void_ender={enderman=true}}] run advancement grant @a only blazeandcave:monsters/void_ender enderman
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:monsters/void_ender={enderman=true}}] run advancement grant @a only blazeandcave:monsters/void_ender enderman
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:monsters/void_ender={enderman=true}}] run advancement grant @a only blazeandcave:monsters/void_ender enderman
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:mining/where_are_all_your_clothes={iron_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes iron_chestplate
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:mining/where_are_all_your_clothes={iron_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes iron_chestplate
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:mining/where_are_all_your_clothes={iron_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes iron_chestplate
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:mining/where_are_all_your_clothes={iron_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes iron_chestplate
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:mining/where_are_all_your_clothes={iron_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes iron_chestplate
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:mining/where_are_all_your_clothes={iron_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes iron_chestplate
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:mining/where_are_all_your_clothes={iron_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes iron_chestplate
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:mining/where_are_all_your_clothes={iron_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes iron_chestplate
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:mining/where_are_all_your_clothes={iron_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes iron_chestplate
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:mining/where_are_all_your_clothes={iron_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes iron_chestplate
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:mining/where_are_all_your_clothes={iron_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes iron_chestplate
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:mining/where_are_all_your_clothes={iron_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes iron_chestplate
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:mining/where_are_all_your_clothes={iron_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes iron_chestplate
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:mining/where_are_all_your_clothes={iron_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes iron_chestplate
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:mining/where_are_all_your_clothes={iron_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes iron_chestplate
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:mining/where_are_all_your_clothes={iron_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes iron_chestplate
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:weaponry/the_aquatic_hunter={tadpole=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter tadpole
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:weaponry/the_aquatic_hunter={tadpole=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter tadpole
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:weaponry/the_aquatic_hunter={tadpole=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter tadpole
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:weaponry/the_aquatic_hunter={tadpole=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter tadpole
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:weaponry/the_aquatic_hunter={tadpole=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter tadpole
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:weaponry/the_aquatic_hunter={tadpole=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter tadpole
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:weaponry/the_aquatic_hunter={tadpole=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter tadpole
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:weaponry/the_aquatic_hunter={tadpole=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter tadpole
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:weaponry/the_aquatic_hunter={tadpole=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter tadpole
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:weaponry/the_aquatic_hunter={tadpole=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter tadpole
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:weaponry/the_aquatic_hunter={tadpole=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter tadpole
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:weaponry/the_aquatic_hunter={tadpole=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter tadpole
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:weaponry/the_aquatic_hunter={tadpole=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter tadpole
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:weaponry/the_aquatic_hunter={tadpole=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter tadpole
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:weaponry/the_aquatic_hunter={tadpole=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter tadpole
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:weaponry/the_aquatic_hunter={tadpole=true}}] run advancement grant @a only blazeandcave:weaponry/the_aquatic_hunter tadpole
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/stack_all_the_items={brown_harness=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items brown_harness
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/stack_all_the_items={brown_harness=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items brown_harness
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/stack_all_the_items={brown_harness=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items brown_harness
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/stack_all_the_items={brown_harness=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items brown_harness
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/stack_all_the_items={brown_harness=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items brown_harness
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/stack_all_the_items={brown_harness=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items brown_harness
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/stack_all_the_items={brown_harness=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items brown_harness
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/stack_all_the_items={brown_harness=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items brown_harness
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/stack_all_the_items={brown_harness=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items brown_harness
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/stack_all_the_items={brown_harness=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items brown_harness
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/stack_all_the_items={brown_harness=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items brown_harness
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/stack_all_the_items={brown_harness=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items brown_harness
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/stack_all_the_items={brown_harness=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items brown_harness
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/stack_all_the_items={brown_harness=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items brown_harness
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/stack_all_the_items={brown_harness=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items brown_harness
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/stack_all_the_items={brown_harness=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_items brown_harness
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/telescopic={pufferfish=true}}] run advancement grant @a only blazeandcave:challenges/telescopic pufferfish
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/telescopic={pufferfish=true}}] run advancement grant @a only blazeandcave:challenges/telescopic pufferfish
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/telescopic={pufferfish=true}}] run advancement grant @a only blazeandcave:challenges/telescopic pufferfish
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/telescopic={pufferfish=true}}] run advancement grant @a only blazeandcave:challenges/telescopic pufferfish
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/telescopic={pufferfish=true}}] run advancement grant @a only blazeandcave:challenges/telescopic pufferfish
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/telescopic={pufferfish=true}}] run advancement grant @a only blazeandcave:challenges/telescopic pufferfish
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/telescopic={pufferfish=true}}] run advancement grant @a only blazeandcave:challenges/telescopic pufferfish
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/telescopic={pufferfish=true}}] run advancement grant @a only blazeandcave:challenges/telescopic pufferfish
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/telescopic={pufferfish=true}}] run advancement grant @a only blazeandcave:challenges/telescopic pufferfish
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/telescopic={pufferfish=true}}] run advancement grant @a only blazeandcave:challenges/telescopic pufferfish
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/telescopic={pufferfish=true}}] run advancement grant @a only blazeandcave:challenges/telescopic pufferfish
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/telescopic={pufferfish=true}}] run advancement grant @a only blazeandcave:challenges/telescopic pufferfish
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/telescopic={pufferfish=true}}] run advancement grant @a only blazeandcave:challenges/telescopic pufferfish
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/telescopic={pufferfish=true}}] run advancement grant @a only blazeandcave:challenges/telescopic pufferfish
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/telescopic={pufferfish=true}}] run advancement grant @a only blazeandcave:challenges/telescopic pufferfish
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/telescopic={pufferfish=true}}] run advancement grant @a only blazeandcave:challenges/telescopic pufferfish
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/stack_all_the_blocks={tuff_brick_wall=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks tuff_brick_wall
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/stack_all_the_blocks={tuff_brick_wall=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks tuff_brick_wall
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/stack_all_the_blocks={tuff_brick_wall=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks tuff_brick_wall
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/stack_all_the_blocks={tuff_brick_wall=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks tuff_brick_wall
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/stack_all_the_blocks={tuff_brick_wall=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks tuff_brick_wall
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/stack_all_the_blocks={tuff_brick_wall=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks tuff_brick_wall
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/stack_all_the_blocks={tuff_brick_wall=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks tuff_brick_wall
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/stack_all_the_blocks={tuff_brick_wall=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks tuff_brick_wall
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/stack_all_the_blocks={tuff_brick_wall=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks tuff_brick_wall
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/stack_all_the_blocks={tuff_brick_wall=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks tuff_brick_wall
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/stack_all_the_blocks={tuff_brick_wall=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks tuff_brick_wall
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/stack_all_the_blocks={tuff_brick_wall=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks tuff_brick_wall
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/stack_all_the_blocks={tuff_brick_wall=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks tuff_brick_wall
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/stack_all_the_blocks={tuff_brick_wall=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks tuff_brick_wall
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/stack_all_the_blocks={tuff_brick_wall=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks tuff_brick_wall
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/stack_all_the_blocks={tuff_brick_wall=true}}] run advancement grant @a only blazeandcave:challenges/stack_all_the_blocks tuff_brick_wall
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:monsters/basketblock_championship={carved_pumpkin=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship carved_pumpkin
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:monsters/basketblock_championship={carved_pumpkin=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship carved_pumpkin
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:monsters/basketblock_championship={carved_pumpkin=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship carved_pumpkin
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:monsters/basketblock_championship={carved_pumpkin=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship carved_pumpkin
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:monsters/basketblock_championship={carved_pumpkin=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship carved_pumpkin
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:monsters/basketblock_championship={carved_pumpkin=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship carved_pumpkin
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:monsters/basketblock_championship={carved_pumpkin=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship carved_pumpkin
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:monsters/basketblock_championship={carved_pumpkin=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship carved_pumpkin
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:monsters/basketblock_championship={carved_pumpkin=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship carved_pumpkin
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:monsters/basketblock_championship={carved_pumpkin=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship carved_pumpkin
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:monsters/basketblock_championship={carved_pumpkin=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship carved_pumpkin
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:monsters/basketblock_championship={carved_pumpkin=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship carved_pumpkin
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:monsters/basketblock_championship={carved_pumpkin=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship carved_pumpkin
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:monsters/basketblock_championship={carved_pumpkin=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship carved_pumpkin
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:monsters/basketblock_championship={carved_pumpkin=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship carved_pumpkin
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:monsters/basketblock_championship={carved_pumpkin=true}}] run advancement grant @a only blazeandcave:monsters/basketblock_championship carved_pumpkin
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:mining/moar_broken_tools={netherite_hoe=true}}] run advancement grant @a only blazeandcave:mining/moar_broken_tools netherite_hoe
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:mining/moar_broken_tools={netherite_hoe=true}}] run advancement grant @a only blazeandcave:mining/moar_broken_tools netherite_hoe
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:mining/moar_broken_tools={netherite_hoe=true}}] run advancement grant @a only blazeandcave:mining/moar_broken_tools netherite_hoe
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:mining/moar_broken_tools={netherite_hoe=true}}] run advancement grant @a only blazeandcave:mining/moar_broken_tools netherite_hoe
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:mining/moar_broken_tools={netherite_hoe=true}}] run advancement grant @a only blazeandcave:mining/moar_broken_tools netherite_hoe
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:mining/moar_broken_tools={netherite_hoe=true}}] run advancement grant @a only blazeandcave:mining/moar_broken_tools netherite_hoe
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:mining/moar_broken_tools={netherite_hoe=true}}] run advancement grant @a only blazeandcave:mining/moar_broken_tools netherite_hoe
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:mining/moar_broken_tools={netherite_hoe=true}}] run advancement grant @a only blazeandcave:mining/moar_broken_tools netherite_hoe
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:mining/moar_broken_tools={netherite_hoe=true}}] run advancement grant @a only blazeandcave:mining/moar_broken_tools netherite_hoe
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:mining/moar_broken_tools={netherite_hoe=true}}] run advancement grant @a only blazeandcave:mining/moar_broken_tools netherite_hoe
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:mining/moar_broken_tools={netherite_hoe=true}}] run advancement grant @a only blazeandcave:mining/moar_broken_tools netherite_hoe
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:mining/moar_broken_tools={netherite_hoe=true}}] run advancement grant @a only blazeandcave:mining/moar_broken_tools netherite_hoe
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:mining/moar_broken_tools={netherite_hoe=true}}] run advancement grant @a only blazeandcave:mining/moar_broken_tools netherite_hoe
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:mining/moar_broken_tools={netherite_hoe=true}}] run advancement grant @a only blazeandcave:mining/moar_broken_tools netherite_hoe
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:mining/moar_broken_tools={netherite_hoe=true}}] run advancement grant @a only blazeandcave:mining/moar_broken_tools netherite_hoe
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:mining/moar_broken_tools={netherite_hoe=true}}] run advancement grant @a only blazeandcave:mining/moar_broken_tools netherite_hoe
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:mining/where_are_all_your_clothes={golden_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes golden_chestplate
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:mining/where_are_all_your_clothes={golden_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes golden_chestplate
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:mining/where_are_all_your_clothes={golden_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes golden_chestplate
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:mining/where_are_all_your_clothes={golden_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes golden_chestplate
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:mining/where_are_all_your_clothes={golden_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes golden_chestplate
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:mining/where_are_all_your_clothes={golden_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes golden_chestplate
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:mining/where_are_all_your_clothes={golden_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes golden_chestplate
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:mining/where_are_all_your_clothes={golden_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes golden_chestplate
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:mining/where_are_all_your_clothes={golden_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes golden_chestplate
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:mining/where_are_all_your_clothes={golden_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes golden_chestplate
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:mining/where_are_all_your_clothes={golden_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes golden_chestplate
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:mining/where_are_all_your_clothes={golden_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes golden_chestplate
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:mining/where_are_all_your_clothes={golden_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes golden_chestplate
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:mining/where_are_all_your_clothes={golden_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes golden_chestplate
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:mining/where_are_all_your_clothes={golden_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes golden_chestplate
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:mining/where_are_all_your_clothes={golden_chestplate=true}}] run advancement grant @a only blazeandcave:mining/where_are_all_your_clothes golden_chestplate
+
+execute if entity @a[team=bac_team_aqua, advancements={blazeandcave:challenges/all_the_blocks={pink_candle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks pink_candle
+
+execute if entity @a[team=bac_team_black, advancements={blazeandcave:challenges/all_the_blocks={pink_candle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks pink_candle
+
+execute if entity @a[team=bac_team_blue, advancements={blazeandcave:challenges/all_the_blocks={pink_candle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks pink_candle
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={blazeandcave:challenges/all_the_blocks={pink_candle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks pink_candle
+
+execute if entity @a[team=bac_team_dark_blue, advancements={blazeandcave:challenges/all_the_blocks={pink_candle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks pink_candle
+
+execute if entity @a[team=bac_team_dark_gray, advancements={blazeandcave:challenges/all_the_blocks={pink_candle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks pink_candle
+
+execute if entity @a[team=bac_team_dark_green, advancements={blazeandcave:challenges/all_the_blocks={pink_candle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks pink_candle
+
+execute if entity @a[team=bac_team_dark_purple, advancements={blazeandcave:challenges/all_the_blocks={pink_candle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks pink_candle
+
+execute if entity @a[team=bac_team_dark_red, advancements={blazeandcave:challenges/all_the_blocks={pink_candle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks pink_candle
+
+execute if entity @a[team=bac_team_gold, advancements={blazeandcave:challenges/all_the_blocks={pink_candle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks pink_candle
+
+execute if entity @a[team=bac_team_gray, advancements={blazeandcave:challenges/all_the_blocks={pink_candle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks pink_candle
+
+execute if entity @a[team=bac_team_green, advancements={blazeandcave:challenges/all_the_blocks={pink_candle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks pink_candle
+
+execute if entity @a[team=bac_team_light_purple, advancements={blazeandcave:challenges/all_the_blocks={pink_candle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks pink_candle
+
+execute if entity @a[team=bac_team_red, advancements={blazeandcave:challenges/all_the_blocks={pink_candle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks pink_candle
+
+execute if entity @a[team=bac_team_white, advancements={blazeandcave:challenges/all_the_blocks={pink_candle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks pink_candle
+
+execute if entity @a[team=bac_team_yellow, advancements={blazeandcave:challenges/all_the_blocks={pink_candle=true}}] run advancement grant @a only blazeandcave:challenges/all_the_blocks pink_candle
+
+execute if entity @a[team=bac_team_aqua, advancements={minecraft:adventure/adventuring_time={forest=true}}] run advancement grant @a only minecraft:adventure/adventuring_time forest
+
+execute if entity @a[team=bac_team_black, advancements={minecraft:adventure/adventuring_time={forest=true}}] run advancement grant @a only minecraft:adventure/adventuring_time forest
+
+execute if entity @a[team=bac_team_blue, advancements={minecraft:adventure/adventuring_time={forest=true}}] run advancement grant @a only minecraft:adventure/adventuring_time forest
+
+execute if entity @a[team=bac_team_dark_aqua, advancements={minecraft:adventure/adventuring_time={forest=true}}] run advancement grant @a only minecraft:adventure/adventuring_time forest
+
+execute if entity @a[team=bac_team_dark_blue, advancements={minecraft:adventure/adventuring_time={forest=true}}] run advancement grant @a only minecraft:adventure/adventuring_time forest
+
+execute if entity @a[team=bac_team_dark_gray, advancements={minecraft:adventure/adventuring_time={forest=true}}] run advancement grant @a only minecraft:adventure/adventuring_time forest
+
+execute if entity @a[team=bac_team_dark_green, advancements={minecraft:adventure/adventuring_time={forest=true}}] run advancement grant @a only minecraft:adventure/adventuring_time forest
+
+execute if entity @a[team=bac_team_dark_purple, advancements={minecraft:adventure/adventuring_time={forest=true}}] run advancement grant @a only minecraft:adventure/adventuring_time forest
+
+execute if entity @a[team=bac_team_dark_red, advancements={minecraft:adventure/adventuring_time={forest=true}}] run advancement grant @a only minecraft:adventure/adventuring_time forest
+
+execute if entity @a[team=bac_team_gold, advancements={minecraft:adventure/adventuring_time={forest=true}}] run advancement grant @a only minecraft:adventure/adventuring_time forest
+
+execute if entity @a[team=bac_team_gray, advancements={minecraft:adventure/adventuring_time={forest=true}}] run advancement grant @a only minecraft:adventure/adventuring_time forest
+
+execute if entity @a[team=bac_team_green, advancements={minecraft:adventure/adventuring_time={forest=true}}] run advancement grant @a only minecraft:adventure/adventuring_time forest
+
+execute if entity @a[team=bac_team_light_purple, advancements={minecraft:adventure/adventuring_time={forest=true}}] run advancement grant @a only minecraft:adventure/adventuring_time forest
+
+execute if entity @a[team=bac_team_red, advancements={minecraft:adventure/adventuring_time={forest=true}}] run advancement grant @a only minecraft:adventure/adventuring_time forest
+
+execute if entity @a[team=bac_team_white, advancements={minecraft:adventure/adventuring_time={forest=true}}] run advancement grant @a only minecraft:adventure/adventuring_time forest
+
+execute if entity @a[team=bac_team_yellow, advancements={minecraft:adventure/adventuring_time={forest=true}}] run advancement grant @a only minecraft:adventure/adventuring_time forest
 

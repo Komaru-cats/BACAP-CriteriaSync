@@ -18,14 +18,14 @@
           "type": [
             "minecraft:breeze"
           ],
-          "nbt": "{Tags:["nether_breeze"]}"
+          "nbt": "{Tags:[\"nether_breeze\"]}"
         },
         "killing_blow": {
           "direct_entity": {
             "type": [
               "minecraft:breeze_wind_charge"
             ],
-            "nbt": "{Tags:["ow_charge"]}"
+            "nbt": "{Tags:[\"ow_charge\"]}"
           }
         }
       }
